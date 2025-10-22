@@ -1,7 +1,7 @@
 # Soil Ontology and Informatics Cluster
 
 The **purpose** of [The Soil Ontology and Informatics Cluster](https://www.esipfed.org/get-involved/collaborate/soil) is to provide a community of practice to coordinate the development of soil informatics best practices and resources. 
-To do this we will meet monthly for presentations about semantic resources and soil harmonization projects.
+To do this we will meet [regularlly](CALENDAR.md) for presentations and reviews about semantic resources and soil harmonization projects.
 
 We are an Earth Science and Informatics Partnership cluster and follow the [ESIP community participation guidelines](https://www.esipfed.org/about/community-guidelines/).
 
