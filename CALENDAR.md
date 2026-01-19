@@ -12,7 +12,7 @@
 
 | MM - DD| Yr wk | Topic                      | Agenda/notes/recap |
 | -------|------ | -------------------------- |------------------- |
-| 01 - 28 | 5    | Planning and Mixer         |                    |
+| 01 - 28 | 5    | Planning and Mixer         | [Discussion #3](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/3) |
 | 02 - 11 | 7    | Half-baked - SoilDRaH data rescue workflow|     |
 | 02 - 25 | 9    | Seminar TBD                |                    |
 | 03 - 11 | 11   | Half-baked - [Current soil data landscape](Soil_data_landscape.md) |
