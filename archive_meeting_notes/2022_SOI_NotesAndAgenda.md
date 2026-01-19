@@ -1,0 +1,1425 @@
+# 2022 Meeting Notes - Soil ontology and informatics - ESIP Cluster
+
+2021-12-31
+
+- [Resources](#resources)
+- [Overview](#overview)
+  - [Soil Ontologies and semantic
+    resources](#soil-ontologies-and-semantic-resources)
+  - [Soil Data models](#soil-data-models)
+- [Roll call here](#roll-call-here)
+- [Notes and recap](#notes-and-recap)
+  - [2022 UTC 29 November 2022](#2022-utc-29-november-2022)
+  - [2022 UTC 15 November 2022](#2022-utc-15-november-2022)
+  - [2000 UTC 1 November 2022](#2000-utc-1-november-2022)
+  - [2000 UTC 18 October 2022](#2000-utc-18-october-2022)
+  - [2000 UTC 4 October 2022](#2000-utc-4-october-2022)
+  - [2000 UTC 6 September 2022](#2000-utc-6-september-2022)
+  - [2300 UTC 3 August 2022](#2300-utc-3-august-2022)
+  - [2300 UTC 6 July 2022](#2300-utc-6-july-2022)
+  - [1700 UTC 22 June 2022](#1700-utc-22-june-2022)
+  - [2300 UTC 8 June 2022](#2300-utc-8-june-2022)
+  - [1700 UTC 25 May 2022](#1700-utc-25-may-2022)
+  - [2300 UTC 11 May 2022](#2300-utc-11-may-2022)
+  - [1700 UTC 27 April 2022](#1700-utc-27-april-2022)
+  - [2300 UTC 13 April 2022](#2300-utc-13-april-2022)
+  - [1700 UTC 30 March 2022](#1700-utc-30-march-2022)
+  - [2300 UTC 16 March 2022](#2300-utc-16-march-2022)
+  - [1700 UTC 2 March 2022](#1700-utc-2-march-2022)
+  - [2300 UTC 16 February 2022](#2300-utc-16-february-2022)
+  - [1700 UTC 02 February 2022](#1700-utc-02-february-2022)
+  - [1700 UTC 5 January 2022](#1700-utc-5-january-2022)
+  - [\[Template\] 1700/2300 UTC DATE](#template-17002300-utc-date)
+- [Introductions](#introductions)
+- [Announcements and adverts](#announcements-and-adverts)
+  - [General advert](#general-advert)
+  - [No table](#no-table)
+  - [Twitter/short](#twittershort)
+
+**~~The meetings listed here should be reflected in the ESIP
+calendar~~**  
+**~~<https://www.esipfed.org/get-involved/telecon-calendar>~~**  
+**~~Meetings will alternate between 1700 and 2300 UTC to accommodate
+time zone differences.~~**  
+**~~Meetings will be every other Tuesday at 2000UTC~~**
+
+Asynchronous participation is encouraged
+
+- ESIP slack channel \#soil-info.
+  <https://esip-slack-invite.herokuapp.com/>  
+- <http://lists.esipfed.org/mailman/listinfo/esip-soil-informatics>
+
+# Resources
+
+- Soil data paper (request permissions from Kathe Todd-Brown)
+  <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- Cluster highlight page:
+  <https://www.esipfed.org/get-involved/collaborate/soil>  
+- Cluster wiki page:
+  <https://wiki.esipfed.org/Soil_Ontologies_and_Informatics>  
+- Mailing list:
+  <http://lists.esipfed.org/mailman/listinfo/esip-soil-informatics>  
+- Cluster proposal: [ESIP Soil Ontology and Informatics Clustering
+  proposal](https://docs.google.com/document/d/1wyplA7K7IHIY_yPXTydfFYNTwiXyrZY2R_9lu3LjRhk/edit?usp=sharing)  
+- Cluster purpose:
+  [SoilOnt-Purpose](https://docs.google.com/document/d/1Fx4B1oLamhacp-bujAL2UrKaTBcSe_gGocaOUYJ_zpA/edit?usp=sharing)  
+- Reference list: [Current soil data
+  landscape](https://docs.google.com/document/d/14hF5Xubd1dny7g2aK2CSReXBzaM1P9pkiP0b_TUZS8g/edit?usp=sharing)  
+- YouTube channel:
+  <https://www.youtube.com/playlist?list=PL8X9E6I5_i8iJW_fzrdsUBR6cBs3LT5Tz>  
+- Github presentation recaps:
+  <https://github.com/ktoddbrown/soil_semantic_resources> \[Note: plans
+  to transfer to ESIP after draft phase\]  
+- Past year cluster notes:
+  - [2021 Meeting Notes - Soil ontology and informatics - ESIP
+    Cluster](https://docs.google.com/document/d/1_SIm_3e9xpni_64zdAU1DZrFEd8YcIerbsihDJq4qwY/edit?usp=sharing)  
+  - [2020 Soil ontology - Notes and
+    Agenda](https://docs.google.com/document/d/1w3ScPH6tZCIRcKFiP-BYCa1UihYPei0aL0PcvandV4c/edit?usp=sharing)  
+- ESIP suggested cluster roles: [Collaboration Area Roles to
+  Delegate](https://docs.google.com/document/d/12sR7qfluFIehxSBCO4HdciRmfh6J3wNxOOvvKS_VMRU/edit?usp=sharing)
+
+# Overview
+
+Spring 2022 will focus on a series of presentations paired with a one
+page recap on soil semantic resources. The plan (as of Fall 2022) is to
+transition to a data hackathon annotation exercise supported by
+resources presented here and work up a lessons-learned best practices
+manuscript.
+
+## Soil Ontologies and semantic resources
+
+- **Presentations** will be recorded for the cluster YouTube channel;
+  after clarifying questions are asked recordings will stop and the
+  group will transition to open discussion. Please target 30 minutes to
+  allow for time for discussion. Please also draft a one(ish) page recap
+  of your presentation (Here is a template to get your started
+  <https://github.com/ktoddbrown/soil_semantic_resources/blob/main/00_Template.Rmd>)
+  Presentations should address the following:
+  - What is this resource?  
+  - Why was this resource created?  
+  - What are some use case examples?  
+  - Who supports and uses this resource?  
+- **Facilitators** will introduce the presenter, ensure the presentation
+  is recorded, moderate/host the discussion, and send out a recap within
+  a week of the presentation to the mailing list.(). Please ensure that
+  yourself and your presenter have a brief bio in the introduction
+  section.  
+- **One page summary:** The goal of this one page summary is to provide
+  a quick overview of the resource presented. We strive for the draft of
+  the one pager to be posted the following week onto the github
+  repository
+  ([https://github.com/ktoddbrown/soil_semantic_resources](https://github.com/ktoddbrown/soil_semantic_resources/blob/main/00_Template.Rmd))
+
+| HHMM (UTC) DD - Month | Topic | Presenter | Facilitator |
+|:---|:---|:---|:---|
+| [1700 05 - January](#1700-utc-5-january-2022) | Organizational | Kathe Todd-Brown (UFlorida) | NA |
+| ~~2300 19 - January~~ |  | ~~ESIP MEETING CONFLICT~~ |  |
+| [1700 02 - February](#heading=h.koygqxjkknle) | [ODM2](https://github.com/ODM2/ODM2) | Emilio Mayorga (UWashington) | Lindsay “Bar” Barbieri (ESIP) |
+| 2300 16 - February | [SOSA](https://www.w3.org/TR/vocab-ssn/), [SSN-EXT](https://www.w3.org/TR/vocab-ssn-ext/) and [TERN Ontology](https://linkeddata-dev.tern.org.au/viewers/tern-ontology) | Simon Cox (CSIRO) | Brandon Whitehead (Manaaki Whenua) |
+| 1700 2 - March | [OBO](https://obofoundry.org/) and [ENVO](https://sites.google.com/site/environmentontology/) | Kai Blumberg (UArizona) | Kathe Todd-Brown (U Florida) |
+| 2300 16 - March | Open |  | Kathe Todd-Brown (U Florida) |
+| 1700 30 - March | [GLOSIS](https://github.com/rapw3k/glosis) | Luís de Sousa (ISRIC) | Kathe Todd-Brown (U Florida) |
+| 2300 13 - April | [SSSA - Soil Glossary](https://www.soils.org/publications/soils-glossary/) | April Ulery (New Mexico SU) | Megan Wong (Fed U Australia) |
+| 1700 27 - April | Semantics for interoperability in ecosystem studies: the [AnaEE - France Thesaurus](https://opendata.inra.fr/anaeeThes/page/) approach | Christian Pichot (INRAE) | Stevan Earl (ASU) |
+| 2300 11 - May | Logistical | – | – |
+| 1700 25 - May | [OGC O&M](https://www.ogc.org/standards/om) | Kathi Schleidt (DataCove) |  |
+| 2300 8 - June | [AgGateway WG04 and Modus](https://www.aggateway.org/News/2021Newsletters/2021AprilNewsletter/April2021WorkingGroupRound-Up.aspx) | Andres Ferrerya (AgGateway) |  |
+| 1700 22 - June | [Schema.org](https://schema.org/) | Adam Shepherd (WHOI) |  |
+| 2300 6 - July | Organizational | Kathe Todd-Brown (UFlorida) | NA |
+| ~~1700 20 - July~~ | ESIP SUMMER MEETING | NO CLUSTER CALL |  |
+| 2023 3 - August | [CGI Geoscience Terminolog](http://geosciml.org/resource/def/voc/)y - creation, governance and use. (Discussion - cross-disciplinary learnings for the soils domain?) | Mark Rattenbury (GNS Science I Te Pῡ Ao.) Chair, CGI-IUGS Geoscience Terminology Working Group | Megan Wong (FedUAust) |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+Confirmed but unscheduled
+
+1.  USDA-NRCS Dylan B (& Andrew B??)  
+2.  Academic data models Kathe T-B (& Steven E??)  
+3.  Wikidata & Semantic harmonization - Gary Berg-Cross
+
+**Presenter and Facilitator emails:**  
+Emilio Mayorga ; Kai Blumberg ; Luís de Sousa ; April Ulery ; Adam
+Shepherd ; Simon Cox ; Christian Pichot ;Andres Ferrerya ; Gary
+Berg-Cross ; Mark Rattenbury \>;
+
+Kathe Todd-Brown ; Megan Wong ; Lindsay Barbieri ; Stevan Earl ;
+Beaudette, Dylan - NRCS, Sonora, CA ;
+
+## Soil Data models
+
+Meetings are at 2000 UTC every other Tuesday
+
+[Proposal Soil Ontology and Informatics Cluster:
+2022-2023](https://docs.google.com/document/d/1FZLD3hP2YJqnhoJ86zzT-cYp5vgHxRKg2geww0A2YYE/edit?usp=sharing)
+
+For these presentations we are looking for a 5-10 minute talk with an
+outline/draft of a manuscript section (presenters who provide this will
+be invited to co-author
+<https://www.overleaf.com/project/6319fa0b0a11a9973a36367a> ). We are
+asking the presenters to cover the following:
+
+- data model (spreadsheet/template) and/or algorithm that used  
+- a brief history of how your organization/group arrived at that model  
+- some things that it does not do well or that you struggle with
+  implementing  
+- what you would keep if you had to redesign the database
+
+We are particularly interested in hearing from groups that work with a
+diverse stream of data providers.
+
+We will target 2-3 talks per meeting on the same topic/data type.
+Current data types include:
+
+- Geolocation: surface location, sample time, depth of sample
+  - FIA db - Erin Berryman (US Forest Service)  
+- Soil organic carbon: bulk density, coarse fraction, organic fraction  
+- Metals, salts, and acids: pH, elemental analysis, and ionic exchange  
+- Nutrients: phosphorus and nitrogen  
+- Gas flux: field respiration and incubation  
+- Fractions: texture (sand/slit/clay) and sample subsetting
+  (physicochemical fractionation)  
+- Isotopes: Radiocarbon and other isotopes
+
+| 2000 UTC DD-Mon-YYYY | Topic | Facilitator |
+|----|:---|:---|
+| 6-Sep-2022 | Kick off | Kathe |
+| ~~20-Sep-2022~~ | ~~NO CALL~~ |  |
+| 4-Oct-2022 | Manuscript | Kathe |
+| 18-Oct-2022 | Geolocation - Erin Berryman (US Forest Service) | Kathe |
+| 1-Nov-2022 |  |  |
+| 15-Nov-2022 | Metals, salts, and acids - Skye Wills (USDA) | Kathe |
+| 29-Nov-2022 |  |  |
+| 13-Dec-2022 | AGU |  |
+| 27-Dec-2022 | HOLIDAY |  |
+| 10-Jan-2023 |  |  |
+| 24-Jan-2023 | ESIP January Meeting |  |
+| 7-Feb-2023 |  |  |
+| 21-Feb-2023 |  |  |
+| 7-Mar-2023 |  |  |
+| 21-Mar-2023 |  |  |
+| 4-Apr-2023 |  |  |
+| 18-Apr-2023 |  |  |
+| 2-May-2023 |  |  |
+| 16-May-2023 |  |  |
+| 30-May-2023 |  |  |
+| 13-Jun-2023 |  |  |
+| 27-Jun-2023 |  |  |
+
+# Roll call here
+
+[RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing) -
+Add your name and write “here” under the current date. Please also
+scroll down and add a brief [Introductions](#introductions) below the
+notes and recaps.
+
+# Notes and recap
+
+## 2022 UTC 29 November 2022
+
+**Topic**: Manuscript outline  
+**Lead**: Kathe TB  
+**Agenda**:
+
+- \[5 minutes\] Opening - Review agenda -
+  [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+- \[15 minutes\] Welcome
+  - \[Rounds\] Name - Affiliation or location - Anything you’ve heard
+    recently about soil data/information that you would like to share?  
+- \[15 minutes\] Review
+  <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- \[15 minutes\] Feedback on data model manuscript
+  - What ontologies and semantics do we need to align to?  
+  - Purpose  
+  - Outline
+
+**Recap/notes**:  
+FYI: ISRIC report that provided the basis for the current list of
+physio-chemical properties:
+[https://doi.org/10.17027/isric-dcmkd4-g431](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.17027%2Fisric-dcmkd4-g431&data=05%7C01%7Ckathe.toddbrown%40essie.ufl.edu%7Ca3c13a1f50d04bc8612008dad1db536f%7C0d4da0f84a314d76ace60a62331e1b84%7C0%7C0%7C638053037182445973%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=tZSKKTvLJHJwAGi615N%2BaQ2NYAJ%2FPN36lY%2BRX15xDAI%3D&reserved=0) -
+Luis de Sousa
+
+<https://www.esipfed.org/meetings> (ESIP meetings main page)  
+<https://2023januaryesipmeeting.sched.com/> (schedule)  
+Registration: <https://cvent.me/0RXMKx>
+
+<https://github.com/rapw3k/glosis/issues/72#issuecomment-1330196881>  
+<https://github.com/rapw3k/glosis/blob/master/LICENSE> (License --
+Attribution-NonCommercial-ShareAlike 3.0 IGO)
+
+Think of aligning NLP with process-models based on soil ontology and
+annotations.
+
+Manuscript review:  
+Trim the introduction by introducing what we know about these semantics
+and then build over it.  
+We want to get to procedures on some level in the data model paper  
+<https://soilradiocarbon.org/>  
+<https://essd.copernicus.org/preprints/essd-2020-195/essd-2020-195.pdf>
+
+We will meeting next year in January. No more meetings in December.
+
+## 2022 UTC 15 November 2022
+
+**Topic: Presentation**  
+**Who:** Skye Wills (USDA-NRCS)  
+**YouTube link:**  
+**Presentation:**  
+**Agenda:**
+
+- \[10 minute\] Cluster updates & intro
+  - Invitation for draft update/review:
+    <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- \[30 minutes\] Metals, salts, and acids - Skye Wills (USDA)-
+  presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Notes:**
+
+EDI looking at adding annotations to their archives with guidance
+
+How to classify things that we measure? How do you relate soil
+properties to labels?  
+Thinking about governance on these lines could be interesting! Making
+data collected and provided for future decision-making.
+
+Title: Soil Survey Data for ESIP SOI  
+Presenter: Skye Wills (National Leader for Soil Research),
+USDA-NRCS-NSSC
+
+- The NCSS (National Cooperative Soil Survey) includes both KSSL (Kellog
+  Soil Survey Lab) and cooperative data
+  <https://ncsslabdatamart.sc.egov.usda.gov>  
+- The data can be accessed by:
+
+Query, access database, ESRI?, Soil Data Access.  
+For example, get on Github -\> Vignette -\> lab_chemical_properties
+
+- Watch out for semantics of the soil terms! (example., bulk density
+  usage)  
+- As per US laws, Geographic data access is maintained  
+- KSSL methods manual (an index to methods)
+  <https://www.nrcs.usda.gov/sites/default/files/2022-10/SSIR42-v6-pt1.pdf>  
+- The calculations (analytes?) of the reported values are also embedded
+  in the procedure  
+- What is SPSD?  
+- Soil survey data is available in various formats and its vital to
+  harmonize and make it accessible to readers
+
+Q&A:  
+The library does a good job of making the data understandable
+
+## 2000 UTC 1 November 2022
+
+**Topic**: Manuscript outline  
+**Lead**: Kathe TB  
+**Agenda**:
+
+- \[5 minutes\] Opening - Review agenda -
+  [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+- \[15 minutes\] Welcome
+  - \[Rounds\] Name - Affiliation or location - Anything you’ve heard
+    recently about soil data/information that you would like to share?  
+- \[15 minutes\] Review
+  <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- \[15 minutes\] Feedback on data model manuscript
+  - What ontologies and semantics do we need to align to?  
+  - Purpose  
+  - Outline
+
+**Recap**:  
+Greetings!  
+We had 10 people join us for the meeting this week! The meeting was
+centered around work-flow of the manuscript, such as thoughts on what
+ontologies to follow to work with the manuscript, involvement of folks
+from various geographic locations covering Asia, Africa drawing their
+perspectives on key ontologies and other comments on the manuscript (in
+detail under notes section). Moving forward, we have a presentation by
+Dr. Skye Wills in our next meeting (November 15, 2022) speaking about
+metals, salts, and acids in soil.
+
+**Notes:**
+
+Any suggestions on the ontology of land use and land-use change? -
+question about Indigenous data and land management made me think of
+Stephanie Russo Carrol and her work with the Indigenous Governance
+Database: <https://nnigovernance.arizona.edu/>
+
+ICRW8  
+Inter agency conference on watershed : Link to
+<https://icrwatersheds.org/>  
+This year’s theme for ICRW8 is “**Adaptive watershed science and
+ecosystem management in a changing climate**.” Presenters will include
+researchers from government, academic, nonprofit, and community
+organizations working to protect, restore, and manage water resources at
+local to national scales. Abstracts are due December 15, 2022 by 11:59
+PM PST.  
+Ignite@AGU talks: <https://igniteagu.io/> (Due Tues Nov 1 - email ESIP
+Comms Director Allison Mills for an extension [](mailto:))
+
+Gary mentioned some semantic harmonization & FAIR ontology work -  
+From ICBO a workshop on [**FAIR ontology harmonization and TRUST data
+interoperability
+(FOHTI**](https://icbo-conference.github.io/icbo2022/workshops-and-tutorials/#fair-ontology-harmonization-and-trust-data-interoperability-fohti)**)**  
+A related panel at US2TS was Towards FAIR, Trustworthy and Harmonized
+Semantic Resources (Part of FOHTI-22: FAIR ontology harmonization and
+TRUST data interoperability Workshop)(FAIR Semantic Resources) (listed
+in <https://us2ts.org/2022/program>)
+
+The 2023 Ontology Summit under development with James Overton and Pascal
+Hitzler will be on  
+Working title of the topic: “How to make ontologies easier for Users:
+Tools, techniques and standards  
+See as example last year’s Summit:
+<https://ontologforum.org/index.php/OntologySummit2022>
+
+**Links shared by Dr. Wong**  
+[**https://ardc.edu.au/event/vocabulary-symposium-2022/**](https://ardc.edu.au/event/vocabulary-symposium-2022/)  
+[**https://sites.google.com/ardc.edu.au/vocabulary-symposium-2022/program?authuser=0**](https://sites.google.com/ardc.edu.au/vocabulary-symposium-2022/program?authuser=0)
+
+Discussion on Data Model Manuscript:
+
+- What ontologies do we use to align the data model manuscript to? (envo
+  is the current ontology tool being followed).  
+- The manuscript is currently focussed on layer level soil measurements,
+  also additionally text on gas fluxes.  
+- An example of relevant ontologies STWO:AnOntology for Soil Food Web
+  Reconstruction <http://ceur-ws.org/Vol-2969/paper1-s4biodiv.pd>  
+- Perspectives from across the globe from different continents on key
+  ontologies could add to the building up of the manuscript.  
+- Environment Exposure Ontology has terms on the pedosphere-
+  astronomical body part which is composed of soil, subject to soil
+  formation processes, and found on the surface of a lithosphere.  
+- Any reference to experimental design or sampling being provided?  
+- A european perspective - Ontology for sustainable soil and land
+  management <https://www.soilmissionsupport.eu/news-2022/ontology>  
+- Development of an Ontology-Based Knowledge Network by Interconnecting
+  Soil/Water Concepts/Properties, Derived from Standards Methods and
+  Published Scientific References Outlining Infiltration/Percolation
+  Process of Contaminated Water  
+- This is focusing on experimental soil C cycling use cases? May want to
+  narrow up front, define 3 or so use cases. There is some ambiguity on
+  defining experimental here!  
+- Diving into chemistry ontologies to throw light on measurements and
+  calculations associated with soils data (for example, pH etc)?  
+- An Ontology of Soil Properties and Processes
+  <https://www.researchgate.net/profile/Heshan-Du/publication/308569099_An_Ontology_of_Soil_Properties_and_Processes/links/580c26ff08aecba93500d2f9/An-Ontology-of-Soil-Properties-and-Processes.pdf>
+
+Next meeting we have Skye Wills (USDA) presenting on Metals, salts, and
+acids in soil.
+
+FYI: The US-DOE-BER-ESS has a funding call out
+<https://science.osti.gov/ber/-/media/grants/pdf/foas/2023/SC_FOA_0002849.pdf>
+Key part that may be relevant to us is a “Synthesis approach” award for
+2yr of \$400K. Specifically: “synthesis studies using existing data that
+address testing of ESS relevant hypotheses and development of
+transferable insights across ecosystems, watersheds, and regions.”
+
+## 2000 UTC 18 October 2022
+
+**Topic: Presentation**  
+**Who:** Erin Berryman (US Forest Service)  
+**YouTube link:** <https://youtu.be/Sdm0HzGQz_U>  
+**Presentation:**
+[20221018_Geolocations_USDA-FS_Berryman.pdf](https://drive.google.com/file/d/1-O48rJCAO8rUK5vHAjwafIGbwuzELWkC/view?usp=sharing)  
+**Agenda:**
+
+- \[10 minute\] Cluster updates & intro
+  - Invitation for draft update/review:
+    <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- \[30 minutes\] Geolocation - Erin Berryman (US Forest Service) -
+  presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**  
+Greetings all!
+
+We had a fantastic presentation from Erin Berryman from the US Forest
+Service on how the Forest Inventory and Analysis database deals with
+geo-location including a history of the database, and how the forest
+service balances privacy concerns with public resource data. Main take
+away precise geolocation of the plots is kept in-house and the public
+data has random noise introduced into the data and some small number of
+locations swapped within counties. You can hear more (plus bonus
+material on litter & soil surveys in the FIA) on the youtube recording
+here: https://youtu.be/Sdm0HzGQz_U and in the slide deck posted on the
+meeting notes:
+<https://docs.google.com/document/d/12OtoXo6YV4zK9a79VeJK8XE7iEf02hF9Uf-ggQ8YlG4/edit?usp=sharing>
+
+ESIP January meeting call for sessions is here:
+<https://docs.google.com/document/d/11LWiAD94Qft7_UA7kxtHoGAoB7XmjEijP879yn5YDBQ/edit>
+and the forest service stakeholders meeting held every 2-3 years is
+here: <https://whova.com/portal/registration/scien1_202211/>
+
+On November 1 at 2000UTC we will be meeting to talk about the data model
+manuscript! Recent developments on here include:
+
+1)  Proposed text for the introduction and first few sections by
+    Christine Le Bas and Tanja Williamson.  
+2)  Suggestions by Christine Le Bas specific soil ontology resources and
+    relevant links
+
+Hope to see you on call in November!  
+-Kathe
+
+**Notes**:  
+New paper on Impact of tillage on aggregation:
+<https://soil.copernicus.org/articles/8/621/2022/> looks like it has a
+good data set! (though Excel :( )
+
+Call for ESIP January meeting sessions: [Call for Sessions
+JAN23](https://docs.google.com/document/d/11LWiAD94Qft7_UA7kxtHoGAoB7XmjEijP879yn5YDBQ/edit)  
+FIA Science stakeholder meeting this year
+<https://www.fia.fs.usda.gov/>  
+Science Stakeholder Registration Link:-
+<https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwhova.com%2Fportal%2Fregistration%2Fscien1_202211%2F&data=05%7C01%7C%7C83243f8da0eb4805d07d08dab04242e1%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C0%7C0%7C638016095923119009%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=JhGXaZyCesv5FY3QRvFf%2FjKCoP3KZGsVQMNdx2NKEDo%3D&reserved=0>
+
+Agenda for next meeting is going to be on manuscript writing
+
+## 2000 UTC 4 October 2022
+
+**Topic**: Manuscript outline  
+**Lead**: Kathe TB  
+**Agenda**:
+
+- \[5 minutes\] Opening - Review agenda -
+  [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+- \[15 minutes\] Welcome
+  - \[Rounds\] Name - Affiliation or location - Anything you’ve heard
+    recently about soil data/information that you would like to share?  
+- \[15 minutes\] Review
+  <https://www.overleaf.com/project/6319fa0b0a11a9973a36367a>  
+- \[15 minutes\] Feedback on data model manuscript
+  - Purpose  
+  - Outline
+
+**Recap**:
+
+My apologies for this late recap. We met Oct 4 after a month-long hiatus
+(hurricane Ian in Florida!) with about 8 folks calling in. ESIP updates
+& reminders: applications for fellowships are coming up, life-time
+achievement awards nominations are due, ESIP is leading IGNITE@AGU and
+proposals for ESIP winter meeting are open. (links and other
+announcements are on the notes document)
+
+Most of discussion focus on the Soil Data Model draft. Broadly, the
+manuscript is aimed at providing a reference for future researchers in
+soil science to pattern their own custom data templates on. As well as,
+bring forward existing semantic resources and how to use them.
+
+Moving forward we have a speaker for the next session (scheduled on
+October 18, 2022) Dr. Erin Berryman who will cover the topics on
+geolocation (surface location, sample time, depth of the sample) in the
+US Forest Service FIA data base; and might also talk about litter &
+debris quantification! The presentation will be recorded for those who
+can’t make it.
+
+See you next week!  
+-Kathe
+
+**Notes**:
+
+KTB is going to touch base on the data model manuscript.  
+ESIP updates - [Community Fellow
+applications](https://www.esipfed.org/get-involved/student-opportunities)
+are due Friday Oct 7, life-time achievement awards - [Martha Maiden
+Award](https://www.esipfed.org/get-involved/peer-recognition/martha-maiden-award) -
+and [Partner of the Year
+Award](https://www.esipfed.org/get-involved/peer-recognition/esip-of-the-year-partner-award)  
+Sci-Comm event ‘IGNITE’ @ AGU meet on wednesday night!
+<https://igniteagu.io/> We are looking for speakers and the soils crowd
+would be great to highlight.
+
+KTB is planning on coming up with a course on metadata, something like
+reading on Data Centric Biology by Sabine Leoneli.
+
+<https://github.com/EnvironmentOntology/envo/issues/1356> - has a lot of
+information on soil activity
+
+The overleaf document has been shared with everyone in the group to work
+on the manuscript (the outline is currently up on the document). The
+target audience focusing more towards research community as opposed to
+just informatics standpoint
+
+Concerned that it is too much ‘textbook’ structure. Need a semantic
+round up. Could be a strength because it’s easy to follow repeated
+structure. Paired with a resource for data annotation for folks to
+create a data template/annotation. Thinking of the target audience - for
+researchers to get access to data up to date. The format appears to be
+consistent. Think of best practices weaved into the manuscript? The
+outline is designed more towards a general informative level as opposed
+to specific scientific soil concepts. The graduate student (Vaasuki)
+will be working on the paper in depth, building annotations. This paper
+will serve more as a reference for future research.
+
+Next session (October 18, 2022) we will have a speaker Dr. Erin Berryman
+on the topic - Geolocation.
+
+## 2000 UTC 6 September 2022
+
+**Topic**: Kick off  
+**Lead**: Kathe TB  
+**Agenda**:
+
+- \[5 minutes\] Opening  
+- \[15 minutes\] Welcome
+  - \[Rounds\] Name - Affiliation or location - Anything you’ve heard
+    recently about soil data/information that you would like to share?  
+- \[5 minutes\] Review of spring/summer presentations  
+- \[10 minutes\] Orientation to upcoming fall/winter presentations  
+- \[15 minutes\] Feedback on data model manuscript [Proposal Soil
+  Ontology and Informatics Cluster:
+  2022-2023](https://docs.google.com/document/d/1FZLD3hP2YJqnhoJ86zzT-cYp5vgHxRKg2geww0A2YYE/edit?usp=sharing)
+  - Journal?  
+  - Purpose?  
+  - Outline?
+
+**Recap**:
+
+We had a fantastic kick off meeting today with about 8 folks calling in,
+although the new time caused a few folks to miss out. We reviewed the
+spring/summer presentations and there is a plan in the works to curate
+the YouTube list and create a guide for those interested in soil
+semantics resources. We have plans for data model/template presentations
+from data collection/aggregators but are waiting to hear back on exact
+timings. However we probably have enough to start moving forward with a
+manuscript!
+
+Broadly speaking folks were interested in the outlined topics (see Soil
+Data models section on the notes document). But noted gaps in data on
+hydrology and physical structure
+
+There was an interesting discussion on tabular vs graphical data models;
+acknowledging the legacy of tabular data in the field but contrasting
+this with the current ‘data models’ and informatics trends that are
+emerging using graphical data. This may make a good section on a paper
+and it would be useful to try to keep in mind as we develop.
+
+Moving forward we are hoping to line up presentations from data
+aggregation projects but likely have enough information to move forward
+with a manuscript regardless of response. Look for drafts flying around
+this fall!
+
+-Kathe
+
+**Notes**:
+
+1.  Review of spring/summer presentations
+
+-Youtube videos are available for the seminars with brief summaries.  
+-Thinking for this fall term: how to integrate data models (not a data
+model in literal sense?) with datasets from diverse structures  
+-History behind the origin of the model
+
+2.  Orientation to upcoming fall/winter presentations
+
+-Focusing on data aggregation projects  
+-Topics for invited seminars - Geolocation, soc, gas fluxes,
+fractionations, isotopes etc  
+-Hydrologic models are not included at this point  
+-Alternate seminar presentations and manuscript writing  
+-Building an ENVO soil ontology - interested in soil taxonomy  
+-Open invitation to participate in Dr. Todd Brown’s lab meetings
+discussing on workflow  
+-Synthesis and connection between informatics work for data collectors
+
+3.  Feedback on data model manuscript
+
+-focus on data aggregation from putting data from different studies  
+-synthesis of data: mostly observational data  
+-tabular based model currently  
+-ideas on moving from tabular to unstructured data format?  
+-strengthening methodology vocabulary, narrowing down procedures  
+-contrast in data aggregation on research side and top-down approach of
+sop  
+-universal one-data model does not exist, it is just about making it
+accessible in digging information
+
+Try to work on drafting the proposal to get funding.
+
+Closing thoughts-  
+Will pull together the outline, follow up with the speakers  
+Work on the draft of the manuscript  
+If there is no presentation we shall do a manuscript call
+
+## 2300 UTC 3 August 2022
+
+**Topic:** [CGI Geoscience
+Terminolog](http://geosciml.org/resource/def/voc/)y - creation,
+governance and use  
+**Who:** Mark Rattenbury (GNS Science I Te Pῡ Ao.) Chair, CGI-IUGS
+Geoscience Terminology Working Group  
+**YouTube link:** <https://youtu.be/8EBqxWvDjco>  
+**Github link:**
+<https://github.com/ktoddbrown/soil_semantic_resources/blob/main/15_CGI.Rmd>  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - Recap from Cluster proposal session on Monday and proposed changes
+    to presentation outline  
+  - [Proposal Soil Ontology and Informatics Cluster:
+    2022-2023](https://docs.google.com/document/d/1FZLD3hP2YJqnhoJ86zzT-cYp5vgHxRKg2geww0A2YYE/edit?usp=sharing)  
+  - [Bridging soil data and
+    semantics](https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing)  
+- \[10 minutes\] Anything new in soil ontology or informatics that has
+  caught your attention?  
+- \[30 minutes\] CGI Geoscience Terminology - Mark Rattenbury presenting
+  (Recorded)  
+- \[15 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 2300 UTC 6 July 2022
+
+**Topic:** ESIP July meeting and beyond  
+**Recap**: We talked today about the plans for the July ESIP session
+with specific focus on prompts for the breakout rooms (you can read more
+here and/or leave a comment
+<https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing>
+) We also explored some ideas about next steps for the clusters after
+the summer sessions; there were a lot of thoughts on possible
+collaboration/coordination opportunities moving forward on any data
+harmonization activities. The idea of continuing the cluster calls and
+standing up a team to work on a manuscript was entirely uncontroversial.
+We’ll continue these conversations (especially on the data
+harmonizaiton) moving forward and work up specific action plans for
+future cluster presentations and a paper in the near future.
+
+**Agenda**:
+
+- \[5 minutes\] Opening
+  - Who is here:
+    [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+  - Anything to add to the agenda?  
+- \[10 minutes\] Anything new in soil ontology or informatics that has
+  caught your attention?  
+- July Meeting
+  - \[5 minutes\] Review session outline: [Bridging soil data and
+    semantics](https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing)  
+  - \[5 minutes\] Anything to add or needs to be clarified?  
+  - \[5 minutes\] Identify rolls for folks who want to help  
+- \[30 minutes\] Feedback discussion on next steps for SOI Cluster
+  - Continued Cluster presentations to onboard new participants and stay
+    connected to broader efforts
+    - Astromat w/ NASA  
+    - Global Earth Science instruments data  
+    - Global Soil Partnership  
+  - Paper on soil data model highlighting existing collection strengths
+    - “What to measure when you want to measure what everyone else
+      measures”  
+  - Workflow development for data harmonization (download, annotate,
+    merge, prune)
+    - extend/refine ISCN’s SOC-DRAHR2  
+  - Vocabulary development for soil observation variables (bulk density,
+    organic carbon fraction, organic matter fraction, …)
+    - Selectively prune SSSA Glossary (ensure alignment with NRCS-NCSS,
+      GLOSIS and Aust lists) and merge into ENVo. Can we align w/
+      utilise I-ADOPT framework? Where can we re-use ChEBI, GeoSci
+      vocabs, other existing semantic resources?  
+  - Vocabulary development for soil measurement procedures (loss on
+    ignition at XX degrees C, YY mm sieved mass per volume, …)
+    - Merge/align NRCS-NCSS, Australian standard procedure codelists,
+      and GLOSIS codelists, ISO codelist, then extend based on data
+      collection expertise  
+  - May be Global Soil Partnership business? -
+    - (soil related features?)  
+    - (soil classification alignment?)  
+  - Workflows for the above, underpinned by governance
+    - Governance - review of models in other domains - understanding
+      roles/responsibilities/interaction w Global Soil Partnership, FAO,
+      funding models  
+    - EarthCube - metadata for machines (pilot workshop) - will show
+      tooling for metadata production with links to BioPortal Ontologies
+      (type of workflow); [CEDAR
+      tools](https://more.metadatacenter.org/tools-training/cedar-metadata-tools)  
+    - Nic Carr’s various vocab workflows (Prez)  
+    - Where does RO-Crate fit in? Does/could it?
+
+## 1700 UTC 22 June 2022
+
+**Topic:** [Schema.org](https://schema.org/)  
+**Who:** Adam Shepherd (WHOI)  
+**YouTube link:** [Science on Schema.org to the ESIP-SOI Cluster - 22
+June 2022](https://youtu.be/s0TzXWGsf34)  
+**Github link:**  
+**Resource link:** <https://github.com/ESIPFed/science-on-schema.org>  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - Recap from Monday’s workshop [Session 1: recap and
+    notes](https://docs.google.com/document/d/1MBn-OUtCA78mW8vAmCjEeuQlROm4bqEC8iUuWARvUnY/edit?usp=sharing)  
+- \[30 minutes\] Schema.org - Adam Shepherd presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 2300 UTC 8 June 2022
+
+**Topic:** [AgGateway WG04 and
+Modus](https://www.aggateway.org/News/2021Newsletters/2021AprilNewsletter/April2021WorkingGroupRound-Up.aspx)  
+**Who:** Andres Ferrerya (AgGateway)  
+**YouTube link:** <https://youtu.be/_wMW_70F5xI>  
+**Github link:**  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - ESIP July Meeting - is doing virtual! (sort of)  
+  - Summer workshop series:
+    <https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing>
+    (50 folks currently registered)  
+  - Need one pagers for the following calls
+    - Simon Cox 16-Feb  
+    - Luis Sousa 30-March (Currently an empty template)  
+    - Christian Pichot 27-April  
+- \[30 minutes\] [AgGateway WG04 and
+  Modus](https://www.aggateway.org/News/2021Newsletters/2021AprilNewsletter/April2021WorkingGroupRound-Up.aspx) -
+  Andres Ferrerya (AgGateway) - presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 1700 UTC 25 May 2022
+
+**Topic:** [OGC O&M](https://www.ogc.org/standards/om)  
+**Who:** Kathi Schleidt (DataCove)  
+**YouTube link:** <https://youtu.be/bYDSgs2fKLk>  
+**Github link:**
+<https://github.com/ktoddbrown/soil_semantic_resources/blob/main/14_OMS.Rmd>  
+**Agenda:**
+
+- \[10 minute\] Cluster updates
+  - [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing) -
+    please check in here!  
+  - June workshop and summer series updates: [Bridging soil data and
+    semantics](https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing)  
+  - Other announcements?  
+- \[30 minutes\] OGC O&M - Kathi Schleidt presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+- Workshop planning led by Kathe Todd-Brown:
+  - Thinking about aerobic respiration as a presentation concept  
+  - Parts of data that we are hoping the presenters focus on from all
+    different fields  
+  - Presentation on semantic section on ontologies aligned with this
+    such as agro, and others  
+  - How would you align (but not conform) this with CF conventions -\>
+    could go under data models
+    - Getting data, making data with people from different fields
+      interested in the data  
+  - Semantic harmonization cluster has done something similar to this
+    - Harmonize between different ontologies that overlap  
+    - Harmonize between how people talk about data in the group  
+  - Picking on ENVO makes a lot of sense here  
+  - SOSA is ontology for observation things
+    - About sensors and observations and doesn’t mention soil -\> only
+      connects through fact that the sensors are measuring soil  
+  - Recording why you took a measurement is valuable and contextualizes
+    the information
+    - Fuzzy between sample processing and procedure associated with the
+      measurement -\> not well defined in the domain space
+      - Governance/definitions should come from the domain space  
+  - Why not start with the systems we have and test to see if we run
+    into trouble with terms/definitions/names/ontologies used
+    - Without doing this, the issues are hypothetical = difficult to
+      make game plan  
+- Presentation by Kathi Schleidt:
+  - Observations and measurements and samples  
+  - Changed ISO project name to add samples -\> OMS  
+  - Utilized across diverse INSPIRE themes as well as smart cities and
+    digital twins  
+  - What is the standard for ISO ontologies with OMS?
+    - Classic way to provide attributes: ex. assigning color and
+      expression for a smiley face
+      - What do we want to provide information on the procedure of
+        switching color or expression?  
+      - Want to provide information on procedure used: ex. Swatch
+        comparison  
+      - Adding observation node along color for observation of
+        property  
+      - Feature of interest has inverse relation to specialize color or
+        just a general related observation for the properties  
+      - Updates:
+        - Adding concepts-  
+        - Observer - to not only say how the process is done but also
+          who did the process  
+        - Host- where you are measuring something - where are sensors
+          mounted on?, where is the wider thing that the observation is
+          related to?  
+      - Attributes added to simple diagram for ontologies of
+        color/expression of smiley face: host, observer, observed
+        property, procedure, result, and feature of interest
+        - Can add more contextual information, such as deployment  
+        - Times you can add: phenomenon time (when did the thing
+          happen), result time (when was result available), valid time
+          (rare - what time span is the value best used for - helpful
+          for modeling results too)  
+      - Is the smiley face changes from yellow to green, the results for
+        the 2 days of measurements are different
+        - Soil measurement example of this result change in short period
+          includes soil pH, soil moisture  
+        - The ontology model is general enough to include these time
+          series measurements  
+        - Observation collection added into new OMS - allows for
+          resampling of same place but with different method/machine or
+          other similar issues  
+      - Feature of interest can also be added to ontology:
+        - Proximate feature of interest- sample i’ve taken and this
+          sample is a placeholder for quality/property of interest
+          - Ex: population of faces and proximate feature of interest is
+            one of focus (green, or yellow, or frown, or smile)  
+        - Ultimate feature of interest- the actual measurement
+          - Ex: all smiley faces in population  
+  - Can add sampling procedure, sampler, and other information for the
+    date of sampling  
+  - Where is the unit of measurement?
+    - Could be included in results, observed property, procedure, or
+      other portions of the ontology  
+    - Some even have unit of measurement change through time series -
+      not good practice  
+    - But, regardless of where the unit of measurement is in the
+      ontology, it must be present  
+  - Reviewed INSPIRE soil model on APIINSPIRE site  
+  - OMS dropbox link:
+    <https://www.dropbox.com/s/n5vva6eqrviyzbw/OMS%20Info%20ESIP.docx?dl=0>  
+  - Presentation dropbox link:
+    <https://www.dropbox.com/s/lsuyuj9yp7njzst/Observations%20en%20Measurement%20%28en%20Samples%29.pptx?dl=0>  
+- Post-meeting workshop planning with Kathe and Gary:
+  - They are using layer level measurements and Kathe is more hoping to
+    cover the research domains  
+  - Would love to have Kathi back to talk about OMS
+    - SOSA is often called ontology design pattern
+      - It’s a framework that you can use to define your data  
+  - Separation of layers and horizon is confusion  
+  - Separation of profile and site is because some sites can have
+    multiple profiles  
+  - These confusions and difficulties will lead to further discussion
+    and hopefully improvements to ontologies, ENVO, code lists, and the
+    ways people talk about soil data  
+  - Possibly have someone from Simon’s group come to talk about
+    Australian data/metrics  
+  - Give some requirements about what we want them to cover to have it
+    align better with other topics/content
+
+## 2300 UTC 11 May 2022
+
+July workshop proposal looks like it’s a go! Do you want to help shape
+the pre/post virtual sessions? [Bridging soil data and
+semantics](https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing)
+
+**Recap**: Greetings wordy soil folks,
+
+We did not have the presentation today (my apologies for dropping the
+organizational ball here). But instead had a fantastic planning session
+today to flesh out the pre/post sessions for the ESIP. Can’t make the
+ESIP July meeting? Come to the virtual pre/post sessions! The planning
+document is open for comments through the end of the week if you have
+clever ideas and prospective you would like to add! We’ll roll out an
+announcement for our first session in June next week.
+
+<https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing>
+
+Best,  
+-Kathe
+
+## 1700 UTC 27 April 2022
+
+**Topic:** Semantics for interoperability in ecosystem studies: the
+[AnaEE - France Thesaurus](https://opendata.inra.fr/anaeeThes/page/)
+approach - Towards an integrated workflow from collection to
+publication  
+**Who:** Christian Pichot (INRAE)  
+**YouTube link:** <https://youtu.be/C5rgT_Mfqhw>  
+**Github link:**  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - July Meeting proposal [Bridging soil data and
+    semantics](https://docs.google.com/document/d/1njLQnye9-mLJgdmS6Rm4khKYmZHjn2JlVIC0PKeQe90/edit?usp=sharing)  
+- \[30 minutes\] Semantics for interoperability in ecosystem studies:
+  the AnaEE approach - Christian Picho presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 2300 UTC 13 April 2022
+
+**Topic:** [SSSA - Soil
+Glossary](https://www.soils.org/publications/soils-glossary/)  
+**Who:** April Ulery (New Mexico SU)  
+**YouTube link:** <https://youtu.be/BZ4U8-K4QIY>  
+**Github link:**
+<https://github.com/ktoddbrown/soil_semantic_resources/blob/main/16_SSSAGlossary.Rmd>  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - GLOSIS one pager still pending  
+  - Thoughts on ESIP July meeting proposals?  
+- \[30 minutes\] SSSA Soil Glossary - April Ulery presenting
+  (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 1700 UTC 30 March 2022
+
+**Topic:** [GLOSIS](https://github.com/rapw3k/glosis)  
+**Who:**[RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+**YouTube link:** <https://youtu.be/tBV-GiZ65Gw>  
+**Github link:**  
+**Presentation:
+[20220330_ESIPSoilOntology_GloSIS_LSousa.pdf](https://drive.google.com/file/d/1Jd0GTI9vfMAiSoX5tl52KU7O-309WPwQ/view?usp=sharing)**  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - Still accepting nominations for Cluster co-chairs for next year  
+  - Reach out to Kathe if you have thoughts on possible Summer Meeting
+    proposals  
+  - ESIP July Meeting: Registration and Details
+    https://2022esipjulymeeting.sched.com/info  
+- \[30 minutes\] [GLOSIS](https://github.com/rapw3k/glosis) - Luís de
+  Sousa (ISRIC) presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+Global Soil Partnership (5 pillars of action)
+
+- Soil management, awareness, research, data, harmonization  
+- 2016/2017 pillar 5 plan of action =\> identified need for soil
+  information exchange to expand from national/regional data collections
+  internationally  
+- International Consultancy (from GSP) 2019
+  - Requirement inventory goal of reuse  
+  - Existing soil ontologies (ANZSoilML; INSPIRE; ISO-28258; OGE Soil
+    IE; Wosis; SOTER)  
+  - Starting with ISO-28258 augmented with FAO guidelines (GfSD)  
+  - Data exchange (XLM O&M or Semantic Web SOSA)  
+- Semantic Web
+  - Domain tuple: Subject - predicate - object (RDF basic syntax for
+    data encoding)  
+  - Implementation has two types fo elements: URI (Universal resource
+    identifier) and literals  
+  - Set of related tuples =\> knowledge graph  
+  - OWL - ontology meta-langague  
+- 
+
+## 2300 UTC 16 March 2022
+
+**Topic:** Open discussion  
+**Who:**
+[RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing)  
+**YouTube link:** \[not recorded\]  
+**Agenda:**
+
+- \[15 minute\] Cluster updates
+  - One pagers are up! Invitation to edit is open:
+    <https://github.com/ktoddbrown/soil_semantic_resources>  
+  - We have slots open end of the summer. Call for additional
+    presentations  
+- \[15 minutes\] Anything in wordy soils that you would like to share?
+  What are you excited about?  
+- \[15 minutes\] Brainstorm -
+  - Any ideas for the ESIP summer meeting? [Call for Sessions
+    JUL22](https://docs.google.com/document/d/1BGplQ1XrlZqoOy_lH-rOSe_VUH3BJzdoVzJXEoFZbwM/edit)
+    \[due April 29\]
+
+**Recap:**  
+We had a small but dedicated group of three call in today to chat soils,
+data, and ESIP. Two ESIP announcements: first the call for sessions for
+this Summer Meeting (in person) is open with a due date of April 29
+<https://docs.google.com/document/d/1BGplQ1XrlZqoOy_lH-rOSe_VUH3BJzdoVzJXEoFZbwM/edit?usp=sharing>
+! Second the Raskin Scholarships are open until March 25th
+<https://esipfed.org/raskin> if you know of any interested graduate
+students, please pass this along.  
+We kicked around the idea of proposing a three part activity for this
+summer meeting structured as a virtual pre-meeting session, followed by
+an in-person co-session with another cluster, and ending with a
+post-meeting report out. The exact topic is a little more up in the
+air - feel free to message me or drop something in the Slack if you have
+suggestions.  
+See you in two weeks (1700UTC 30 March 2022) when we will hear from Luís
+de Sousa (ISRIC) on GLOSIS! We need a facilitator for this presentation
+still so if you are willing please message me to sign up!
+
+Best,  
+-Kathe
+
+**Notes**:
+
+- ESIP call open. Full in person attendance. Call for Sessions is open,
+  close April 29:
+  <https://docs.google.com/document/d/1BGplQ1XrlZqoOy_lH-rOSe_VUH3BJzdoVzJXEoFZbwM/edit?usp=sharing>
+
+- Raskin Scholarships are open until March 31:
+  <https://esipfed.org/raskin> - March 25  
+
+- Kathe Todd-Brown - stepping down this year. Tanya stepped down 2022
+  with change in role, Brandon, Dylan -  
+
+- Aims - meet and greet/publically, engage, information seminar, data
+  harmonisation and hacking  
+
+- ESIP - Clusters are supported to follow directives they set, eg if
+  they want to chat/network, or do a working group activity - NASA, USGS
+  funded, by MoUs  
+
+- ESIP Labs: <https://www.esipfed.org/lab> - Sometimes tied to clusters,
+  some time not  
+
+- ESIP ideas
+
+  - Soil measurement ontology
+    - CoSoDat - soil carbon  
+    - Barb - soil and soil carbon, how you would search for datasets
+      with certain keywords etc  
+    - ISCN data - soil carbon discovery to interoperability project  
+    - Aust - ANSIS and VAS soil C harmmonisation/descritpion efforts  
+    - GLOSIS  
+    - Role of ENVO, general data models
+
+- What /how is the soils semantic resources. Scope and how it will be
+  managed, added to, governed by who? How/does it link with groups doing
+  similar - eg through CODATA, RDA, domains like earth sciences, ESIP
+  Semantic working group
+
+- Soil ontology governance <https://www.sociocracyforall.org/> - who
+  decides who decides, many voices one song
+
+## 1700 UTC 2 March 2022
+
+**Topic:** [OBO](https://obofoundry.org/) and
+[ENVO](https://sites.google.com/site/environmentontology/)  
+**Who:** Kai Blumberg (UArizona)  
+**YouTube link:** <https://youtu.be/aDqlbd8zkCg>  
+**One-pager link:**
+<https://github.com/ktoddbrown/soil_semantic_resources/blob/main/12_ENVO.Rmd>  
+**Topics links:**
+
+- OBO Foundry <https://obofoundry.org/>  
+- ENVO: <https://obofoundry.org/ontology/envo.html>  
+- Robot Template for ontology design:
+  <https://github.com/EnvironmentOntology/envo/wiki/ENVO-Robot-template-and-merge-workflow>
+
+**Agenda:**
+
+- \[10 minute\] Cluster updates
+  - Anything about soil informatics folks would like to share?  
+  - [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit#gid=1823742770)  
+- \[30 minutes\] OBO & ENVO - Kai Blumberg presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+- FAIR -\> ‘I’ interoperable for both machines and people; applies to
+  both data and vocabs  
+- FAIR Vocabs: findable, defined, de-ref iri, hierarchical, accessible  
+- Interoperable: Cross linked vocabularies across ontologies/skemas  
+- Reusable vocabularies: OWL/syntax shared structures  
+- OBO is a collection of many different ontologies designed to
+  interoperate across domains  
+- ENVO: community ontology for representing ontologies
+  - notable use case MIxS <https://gensc.org/mixs>  
+- FAIR Ontologies have lateral relationships in addition to definitions
+  and dereference URI
+
+## 2300 UTC 16 February 2022
+
+**Topic:** [SOSA](https://www.w3.org/TR/vocab-ssn/),
+[SSN-EXT](https://www.w3.org/TR/vocab-ssn-ext/) and [TERN
+Ontology](https://linkeddata-dev.tern.org.au/viewers/tern-ontology)  
+**YouTube link:** <https://youtu.be/BHBU5gYAmV4>  
+**One-pager link:**  
+**Topics links:**  
+**Agenda:**
+
+- [Opening
+  Landing](https://docs.google.com/presentation/d/1ft1GdDJZ7fl6Dy84x1k1xqRSga01Bw7qZFzQ8bxzNuk/edit?usp=sharing)
+  - [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit#gid=1823742770)  
+- \[5 minute\] Cluster updates
+  - ODM2 recording is up! Still working on the one pager.  
+  - Anything about soil informatics folks would like to share?  
+- \[30 minutes\] [SOSA](https://www.w3.org/TR/vocab-ssn/),
+  [SSN-EXT](https://www.w3.org/TR/vocab-ssn-ext/) and [TERN
+  Ontology](https://linkeddata-dev.tern.org.au/viewers/tern-ontology) -
+  Simon Cox presenting (Recorded),
+  [Slides](https://docs.google.com/presentation/u/0/d/1lZgw4f5PWC-X1B7EhqtvqhVYtTA8IgXtjgBqujcE_5w/edit)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+## 1700 UTC 02 February 2022
+
+**Topic:** ODM2
+
+**YouTube link:** <https://youtu.be/fYLcBWSVYZU>  
+**One-pager link:**
+<https://github.com/ktoddbrown/soil_semantic_resources/blob/main/10_ODM2.Rmd>  
+**Topic link:** <https://github.com/ODM2/ODM2>
+
+- ODM2 [Entity Relationship
+  Diagrams](http://odm2.github.io/ODM2/schemas/ODM2_Current/diagrams/ODM2OverviewSimplified.html)  
+- <https://github.com/ODM2/ODM2/wiki/documentation>
+
+**Agenda:**
+
+- [Opening
+  Landing](https://docs.google.com/presentation/d/1ft1GdDJZ7fl6Dy84x1k1xqRSga01Bw7qZFzQ8bxzNuk/edit?usp=sharing)
+  - [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit#gid=1823742770)  
+- \[5 minute\] Cluster updates
+  - Report out from Bar on ESIP Winter meeting  
+  - Call for facilitators for later meetings  
+- \[30 minutes\] ODM2 - Emilio Mayorga presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+- [RollCalls](https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit#gid=1823742770)
+
+## 1700 UTC 5 January 2022
+
+**Topic:** Introduction & Kickoff  
+**Who:** Kathe Todd-Brown (facilitator)  
+**YouTube link:** None - open discussion  
+**Github link:** None - org meeting  
+**Flow:**
+
+- Introduction round table \[10 minutes - option for breakout room if
+  large\]  
+- Informational check in \[20 minutes\]
+  - What is going on in your sphere of soil data? Do you have any
+    projects or papers or other report outs to share?  
+- Review of cluster format \[20 minutes\]:
+  - Call for facilitators  
+  - Call for possible presenters  
+  - Feedback on report out summary format
+    <https://github.com/ktoddbrown/soil_semantic_resources/blob/main/00_Template.Rmd>  
+  - Feedback on adverts and places to publicize  
+- New cluster co-chairs \[10 minutes\]
+  - Thank you Tanja for serving!  
+  - New nominations?
+
+**Notes**:
+
+## \[Template\] 1700/2300 UTC DATE
+
+**Topic:**  
+**Who:**  
+**YouTube link:**  
+**Github link:**  
+**Agenda:**
+
+- \[5 minute\] Cluster updates
+  - AA  
+- \[30 minutes\] XX - YY presenting (Recorded)  
+- \[20 minutes\] Q&A
+  - Call for clarifying questions (recorded)  
+  - Open discussion (not recorded)
+
+**Recap:**
+
+- Why was this resource created?  
+- How is or could this resource be used in conjunction with soil data?  
+- Who supports and uses this resource?
+
+**Notes**:
+
+# Introductions
+
+- **Kathe Todd-Brown (UFlorida):** I’m a computational biogeochemist who
+  is interested in large datasets to support soil carbon model
+  development. I’m a professor at the University of Florida and the data
+  coordinator for the International Soil Carbon Network. My interest in
+  this group is to develop formal registered language that I can use to
+  help harmonize data from different sources.  
+- **Luís M. de Sousa (ISRIC):** Geo-Informatics Scientist. Working on
+  the [Global Soil Information Ontology (GloSIS) Web
+  Ontology](https://github.com/rapw3k/glosis).  
+- **Suzanne Hodgkins (Ohio State):** I’m a biogeochemist who got into
+  data management in 2018. I’m currently working on data management for
+  the [EMERGE project](https://emerge-bii.github.io/), which examines
+  microbial responses to climate changes in Arctic peat soils. We are
+  working to integrate the project’s highly-interdisciplinary data via
+  the [EMERGE-DB](http://emerge-db.asc.ohio-state.edu/) graph
+  database.  
+- **Gary Berg-Cross**, Co-lead ESIP Semantic Harmonization cluster
+
+# Announcements and adverts
+
+## General advert
+
+Ever tried to glue together soil data from different sources? Have you
+ever muttered under your breath that everyone should just use the same
+data template and be done with it! Ever tried to use someone else’s data
+template and found it completely inadequate? Wondered what tools are
+already out there to talk about soil data?  
+The Earth Science Information Partnerships (https://www.esipfed.org/)
+Soil Ontology and Informatics Cluster would like to invite you to our
+Spring-Summer 2022 cluster calls! We’ll be hearing from a series of
+presenters on semantic resources (ie vocabulary lists, ontologies, data
+models) and how they pertain to soils.
+
+| HHMM (UTC) DD - Month | Topic | Presenter |
+|:---|:---|:---|
+| 1700 02 - February | [ODM2](https://github.com/ODM2/ODM2) | Emilio Mayorga (UWashington) |
+| 2300 16 - February | [SOSA](https://www.w3.org/TR/vocab-ssn/), [SSN-EXT](https://www.w3.org/TR/vocab-ssn-ext/) and [TERN Ontology](https://linkeddata-dev.tern.org.au/viewers/tern-ontology) | Simon Cox (CISRO) |
+| 1700 2 - March | [OBO](https://obofoundry.org/) and [ENVO](https://sites.google.com/site/environmentontology/) | Kai Blumberg (UArizona) |
+| 2300 16 - March | TBD |  |
+| 1700 30 - March | [GLOSIS](https://github.com/rapw3k/glosis) | Luís de Sousa (ISRIC) |
+| 2300 13 - April | [SSSA - Soil Glossary](https://www.soils.org/publications/soils-glossary/) | April Ulery (NMSU) |
+| 1700 27 - April | Semantics for interoperability in ecosystem studies: the [AnaEE - France Thesaurus](https://opendata.inra.fr/anaeeThes/page/) approach | Christian Pichot (INRAE) |
+| 2300 11 - May | [AgGateway WG04 and Modus](https://www.aggateway.org/News/2021Newsletters/2021AprilNewsletter/April2021WorkingGroupRound-Up.aspx) | Andres Ferrerya (AgGateway) |
+| 1700 25 - May | [OGC O&M](https://www.ogc.org/standards/om) | Kathi Schleidt (DataCove) |
+| 2300 8 - June | [Schema.org](https://schema.org/) | Adam Shepherd (WHOI) |
+
+For more information go to the ESIP calendar page
+https://www.esipfed.org/get-involved/telecon-calendar or SOI Cluster
+wiki page https://wiki.esipfed.org/Soil_Ontologies_and_Informatics
+
+#### Sent to:
+
+- April for possible forwarding to SSSA - 1/26/2022 by KToddBrown  
+- “Global soil data exchange” group (includes GSP folks) - 1/26/2022 by
+  KToddBrown  
+- AGU-Biogeosicneces - 1/26/2022 by KToddBrown  
+- Ester for possible forwarding to academies - 1/26/2022 by KToddBrown  
+- Passed along to ISRaD folks - 1/27/2022 by KToddBrown  
+- UF Soil & water - 1/28/2022 by KToddBrown  
+- UF Informatics Inst & UF ESSIE- 1/31/2022 by KToddBrown
+
+## No table
+
+Ever tried to glue together soil data from different sources? Have you
+ever muttered under your breath that everyone should just use the same
+data template and be done with it! Ever tried to use someone else’s data
+template and found it completely inadequate? Wondered what tools are
+already out there to talk about soil data?
+
+The Earth Science Information Partnerships (https://www.esipfed.org/)
+Soil Ontology and Informatics Cluster would like to invite you to our
+Spring-Summer 2022 cluster calls! We’ll be hearing from a series of
+presenters on semantic resources (ie vocabulary lists, ontologies, data
+models) and how they pertain to soils.
+
+For more information go to the ESIP calendar page
+https://www.esipfed.org/get-involved/telecon-calendar or SOI Cluster
+wiki page https://wiki.esipfed.org/Soil_Ontologies_and_Informatics
+
+#### Sent to:
+
+- Academic Data Science Alliance Slack - 1/26/2022 by KToddBrown  
+- AgBioData Slack - 1/26/2022 by KToddBrown  
+- EDI Slack - 1/27/2022 by KToddBrown
+
+## Twitter/short
+
+Calling all wordy soil geeks! @ESIPfed’s SOI Cluster is hosting a series
+of presentations on vocabularies, ontologies, and data models for soil!
+Come join us every other Wednesday:
+​​<https://www.esipfed.org/get-involved/telecon-calendar>
+
+- <https://twitter.com/KatheMathBio/status/1486336242077749250>
+
+What’s almost as hard as taking soil observations? Describing those
+observations to put them together with other data! The @ESIPfed SOI
+Cluster https://www.esipfed.org/get-involved/collaborate is doing a deep
+dive into semantic resources this spring/summer, come join us!
+https://wiki.esipfed.org/Soil_Ontologies_and_Informatics
+
+- <https://twitter.com/KatheMathBio/status/1486801660181573637>
+
+First seminar in our series on Feb-2 at 1700 UTC! Come join the
+[@ESIPfed](https://twitter.com/ESIPfed/) Soil
+[\#Ontology](https://twitter.com/search?q=%23Ontology) and
+[\#Informatics](https://twitter.com/search?q=%23Informatics) Cluster as
+we hear more about what ODM2 can contribute to
+[\#soil](https://twitter.com/search?q=%23soil)
+[\#data](https://twitter.com/search?q=%23data) systems!
+h[ttps://wiki.esipfed.org/Soil_Ontologies_and_Informatics](https://wiki.esipfed.org/Soil_Ontologies_and_Informatics)
+
+- <https://twitter.com/KatheMathBio/status/1488216017004335115>
