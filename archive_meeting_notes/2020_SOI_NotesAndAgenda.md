@@ -1,0 +1,2031 @@
+# 2020 Meeting Notes - Soil ontology and informatics - ESIP Cluster
+
+2019-12-31
+
+- [Roll call here](#roll-call-here)
+- [16 December 2020 1700 UTC](#16-december-2020-1700-utc)
+- [30 December 2020 NO MEETING](#30-december-2020-no-meeting)
+- [Future projects](#future-projects)
+- [Future presentations](#future-presentations)
+- [Introductions](#introductions)
+- [2 December 2020 2300 UTC](#2-december-2020-2300-utc)
+- [\[Archive\] 18 November 2020 2300
+  UTC](#archive-18-november-2020-2300-utc)
+- [\[Archive\] 4 November 2020 1400
+  UTC](#archive-4-november-2020-1400-utc)
+- [\[Archive\] 21 October 2020 2300
+  UTC](#archive-21-october-2020-2300-utc)
+- [\[Archive\] 7 October, 2020 - 1500
+  UTC](#archive-7-october-2020---1500-utc)
+- [\[Archive\] September 23, 2020 - 2000
+  UTC](#archive-september-23-2020---2000-utc)
+- [\[Archive\] August 26, 2020 - 14:00
+  UTC](#archive-august-26-2020---1400-utc)
+- [\[Archive\] August 12, 2020 11PM
+  UTC](#archive-august-12-2020-11pm-utc)
+- [\[Archive\] July 29, 2020 (Wednesday)
+  Mostly](#archive-july-29-2020-wednesday-mostly)
+- [References of interest](#references-of-interest)
+
+Cluster wiki page:
+<https://wiki.esipfed.org/Soil_Ontologies_and_Informatics>
+
+Mailing list:
+<http://lists.esipfed.org/mailman/listinfo/esip-soil-informatics>
+
+Cluster proposal: [ESIP Soil Ontology and Informatics Clustering
+proposal](https://docs.google.com/document/d/1wyplA7K7IHIY_yPXTydfFYNTwiXyrZY2R_9lu3LjRhk/edit?usp=sharing)
+
+# Roll call here
+
+<https://docs.google.com/spreadsheets/d/1k5-3S1VTPbbeVEIXsyvQbEKG2cRQnvE2jfW__zN_pe8/edit?usp=sharing>
+
+# 16 December 2020 1700 UTC
+
+**Title**: *Central Concepts and Unifying Themes within the USDA-NRCS /
+National Cooperative Soil Survey databases*  
+**Presenters**: Andrew G Brown (NRCS) and Dylan Beadette (NRCS)
+
+Notes:
+
+- Updates on NRCS databases  
+- From Megan: If speakers willing, please share PPT slides on ESIP
+  figShare repository
+  - <https://esip.figshare.com/submit>  
+- Definitions
+  - 2D x 1D view  
+  - Pedon - basic unit of soil survey investigation and lab sampling  
+  - C-horizon - fresh material  
+  - Genetic horizon - basic unit of soil morphologic description
+    - Based on theoretical framework  
+    - Important to recognize different depths, not fixed-depth
+      intervals  
+  - Layer - basic lab characterization unit, typically genetic horizon
+    - Does it represent a subset?  
+  - MLRA - “Major Land Resource Area”
+    - Multi-variant partitioning done by hand  
+  - SSA - “Soil Survey Area”
+    - 3,373 detailed soil surveys  
+    - Administrative, internal useful constructs  
+    - Patchwork of individual, self-contained soil surveys  
+    - Relatively new  
+  - STATSGO - “General Soil Survey”
+    - One of the most downloaded products, room for improvement  
+    - Broad differences are well categorized in the soil mapping  
+    - Maintaining is difficult, but there is a high level of detail  
+  - SSURGO - “Detailed Soil Survey”
+    - Most effort put into this product  
+    - Main purpose to support conservation practices  
+    - Constantly updated and a complex structure  
+    - \*NOT A LEGACY PRODUCT\*  
+  - Soil series - practical management scale labels that describe a
+    bundle of morphological, physical, and chemical properties
+    - Lowest level of soil taxonomy, more practical vs. theoretical  
+  - Officials series description - soil series concepts qualitatively
+    defined in plain language
+    - Attempting to quantitatively update  
+    - Need a proper database to improve organization  
+  - Soil-landscape, catena, soilscape - repeating spatial patterns
+    - Aka “Soil-landscape”  
+    - Assemblage of series properties, conditions, and constraints on
+      management  
+  - Map unit - conceptual representation of soils and landscape
+    - Through an expected management  
+    - \*Most soil survey users interact with these data\*  
+    - Originally SSA-specific, but now coordinating across different
+      soil survey areas  
+  - Component - aggregate representation, specific soil properties,
+    conditions, interpretations
+    - Derived from field observation and lab data, but a large chunk
+      consists of estimated properties  
+    - 99% of soil survey customers are interested in these data or
+      interpretation thereof  
+    - Examples - pH, Organic matter maps  
+  - NASIS - client server system for concurrent editing and management
+    of “soil data” and projects
+    - Internal use mostly  
+  - LIMS - raw data database, instrument management systems  
+  - “Lab Data Mart” - laboratory characterization data, public-facing
+    - simplified, linked to NASIS  
+  - “KSSL snapshot” - further simplification of LDM
+    - Attempts to put together roughly compatible analytes  
+    - Documentation pending, metadata in flux  
+- Overlap in administrative, physical, and conceptual concepts impacts
+  the way the data is stored and used
+  - Scale / specificity : MLRA -\> Soilscape -\> soil series concepts
+    -\> suite of map units -\> suite of components -\> pedon
+    descriptions -\> laboratory characterization  
+- Are there efforts to resample old survey areas?
+  - Yes, old survey areas are being actively updated  
+  - Trying to harmonize the concepts within MLRAs, but not everything
+    harmonizes together perfectly  
+  - Still using the soil survey area concepts for managing these data  
+  - Workflow needs to build in possibility to be updated  
+- Pending work - Harmonization of concepts
+  - Example - coarse rock fragment, one of the last things to be
+    harmonized  
+- See you next year! Happy holidays!  
+- New document for 2021
+  - First meeting will be Wednesday, 13 January 2021  
+  - <https://docs.google.com/document/d/1_SIm_3e9xpni_64zdAU1DZrFEd8YcIerbsihDJq4qwY/edit>
+
+# 30 December 2020 NO MEETING
+
+# Future projects
+
+- Appendix of current data curation/harmonization efforts
+
+# Future presentations
+
+Pending scheduling
+
+- Kathi Schleidt - how to implement conceptual models (eg INSPIRE) using
+  the latest geostandards (OpenAPI, Sensorthings etc) and then what
+  challenges do you face - yet to be contacted  
+- Nic Jelinski - University of Minnesota - linking public & private soil
+  datasets (example of soil organic carbon / permafrost affected soils
+  in Alaska, USA). - yet to be contacted (Hava Blair can contact)  
+- USDA, NRCS - Doug Wysocki - retired leader of National Soil Survey and
+  Kellogg Lab  
+- ENVO - Pier Luigi Buttigieg  
+- Manaaki Whenua Landcare Research (New Zealand)? Vocabularies: Brandon
+  Whitehead?
+
+# Introductions
+
+*Please add a short group introduction below.*
+
+1.  **Kathe Todd-Brown:** I’m a computational biogeochemist who is
+    interested in large datasets to support soil carbon model
+    development. I’m a professor at the University of Florida and the
+    data coordinator for the International Soil Carbon Network. My
+    interest in this group is to develop formal registered language that
+    I can use to help harmonize data from different sources.  
+2.  **Pier Luigi Buttigieg:** I’m an ontologist with a life science
+    background interested in helping expert groups encode their
+    knowledge in community reference ontologies to help global
+    harmonisation in the digital space. More
+    [here](https://orcid.org/0000-0002-4366-3088).  
+3.  **Stevan Earl:** I am the information manager for the CAP LTER and
+    Global Institute of Sustainability - both at Arizona State
+    University. I have been working with an LTER Synthesis Group focused
+    on soil organic matter dynamics, and see ontological
+    approaches/resources as critical to such synthetic efforts.  
+4.  **Brain Wee:** I am cross-trained in computer science, ecology, and
+    policy, and generally work at the intersection of all three areas.
+    Obsessed with terms and definitions, mostly because of policy
+    (legal) implications. Co-chair of the Earth Science Information
+    Partners (ESIP) Agriculture and Climate Cluster.  
+5.  **Simon Cox (SJDC):** originally geology/geophysics. Information
+    models and standards for the last 20+ years - OGC, ISO, W3C.
+    Currently on CODATA ExComm. Loosely connected to members of the
+    leadership of Global Soil Partnership.  
+6.  **Tanja Williamson**: Hydrologist-Pedologist. I use soils in most
+    aspects of hydrologic modeling, research on land-use effects, and
+    potential effects of climate change.  
+7.  **Jessica Burnett**: Research ecologist and postdoc at USGS. I am
+    generally interested in improving the utility and usefulness of
+    ecological data and have recently taken interest in how ontologies
+    (formally or more loosely) and gdbs \[formally, or more loosely (as
+    concept maps…?)\] can achieve this. Here to observe, mostly.  
+8.  **Hava Blair**: PhD student at University of Minnesota, Land &
+    Atmospheric Sciences program. My research is in linking soil
+    properties and processes with agricultural management practices
+    (“soil health”). We are curating and harmonizing regional soil
+    health datasets as part of a soil health database project in
+    partnership with agroinformatics platform
+    [GEMS](https://agroinformatics.org/). Starting to learn about the
+    value of ontologies for linking data and eager to learn/help develop
+    more soil-specific ontology terms.  
+9.  **Nic Jelinski:** Pedologist at University of Minnesota. I am a
+    pedologist interested in harnessing big data for soil survey. My
+    work is mostly centered in poorly characterized regions of Alaska
+    and sub-Saharan Africa.  
+10. **Avni Malhotra:** I am a postdoc at Stanford University and a
+    coordinator for the International Soil Carbon Network. My research
+    focuses on plant inputs to soil carbon and I am especially
+    interested in organic soils.  
+11. **Stephen Richard:** bedrock geologist, turned knowledge engineer,
+    work on GeoSciML, ontologies, ISO19115-3, EarthCube Architecture,
+    Data Discovery, Schema.org metadata….  
+12. **Jen Harden:** Pedologist, carbon cycle biogeochemistry. Chair of
+    Science Steering Group, International Soil Carbon Network. My
+    background is Research Soil Scientist with the U.S. Geological
+    Survey, where I conducted work on geomorphology, Quaternary geology,
+    Paleoenvironment, and most recently on Carbon Cycle Science for the
+    past 20 years. I am now Emertitus with USGS and reside at Stanford
+    Earth System Science Dept as a visiting scholar.  
+13. **Melissa Cragin (SDSC \| UCSD):** I work in the Research Data
+    Services division at SDSC, and am involved in several projects.
+    Perhaps most relevant for this group, I am part of the EarthCube
+    Coordination Office; I also work on data ecosystem and FAIRdata
+    activities for the regional West Big Data Innovation Hub.  
+14. **Gary Berg-Cross, (Ontolog)** Cognitive Psychologist, original
+    cognitive linguistics, long time data and knowledge engineer and
+    conceptual models, work on methodologies to help develop ontology
+    design patterns. Part of the original cryo vocabulary/glacier domain
+    work to harmonize term definitions and EnvO.  
+15. **Brandon Whitehead** (Manaaki Whenua – Landcare Research):
+    hydrogeologist and GIScientist turned ontologist/knowledge engineer;
+    have worked on an open soils data portal, CABT,
+    [GACS](http://browser.agrisemantics.org/gacs/en/),
+    [SWEET](http://sweetontology.net) and others. Working on the Global
+    Soil Partnership’s GloSIS soil data exchange “model”.  
+16. **Bill Teng** NASA GES DISC (science data management, knowledge base
+    development to support GES DISC operational environment, science
+    applications of social media data); co-chair of ESIP Agriculture and
+    Climate Cluster with Brian; wants to learn more about ontologies;
+    not currently working with soils but academic background was deep
+    into soils.  
+17. **Mark Schildhauer** -- NCEAS/UCSB, NSF Arctic Data Center, and
+    DataONE– interest in using ontologies and knowledge graphs to aid in
+    making environmental data more “FAIR” for researchers; as well as
+    for generally explicating relationships in Nature via Knowledge
+    Graphs. Keen to see descriptions of soil incorporated into
+    Ontologies due to obvious importance for investigations in
+    ecosystems, agriculture, etc.  
+18. **Fenny van Egmond** (could not join first 2 meetings, sorry) Soil
+    sensing at ISRIC - World Soil Information and Wageningen
+    Environmental Research. Involved in Global Soil Partnership (GSP)
+    pillar 4 and 5 for building a Global soil information system
+    (GLOSIS), harmonising data exchange (needed for GLOSIS), IUSS Soil
+    Information Standards WG lead, GODAN Soil data WG co-lead, GLOSOLAN
+    soil spectroscopy co-lead. Participate in EJP Soil project where we
+    are compiling codelists for soil to aid soil data exchange,
+    connecting systems for INSPIRE and want to use the same ones for
+    GSP.  
+19. **Gaurav Sinha:** GIScientist and Geographer. I have no direct
+    connection to soils unfortunately, I do have a general interest in
+    geoscience ontologies, but my specialty and minimal contribution to
+    ontology has been limited to landform and terrain ontology and
+    design patterns. I joined this group because there are obviously
+    many common ways of thinking and organizing information about
+    natural phenomena that I am sure will be beneficial in my group’s
+    research on landform ontology. There is an obvious connection
+    between landform/landscape ontology and soil ontology, and I would
+    also like to ensure we are ultimately able to support soil related
+    concepts in our landform reference ontology that we are developing
+    (very slowly).  
+20. **Ashley Orehek**: Graduate assistant at the University of
+    Tennessee-Knoxville. I am completing my fall practicum with Kathe. I
+    am getting my master’s of science in information science. My
+    undergraduate studies were in meteorology and I hope to combine
+    these two disciplines to create an awesome career. I don’t know a
+    lot about soils but I want to be a versatile science
+    librarian/information scientist!  
+21. **Andrew Biggs**:Pedologist, soil surveyor, landscape scientist.
+    Chair of National working group that manages Australian standards
+    for soil and landscape description. Always interested in ensuring
+    our Australian terms can be understood from an international
+    perspective and that our terms are not completely inconsistent with
+    the rest of the world.  
+22. **Cynthia Eller**: library student doing a practicum this semester
+    with the University of Illinois. Interested in semantics,
+    ontologies, etc.  
+23. **Doug Wysocki:** Pedologist, Retired from NRCS as National Leader
+    Soil Survey Research and Kellogg Soil Survey Laboratory. Emphasis
+    has been on Soil Geomorphology and landscape hydrology.  
+24. **David Smith:** Soil scientist retired from USDA, NRCS. Last served
+    as Deputy Chief for Soil Science and Resource Assessment providing
+    coordinating leadership for the National Cooperative Soil Survey
+    program, National Resources Inventory, CEAP modeling, and National
+    Water & Climate Center and Geospatial Centers. Currently senior
+    advisor to Oliver Wyman Co working as industry partner in a NSF
+    funded Open Knowledge Network project  
+25. **Megan Wong** Research Associate. Centre for eResearch and
+    Innovation (CeRDI) Federation Uni Australia. Ecology/soil ecol
+    background. Current role soil data mapping to information model/s
+    (largelyO&M), utilising vocabularies including trialling application
+    of newly created Aus Soil Standard controlled vocabs. General
+    interest in common standards/collaboration around.  
+26. **Andrew Brown**: Soil Scientist; MLRA Soil Survey office Sonora,
+    CA. Interest in providing technical support with implementation and
+    ingestion of USDA-NRCS / National Cooperative Soil Survey standards
+    for use in new semantic technologies.  
+27. **Bhavna Arora:** Research Scientist, Lawrence Berkeley National
+    Laboratory. Focus on reactive transport modeling. Interest in model
+    benchmarking and soil organic matter dynamics.  
+28. **Sam Arundel:** Research Scientist, US Geological Survey, Center of
+    Excellence for Geospatial Information Science. Focus on topographic
+    features, automated feature extraction, deep learning.  
+29. **Nathan Robinson** Senior Research Fellow. Centre for eResearch and
+    Innovation (CeRDI) Federation Uni Australia. Soil mapping and survey
+    background. Current role in soil data mapping to information model/s
+    (largely supporting Megan Wong), utilising vocabularies including
+    trialling application of newly created Aus Soil Standard controlled
+    vocabs. Interest in data quality and use, and how we develop methods
+    to enable better use of disparate data (e.g. method variations and
+    constructs).  
+30. **Dylan Beaudette** USDA-NRCS, National Soil Survey Center, working
+    from Sonora, CA.  
+31. **Margaret O’Brien** UC Santa Barbara - data manager with EDI
+    repository and LTER Network. EDI is planning a harmonization
+    workflow for soils data.
+
+# 2 December 2020 2300 UTC
+
+Video: <https://youtu.be/AutOj0gLQm0>
+
+Mark Schildhauer, Brandon Whitehead, and David Smith lead discussion:
+Semantics Use Case for “Soil Bulk Density”
+
+1)  Review bulk density methods and what folks look for in search terms
+    when using datasets/databases  
+2)  Look for commonalities and think about how to describe in an
+    ontology
+
+Title: Use Case: Semantic Models of Soil Bulk Density - Wherefore and
+How?!  
+Presenters: Mark Schildhauer, David Smith, Brandon Whitehead  
+Abstract:
+
+Notes
+
+- Rationale for a semantic approach
+  - Make it so that humans and machines can effectively work with the
+    data  
+  - There is a lot of soil data out there
+    - Independent researchers and larger groups  
+  - A lot of times you need more data than can be provided by your
+    favorite data resources
+    - You are normally comfortable with finding, accessing, using this  
+    - Challenges to using new data
+      - Distributed across the internet  
+      - Web exposure and User interfaces vary  
+      - Heterogenous formats and schemas  
+      - Open the data and there is idiosyncratic naming and methods  
+    - Would be great to know what to expect from the data and be able to
+      tell common queries such as regions and dates  
+- Why Soil Bulk Density?
+  - Researchers frequently look for data with particular soil
+    measurements  
+  - We all agreed that soil bulk density is an important measurement  
+- Review bulk density methods
+  - This section is a foundational summary of bulk density data that can
+    lead to future discussions  
+  - There are authoritative sources on standards, procedures, and
+    databases
+    - USDA, NRCS, UN FAO, ISRIC, CSIRO, EU JRC (only a partial list)
+      - David has compiled a document of these sources that are on the
+        google drive that summarize them  
+    - Each with varying subsequent descriptions about the soil water
+      state and fine earth fraction vs whole soil  
+  - Also on the google drive is a matrix of laboratory methods for the
+    sources with cross referencing comparisons
+    - When we go to a database we have to distinguish what type of
+      measurement is being made  
+    - Question: Are the bulk density methods inter-related in the NRCS
+      manual?  
+    - It is listed out hierarchically and very well organized, talks
+      about considerations for procedures  
+  - Bulk Density is both simple and complex to think about and organize
+    - Density = mass per unit volume  
+    - Soil bulk density = the ratio of the mass of solids to the total
+      or bulk volume
+      - It is a function, not a single value  
+    - However, it is measured with different methods and under varying
+      conditions
+      - How to arrange this and account for it  
+- Finding commonalities
+  - Hierarchy of concepts
+    - Properties (concepts)
+      - Soil properties (1 of 35 sub-concepts)
+        - Soil chemicophysical properties (1 of 12 sub-concepts)
+          - Soil density (1 of 18 sub-concepts)  
+  - ^ have to think of a framework similar to this  
+- Building and using a soil ontology
+  - How to enhance soil data for reuse?
+    - Make them FAIR (findable, accessible, interoperable, reusable)
+      - This is difficult because the data is distributed, heterogenous,
+        of high volume, and of lexical ambiguity
+        - Lexical ambiguity:
+          - “Just” strings  
+          - Synonyms  
+          - Homonyms  
+          - Hierarchy  
+          - Relationships  
+  - Semantic low hanging fruit
+    - Synonymy: Db (USDA) = BD (Au) = soil bulk density  
+    - Homonymy: Soil (sensu Earth) \<\> Soil (sensu lunar)  
+    - Ontologies can disambiguate terms and make them interpretable by
+      machines and humans as well  
+  - ENVO, environment ontology
+    - Each term has a permanent, dereferenceable ID
+      - Also has a definition, a cross-reference for where the
+        definition is from, and terms that are related to it  
+  - Semantics for FAIR’er soil data (FAIR & machine actionable)
+    - Findable: Use web-based, persistent identifiers  
+    - Accessible: Open protocols  
+    - Interoperable: Open community standards  
+    - Re-usable: Open knowledge representations  
+  - Ecosystems ontology, ECSO
+    - Uses protoge
+      - HTTP URI dereferences to a term in our ontology  
+    - Ontology repositories can provide “standard views” of the
+      defererenced terms  
+    - There is a soil bulk density in ECSO
+      - Definition, definition source, creator, example of usable,
+        etc.  
+  - Semantic Annotation
+    - DataONE’s method for linking data items to terms in an ontology
+      - Raw data in CVS  
+      - Metadata describes data sets (ex. using EML)  
+      - Optional observational data model separates the entities from
+        their characteristics and links them  
+  - Semantic finding and re-using measurements
+    - Annotations currently focused on “attributes” but extendable to
+      other metadata fields  
+  - In summary, to make FAIRer
+    - Ontologies  
+    - Annotations  
+    - Scripts and user interfaces  
+  - Semantic web
+    - Use URIs as names for things  
+    - Link the URIs  
+- Deeper Dive into Ontology Modeling
+  - How might we reuse what is in the databases we have already
+    mentioned in previous meetings?
+    - Earlier we had discussed IRSAD, WoSIS, and SoDaH
+      - Concept mapping tool for definition, type, and data name  
+      - WoSIS: Notion of whole soil and fine earth
+        - Used part of relation (fineEarth is a part of wholeSoil)  
+        - Comments to explain what each term is
+          - Rdfs:comment allows to put free, unrestricted text  
+        - Different types of bulk density and units  
+      - SoDaH: trying to fit in with WoSIS
+        - Did not see in metadata, so linked to see where they would fit
+          best  
+        - Color coded  
+      - ISRaD: fit in with WoSIS and SoDah  
+      - What kind of things are useful to the community and what
+        components do we pick apart or reuse?  
+      - Link dropped by Simon:
+        <http://qudt.org/vocab/quantitykind/MassDensity>  
+- Next Steps
+  - Continue collecting information about soil bulk density methods  
+  - Document attribute characteristics and access to databases
+    containing soil bulk density measurements  
+  - Start expanding the set of measurements (Ksat? SOC?) to include in
+    Ontology  
+  - Start to build out RDF/OWL based ontology
+    - Knowledge modelers would be thinking about design patterns and
+      terms that we could re-use  
+    - Contribute to existing Ontologies?  
+    - Governance?
+      - Who determines what a good definition is?  
+      - Use ESIP as a foundation?  
+- Questions:
+  - Comment from Doug Wysocki: For bulk density, the common practice is
+    to measure the mass after oven drying. The volume is generally
+    measured in the field.
+    - KTB would be interested to break this out but a lot of the
+      datasets that she works with do not have this documented and
+      therefore may not be able to format to this  
+    - Doug Wysocki: all other measures of soils are all on the 2 mm
+      basis  
+    - Mark Schildhauer: If you can express them in the way that you are,
+      you can also model and capture them. It is not straight jacketing
+      you, it is allowing you to express your metadata.  
+    - Doug Wysocki: Communicating these and getting the expertise
+      together involves everyone in this  
+    - KTB: If we can get annotated, we can develop toolsets  
+    - Mark Schildhauer: One of the other advantages with the
+      hierarchical approach is that you do not have to go into
+      excruciating detail but you can if you want.
+      - Can always just go very coarse but can also go fine grain.  
+    - KTB: folks have access to databases that can leverage these  
+    - Mark Schildhauer: Again the benefit here is not for the daily use
+      of databases that you are familiar with but for when you are
+      expanding your data. You use 80% of your time trying to find and
+      wrangle the data.  
+  - Megan Wong: I have challenges deciding how concepts fit to data
+    model - eg is it a process, an obsv property, a procedure. Those
+    SWEET categories struck me as useful
+    - Simon Cox: disentangling ‘observable property’ and ‘method’ is
+      part of the question. SOSA/O&M provides a way to keep them
+      separate, but common practice is to conflate them. Sampling is a
+      whole other (very important) layer or part of the protocol or
+      procedure (SOSA is an OWL implementation of O&M with slight
+      refinement)  
+    - Mark Schildhauer: When you get to the mid or upper levels of
+      ontology it can get murky. To me, everything is a process but I
+      understand the benefit of describing something as a property. What
+      is that feature of interest/ what is that observable property? A
+      little semantics goes a long way in any case  
+  - KTB: I would love to move forward with some sort of ontological
+    understanding to work with the datasets, so what are the next steps:
+    - Mark Schildhauer: I think that we should keep working with Bulk
+      Density. Brandon has done the brute work.  
+    - Simon: A scan of the lab methods book in the google drive folder
+      - there is a whole \_chapter\_ on Bulk Density and Pore Space
+        Relations in CSIRO’s Brown Book that David already referred to  
+    - Dylan Beaudette: Can we send out Andrew’s detailed discussion of
+      Db?  
+    - KTB: can pull bulk density from some of the data sets too from
+      other folks  
+- The Google Drive:
+  <https://drive.google.com/drive/folders/1WATqzxLPXaI2ZB_V6plO7Jj4I9Xi_PkF>
+
+# \[Archive\] 18 November 2020 2300 UTC
+
+**Recap:** Dr. Megan Wong (Centre for eResearch and Innovation (CeRDI)
+Federation Uni Australia) presented on the approaches, challenges, and
+solutions for applying controlled vocabularies in standardizing
+agricultural soils data in Australia. Balancing the needs of informatics
+with data providers remains a key challenge; data providers often
+provide poorly or undocumented data requiring constant communication
+between the informatics team and data providers. Manual templates filled
+out by the informatics team remains a critical step in data integration
+for the project. While control vocabulary and procedures from larger
+groups (INSPIRE and the Green/Yellow books) were leveraged in the group
+when possible, it was still necessary to create new presuctures and
+vocabularies to capture the data.
+
+**YouTube recording** (poor audio quality):
+<https://youtu.be/lehCWy8JRrE>  
+**Slides**:
+[20201118_ESIPSoilOntology_MWong_CeRDI_AgSoils.pptx](https://drive.google.com/file/d/1-Sa4mvoa1D9GBvcELiGz9a1jp7c4e_gG/view?usp=sharing)
+
+=======  
+**Presentation Title:** Our approach, challenges of and solutions for
+applying controlled vocabularies for the standardisation of soils data.
+Use cases: Farming Systems Groups and Catchment Management Authorities
+in Australia, The Centre for eResearch and Digital Innovation (CeRDI),
+Federation University Australia
+
+**Presenter**: Dr Megan Wong, on behalf of CeRDI team working with soil
+data: Assoc Prof Peter Dalhaus, Bruce Simons, Andrew MacLeod, Heath
+Gillett, Dr Nathan Robinson, Dr Angela Neyland, Derek Walters
+
+**Abstract:** The Centre for eResearch and Digital Innovation (CeRDI),
+Federation University Australia, are soil data brokers for a number of
+data providers and users, principally for Farming Systems Groups and
+Catchment Management Authorities. Some of the projects/initiatives being
+delivered under at present include Visualising Australasia’s Soils (Soil
+CRC), Corangamite and Glenelg Hopkins CMA Soil Heath Knowledge Bases,
+and the Agricultural Research Federation (AgReFed). We are users of
+controlled vocabularies, and where necessary we create and manage them.
+The application of controlled vocabularies helps to meet data
+provider/user use cases including: Search and discovery through a shared
+data platform; Communication, context and trust; and Interface
+functionality for data management. We receive data in mostly as excel
+format and database dumps, in unstructured formats, and not always well
+described. Whilst data providers use some standard Australian National
+methods, for example in soil chemistry, machine readable controlled
+vocabularies have needed to be created for these. We describe the types
+of vocabularies we have applied, to general observations and
+measurements design patterns, for the description of the soil data we
+deliver. We cover some of the challenges encountered in discovering,
+applying and creating controlled vocabularies, and our current
+solutions. This may provide some useful insights for the development of
+a Soil Ontology by this group.
+
+**Notes:**
+
+1.  Vocabularies are used to describe observations, measurements made on
+    specimens and features, and feature relationships
+    1.  Link the different terms using relationships  
+2.  Visualizing Autralasia’s soils interface
+    1.  When you click on the samples you can see their properties, unit
+        of measure, procedure used, and control vocabulary  
+    2.  Challenges: balance the need of what the users would want with
+        the scientists
+        1.  Compromise required, need to consider soil information/O&M
+            perceptive  
+        2.  What is scientifically correct?  
+3.  INSPIRE terms for feature type vocabularies, RO ontologies for
+    relationship and type vocabularies
+    1.  Some challenges interpreting/selecting, and then applying the
+        terms consistently  
+4.  Vocabulary selection
+    1.  Judgement calls  
+    2.  Preferably has a definition that matches what you want  
+    3.  Correct context based on hierarchy that it fits into
+        1.  Makes sense within it  
+    4.  Are reused in other ontologies
+        1.  Could indicate that it is reputable and might help link them
+            all one day into a larger web  
+    5.  Human readable and machine readable  
+5.  How do we know if we really need to create a new vocabulary
+    1.  Quick service approach  
+6.  Challenges
+    1.  Does it need to say “in soil”  
+    2.  Do units matter or can we still use the vocabulary even if our
+        units do not match  
+    3.  Is it an observed property? What can I use to describe this?  
+7.  Various ontologies have soil processes relating to the living soil
+    1.  *From Simon Cox* -- Recommend also loooking at this catalogue of
+        ‘QuantityKind’
+        <http://www.qudt.org/doc/DOC_VOCAB-QUANTITY-KINDS.html> for the
+        basic observable properties - no chemistry, just the basics, to
+        which you would need to add the substance and matrix  
+    2.  *From Simon Cox* -- These all have RDF representations, and
+        dimension-vectors, and associated units-of-measure here
+        <http://www.qudt.org/doc/DOC_VOCAB-UNITS.html>  
+    3.  PATO, MICRO, etc.  
+8.  Challenges of describing which vocabs to use
+    1.  Go abstract to reduce the number of observed properties?  
+    2.  It is somewhat unclear what an observed property is  
+    3.  What is most useful? Who will find it useful?  
+    4.  *From Simon Cox* -- If your favorite unit or QK is missing,
+        request it here
+        <https://github.com/qudt/qudt-public-repo/issues>
+        1.  <https://github.com/qudt/qudt-public-repo/wiki/QuantityKind-Vocabulary-Submission-Guidelines>  
+        2.  <http://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentrationOfB>
+            or <http://qudt.org/vocab/quantitykind/MassConcentration>  
+    5.  *From Mark*: mass concentrations could be an observable property
+        for the example given
+        1.  At what level to describe the vocabularies?  
+9.  Example of soil phosphorus results from soil biological lab  
+10. What soil P process is being measured? What compound/form? Degree of
+    resolution/accuracy?  
+11. Current approach and considerations: Controlled vocabulary creation
+    1.  Create concepts that do not exist elsewhere such as asserted
+        values (classifiers) and soil chemical procedure vocabs  
+    2.  *From Mark Schildhauer* -- QUDT would tell us about a generic
+        type of quantity: mass-concentration; while OC/OM would tell us
+        about the “semantic type” of that mass concentration
+        1.  offhand, e.g. OC would be a subclass of OM  
+        2.  in an ontology, you’d model “OC” part_of “Total C”  
+    3.  Considerations
+        1.  Upskilling, time and effort  
+        2.  Domain expertise needed  
+        3.  URIs unique  
+12. Unit of measure
+    1.  Try to map to units as provided
+        1.  If it is not provided (real pain and time consuming) try to
+            contact the provider  
+    2.  Never create their own UoM vocabularies  
+    3.  Github is the primary maintenance environment
+        1.  Some units added as pull-requests  
+        2.  *From Simon Cox* --
+            <https://github.com/qudt/qudt-public-repo/issues/250>
+            1.  Open source -
+                <https://github.com/qudt/qudt-public-repo/tree/master/schema>  
+            2.  <http://registry.it.csiro.au/def/soil/au>  
+            3.  Sources here
+                <https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/browse>  
+            4.  Note that all these codes (6G1 etc) are directly from
+                the book <https://www.publish.csiro.au/book/6418>
+                1.  ^^Work in progress  
+13. In Australia most of the biogeochemical methods come from the green
+    book (Soil Chemical Methods - Australia). Handbook codes come from
+    yellow book (Australian SOil and Land Survey Field Handbook)  
+14. Soil chemical procedures is a nightmare
+    1.  Different types of classification schemes for what are
+        essentially the same attributes  
+    2.  Clarified with the provider but this is not always possible with
+        historic data  
+    3.  More than one green book code is occasionally provided  
+    4.  Have not linked methods yet, for example 7C1 and 7C2
+        1.  Sometimes have to do a very generic code  
+    5.  Sometimes there are underlying procedure with additional
+        calculations that make it difficult to know what to capture  
+15. Books:
+    1.  The yellow book -- has multiple chapters, and we are coding them
+        one at a time. We will have just about finished it when a new
+        edition will be coming out, so we will have to go into a
+        revision of the online vocabulary straight away
+        1.  *Andrew Biggs* supervising this revision  
+    2.  The green book -- (what Megan is working on)
+        <https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/browse/scma/SCMA.ttl>  
+    3.  *From Simon Cox* -- It is worth pointing out that when coding
+        the Yellow and Green books we have taken them ‘as is’ and have
+        deliberately \_not\_ done any remediation during coding, because
+        we did not want to confuse the two processes in the workflow.  
+16. Problem -- using 2 different schemas for the same attribute  
+17. Data standardization: interoperability, not reinventing wheels  
+18. AGRO (Agronomy Ontology) - Contains farming/agricultural
+    vocabulary  
+19. The starting assumption is that the handbooks are well thought
+    through
+    1.  Lift out what is in them to fit into a network/ontology  
+20. You can count on one hand the number of soil laboratories in
+    australia
+    1.  Can solve this problem if every lab formatted data consistently
+        1.  Hence why the green and yellow books exists  
+        2.  This is however sadly not what happens  
+    2.  Australia would be a good place to start
+        1.  Real target audience is the laboratories
+
+# \[Archive\] 4 November 2020 1400 UTC
+
+For those who were unable to, here is a recap:
+
+1.  We are officially an ESIP cluster! Upcoming changes to watch for
+    include a new mailing list (no action required on your part), a
+    switch from Zoom to GoToMeeting (link forthcoming), a new ESIP wiki
+    page, and a channel on the ESIP Slack for our cluster. We will make
+    a broader announcement once the ESIP wiki page and other logistical
+    details are finalized; stay tuned!  
+2.  We discussed shifting the time of the meetings to better accommodate
+    the US Pacific coast. We will now switch between 1600/2300 UTC
+    (instead of 1400/2300 UTC).  
+3.  We organized future presentations (we are always looking for
+    presentation volunteers so please reach out if you have an interest
+    in sharing with the cluster!). Mark Schildhauer will lead a
+    discussion on bulk density on December 2nd and we’ll be reaching out
+    to folks for the November 18th meeting.
+
+Agenda:
+
+1.  ESIP Cluster logistics
+    1.  New mailing list  
+    2.  Do we want to keep the same times? Alternate 1600/2300 UTC  
+    3.  Do we want Zoom or GoToMeeting? GTM  
+    4.  Help requested with: meeting recaps, scheduling presentations
+        1.  <https://docs.google.com/spreadsheets/d/1eyCIbEWC2tCLlPgfj8wceumzkNnS_i-ciSAcRITfx9s/edit?usp=sharing>
+            Presentations nomination  
+    5.  Populate wiki page
+        <https://wiki.esipfed.org/Soil_Ontologies_and_Informatics>  
+2.  Poster showcase for winter meeting - Mark Schildhauer leading
+    1.  Folder for info dump:
+        <https://drive.google.com/drive/folders/1WATqzxLPXaI2ZB_V6plO7Jj4I9Xi_PkF?usp=sharing>  
+    2.  <https://github.com/ESIPFed/soil_data_model_survey> -Todd-Brown
+        lab soil data review
+
+**NOTES**
+
+- Officially a cluster now! Borrow procedural things from ESIP.  
+- New Mailing list was sent out, you should see it soon!  
+- No preference shown on whether Zoom or GoToMeeting is prefered. Some
+  have never used GoToMeeting
+  - If GoToMeeting is used Megan frequently sits in and updates group
+    about ESIP opportunities  
+  - Leaning to GoToMeeting  
+- New presentations discussed.  
+- Wiki Page:
+  - Will be updated by soil informatics lab
+    - Take a look at other ESIP wiki pages  
+    - Look at ESIP group proposal for inspo
+      - <https://docs.google.com/document/d/1Fx4B1oLamhacp-bujAL2UrKaTBcSe_gGocaOUYJ_zpA/edit?usp=sharing>  
+  - Want a Github?  
+  - Engagement via wiki and slack  
+- “Showcase Poster” for ESIP Winter Meeting:
+  - Mark volunteered  
+  - Due sometime in December  
+  - Want to get interest in group  
+- UF students to send out synthesized recaps
+  - Hava offered to help out, too.  
+- Ask ESIP, Request a fellow  
+- Possibly share w Ag/Climate  
+- New meeting time?
+  - To accommodate Europe and Australia  
+  - Change time for EU/USA mtg to 1600 UTC
+    - Potentially 2300 UTC if Australia joins  
+- Contact Megan about a Slack channel  
+- Andrew Brown available to present in 2 weeks (18 Nov 2020)
+  - “I worked up some examples working with KSSL lab data + morphologic
+    rock fragment volume data for calculating carbon stocks -- i can
+    share with anyone interested”  
+- Dylan Beaudette to present in 4 weeks (2 Dec 2020)  
+- Possible Meeting topics:
+  - Porosity  
+  - Field capacity  
+  - Wilting point  
+  - KSAT  
+  - SOC  
+  - Particle size distribution  
+  - Db + C or Db + water retention
+    - Estimates water budgets  
+    - Measure C
+      - https://github.com/ncss-tech/lab-data-delivery/blob/master/manual/chemical-metadata.txt#L224  
+    - Db = bulk density aka Density (bulk)
+      - including empty pore space in volume, skeletal, \>2mm fraction
+
+# \[Archive\] 21 October 2020 2300 UTC
+
+### Action Item:
+
+Bulk density protocols and notes here: [Bulk Density
+Ref](https://drive.google.com/drive/folders/1WATqzxLPXaI2ZB_V6plO7Jj4I9Xi_PkF?usp=sharing)  
+1) If you are a field soil scientist, what is your decision tree for
+taking a bulk density measurement?
+
+- Tnwilliamson: if need information about porosity and soil structure
+
+2\) If you are soil data user, how do you identify ‘usable’ bulk density
+data in a database/dataset?
+
+- Tnwilliamson: either it comes from national lab or I know the person
+  who / method to collected / analyzed the sample
+
+### 
+
+### **Chat log:** [20201021_ontology_meeting_saved_chat.txt](https://drive.google.com/file/d/14BPzZgfvQ8LcGjY-cYaw_W_rVruuy5mR/view?usp=sharing)
+
+**Agenda:**
+
+1)  Review survey of current soil data products
+
+    1)  <https://github.com/ESIPFed/soil_data_model_survey> (see data/
+        for metadata tables)  
+
+2)  Layout soil ontology game plan/tasks
+
+    1)  Revisit/restructure data model descriptions  
+    2)  Extend repository to include major databases/data-models
+        (NRCS-NASIS, FAO-GSP-GLOSIS, and others)  
+
+3)  Notes
+
+    1)  Maybe confirmed as an ESIP cluster?? TBD  
+    2)  Comment from AB(?)
+        1)  Different data collected differently  
+        2)  Two specific TYPES of datasets (research, and general soil
+            surveys) noted in paper that are together, though in
+            Australia they keep those separate  
+        3)  How to keep them separate in database, like like putting
+            square in circle  
+        4)  Exchange between two is critical  
+        5)  How are data collected?  
+        6)  Researchers don’t use national coded dictionaries, though
+            they exist (i.e. Australia)  
+        7)  Problem is how to get people to do that, maybe a cultural
+            challenge, “is it beneficial to me?” mindset,  
+        8)  <http://registry.it.csiro.au/def/soil/au/scma>
+            1)  ^^Are updated item by item.  
+        9)  Two things
+            1)  Take historical data and work with it  
+            2)  Create process and system to make it easier for
+                researchers going forward  
+    3)  David - are there any other industries that could be interested
+        in standardizing their data
+        1)  Question - with university cooperators, is it the case, that
+            people are using NRCS characterization, NASIS data
+            structure?  
+        2)  Tanja - data might be more difficult to bring in  
+        3)  
+    4)  Kathe - in touch with Pecan Street, a private sector
+        organization
+        1)  How to incorporate qualities that are less common/more
+            rare?  
+    5)  Tanja - would land grant universities be interested
+        1)  Another source - \_\_\_ with elemental data  
+        2)  Start with cross referencing? Surveys and ontologies
+            1)  Could unlock vast new data/research  
+    6)  <https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/tools/?cid=nrcs142p2_053547>
+        1)  ^^NASIS 7 metadata  
+    7)  Simon
+        1)  I understand that SCMA is/was used quite broadly by the
+            Australian state agencies, but Andrew and Nathan would be in
+            a better position to comment. We have a goal of getting all
+            the NCST handbooks ported to the online registry, partly
+            because they will be easier to maintain there  
+        2)  The O&M or SOSA model separates ‘observed-property’
+            (e.g. bulk density) from ‘procedure’ (i.e. the reusable
+            method or protocol) from ‘sensor’ or ‘observer’ (the
+            instrument or person who implements the procedure). That way
+            you don’t have to proliferate the \# of
+            observable-properties too much, while still being able to
+            distinguish different ways of measuring it  
+        3)  
+    8)  It’s taking a lot of time transforming the historical data into
+        newer templates  
+    9)  NRCS/NCSS laboratory data analytes and code for processing LIMS
+        (internal laboratory database) snapshot-
+        <https://github.com/dylanbeaudette/process-kssl-snapshot/blob/master/NCSS_Analyte.txt>  
+    10) Soil Survey Laboratory Methods (by method code)
+        1)  <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcseprd1026807.pdf>  
+    11) Suggestion - start with “bulk density”
+        1)  Start with general search and gather the sub-categories
+            1)  Superclass is vague enough but useful  
+            2)  Subclass is more specific and precise  
+        2)  *Or is it the method of the definition rather than the
+            concept definition?*  
+        3)  Or searching ontologies for relevant terms, examining them
+            for \_\_\_ (i.e. sieve and \_\_\_)  
+        4)  Or start with PSD - leverage all existing transfer functions
+            and comparisons globally by Nemes, McBratney and Minasny,
+            etc (Nathan)  
+    12) Nathan - Yeah - the exact procedure is often what is missing and
+        critical re data quality and uncertainty in the observation  
+    13) Product of interest as a result of survey - \_\_\_ of
+        \[something\] for soil science community  
+    14) Simon Cox suggests use of SOSA/O&M to cut down on proliferation
+        of observable properties.  
+    15) Mark - O&M, SOSA, and OBOE (which my group developed) all have a
+        facet to describe “protocol” or “method”. Whether we then mint a
+        named subclass or not is worth considering. The above are
+        “ontology design patterns” for observations/measurements  
+    16) What to include - based on historical data?
+        1)  Statistics  
+        2)  \_\_\_  
+    17) Should devise coding system to capture all the vague terms  
+    18) Megan - collection(s) of terms  
+    19) Kathe - core level terms can still be relevant and useful;
+        different usages may entail needing different levels of
+        detail…  
+
+4)  Next steps
+
+    1)  Document what it is researchers need to collect as metadata for
+        their research methods?  
+    2)  Pick one property of “bulk density” or “\_\_\_\_”, to see how
+        much comparison there is in this small experiment  
+    3)  Also how we should document how we were able to find how “Bulk
+        Density” is defined in any Database (e.g. having to search some
+        Web site), and then which “variable” in the dataset carries
+        those measurements… it is documenting the difficulty of
+        discovery and access…
+        1)  (comment from Mark)  
+
+5)  **Drive folder**:
+    <https://drive.google.com/drive/folders/1WATqzxLPXaI2ZB_V6plO7Jj4I9Xi_PkF?usp=sharing>
+
+6)  Other version of notes:
+
+    1)  Still waiting to hear back for EISP on the clustering status
+        1)  Approved? But still waiting for it to be set up  
+        2)  Will transition over when that comes through
+            1)  Slack channel  
+    2)  Document touches on two core problems
+        1)  Nature of the collection of soil data: soil survey and
+            research
+            1)  Soil survey is predominant
+                1)  Data that characterizes the natural environment
+                    data  
+            2)  Research data focuses on more specific things
+                1)  In Australia, they are kept separate  
+            3)  Difficulty trying to stick them in one spot because they
+                are fundamentally different
+                1)  Sometimes have to accept that we cannot put them all
+                    in one spot  
+                2)  The ability to workout what you can and cannot
+                    equate and exchange between them  
+        2)  Getting to the bottom of how the data was collected
+            1)  In Australia there are a bunch of public method codes in
+                a handout (cultural challenge)
+                1)  Researchers do not use this
+                    1)  Convincing them to use it is a common problem
+                        1.  A lot are already published  
+                        2.  Do not want to go back to do it  
+            2)  Any pipeline where you are asking the data provider to
+                identify their methods with a certain code is basically
+                a no go  
+    3)  Sharing of data
+        1)  LTER is an example of showing the benefit of sharing data  
+        2)  Sharing data seems to be increasing  
+    4)  Other problems
+        1)  How to flag data quality  
+        2)  Tertiary datasets
+            1)  Duplicate sources of truth (replicates)
+                1)  Leads to confusion in the marketplace  
+                2)  Appropriate metadata could help solve this  
+                3)  Growing issue at the moment  
+    5)  AG industry interest that may not be represented here
+        1)  Dr. TB is in touch with a group out of pecan street  
+        2)  Could be interesting to include the perspectives ALTR, the
+            university ag extension university  
+    6)  Next steps discussion
+        1)  Are people using the NRSC data structure?
+            1)  Land grant universities are, but non-land grant
+                universities are less likely to
+                1)  Data from non-land grant universities would be more
+                    difficult to pull in even though they are valuable  
+        2)  The datasets that Dr. TB works with are less standardized
+            and expensive to run, worth diving into the literature and
+            extracting data
+            1)  How can we incorporate rarer descriptions?  
+        3)  If we could put the traditional data together we could
+            answer some global questions
+            1)  No shortage of data out there, just need to get it to a
+                harmonized standard
+                1)  Someone has to wade through the data  
+    7)  Two options for moving forward
+        1)  Gather and collect historical data  
+        2)  Create the processes and systems to make it easier going
+            forwards  
+    8)  How to start:
+        1)  There is already low hanging fruit for us to capture into an
+            ontology
+            1)  pH, CEC, bulk density, etc.  
+            2)  Easier to start with this  
+        2)  Do we start with cross referencing the largest surveys?
+            1)  Seem to agree yes  
+        3)  Start with bulk density?
+            1)  Pull NRSC, ISRIC, Queensland, FAO definitions  
+            2)  bulk density is appealing because it really gets at the
+                modifiable volumetric unit problem of soils --it affects
+                all other determinations whether you like it or not
+                1)  Diving into one thing like bulk density can drive
+                    you down a rabbit hole  
+        4)  Another way forward is searching ontologies for relevant
+            terms
+            1)  Enhancing them and working from there  
+        5)  Alternate approach
+            1)  Taking two data products and try to map them
+                1)  More tangible and recordable  
+            2)  Then add another and see what needs to be added  
+            3)  More of an applied use case approach and prep the
+                questions  
+        6)  Coming up with a robust data template could be a product of
+            interest  
+    9)  Ways to structure it
+        1)  The O&M or SOSA model separates ‘observed-property’
+            (e.g. bulk density) from ‘procedure’ (i.e. the reusable
+            method or protocol) from ‘sensor’ or ‘observer’ (the
+            instrument or person who implements the procedure). That way
+            you don’t have to proliferate the \# of
+            observable-properties too much, while still being able to
+            distinguish different ways of measuring it
+            1)  the exact procedure is often what is missing and
+                critical to data quality and uncertainty in the
+                observation  
+        2)  subclassing things
+            1)  Hierarchy  
+    10) A balance of including coarser descriptions
+        1)  Knowledge graph become really appealing
+            1)  Can lead to the development of questions to drive the
+                focus  
+    11) Next steps:
+        1)  Documenting what it is that researchers need to collect as
+            metadata for their methods
+            1)  Dr. TB disagrees: What is necessary for one use case may
+                not be valuable for others
+                1)  Hesitant to tell people that their data is not
+                    valuable  
+        2)  **Come with bulk density methods that we have most
+            frequently used as a start for next meeting**
+            1)  Allows us to figure out what is included in the lineup  
+            2)  Setting up google drive folder
+
+# \[Archive\] 7 October, 2020 - 1500 UTC
+
+Zoom recording in folder:
+<https://drive.google.com/drive/folders/16j_lQlLoY50L5Rev7UssymD_TbotZZsX?usp=sharing>
+
+- Will Wieder SoDaH presentation
+  <https://lter.github.io/som-website/index.html>  
+- Kathe Todd-Brown soil data model review presentation
+  <https://esipfed.github.io/soil_data_model_survey/>
+
+**Notes**
+
+- 1st speaker - Guest Will Wieder - SOils DAta Harmonization (SoDaH)
+  - Website https://lter.github.io/som-website/index.html  
+  - Shiny app https://cosima.nceas.ucsb.edu/lter-som/  
+  - GitHub https://github.com/lter/lterwg-som  
+  - Paper <https://doi.org/10.5194/essd-2020-195>  
+  - Expansion of network science and hasn’t been standardized quite well
+    quite yet  
+  - 3 networks
+    - LTER, NEON, DIRT = SoDaH
+      - LTER uses the Shiny app, a data visualization tool  
+  - Synthesizing old sets into ?\_\_?  
+  - Harmonized data files in level 1 data, aggregated SoDaH dataset in
+    level 2 data  
+  - Manual mapping from raw data to this template, after this process
+    the rest is a scripted workflow which is easily repeatable and less
+    time-consuming  
+  - Challenges - identification, visualization, analyses,
+    harmonization/aggregation  
+  - R codes available for transforming, harmonizing, and stitching  
+  - Their metadata template is inspired by ISCN via ISRAD
+    - Presently all data is manually entered  
+    - Fewer tabs: 1) location 2) metadata  
+  - Other challenges
+    - How data is collected and how you record that against others  
+    - Maintaining data hierarchy  
+    - How to align data when sometimes you have the needed data from a
+      site but from the wrong plots on the sites  
+    - Site characteristics  
+    - Chemical, physical, topographical properties of sites vary  
+    - Manipulation and time series  
+    - Data analysis - alignment and aggregate  
+  - Data synthesis challenges
+    - Mapping “bottlenecking”
+      - Maintaining parent-child relationships  
+      - map ping from EML metadata to harmonize data products  
+      - Controlled vocabulary, dictionary  
+  - *Comment from an attendee*: SoDaH laid out a great foundation for
+    the soil/carbon world regarding ontologies.  
+  - This work calls for control vocabulary/dictionary and coordinating
+    amongst networks  
+  - I note that LTER includes a controlled vocabulary of:
+
+| carbon dynamics, carbon, organic carbon, soil, soil bulk density, soil carbon, soil chemistry, soil horizons, soil moisture, soil nitrogen, soil nutrients, soil organic matter, soil ph, soil phosphorus, soil properties, soil respiration, soil samples, soil solution chemistry, soil texture |  |
+|:---|:---|
+| And LTER core areas | Movement of Organic Matter, Movement of Inorganic Matter |
+
+- 
+- 2nd speaker - Chair Kathe Todd-Brown - ISCN background
+  - Built off of ?Kellog soil science lab?  
+  - Started with ISCN, idea was to bring soil carbon researchers
+    together around data  
+  - ISCN pre-2017 workflow
+    - Largest profile collection in the world in 2015  
+    - Data provider fills out a template  
+    - Data coordinator iterates w providers  
+    - Template is passed to database admin and merged  
+    - Closed-box product difficult to build off of after generational
+      turnover  
+    - Database is QA/QC’d and published  
+  - Challenges that arose
+    - Self-reference columns vs metadata
+      - For example, units were encapsulated in the column name vs in a
+        separate column  
+    - Mismatched methods
+      - Sieved vs hand-picked bulk density, not directly comparable
+        methods  
+    - Provenance, i.e. missing decimal points
+      - · Cannot change if not your data, how do you track and maintain
+
+      QA/QC, i.e. repeated data
+  - Drew inspiration from Ameriflux and ?\_\_?  
+  - Creation of 4 sheets with undergraduate lab students
+    - *Data structure* describes tables and elements  
+    - *Thesaurus* matches variable names  
+    - *Metadata* describes units and methods (often)  
+    - *Controlled vocabularies* describe any controlled vocabularies
+      used in data
+
+# \[Archive\] September 23, 2020 - 2000 UTC
+
+## Agenda:
+
+1.  Roll call  
+2.  Logistical updates
+    1.  Group governance and formal/informal connections to broader
+        efforts \[eg ISCN, ESIP, GSP/GloSIS\]
+        1.  ESIP cluster proposal:
+            <https://docs.google.com/document/d/1wyplA7K7IHIY_yPXTydfFYNTwiXyrZY2R_9lu3LjRhk/edit?usp=sharing>  
+    2.  Future presentation and activity proposals:
+        <https://docs.google.com/spreadsheets/d/1eyCIbEWC2tCLlPgfj8wceumzkNnS_i-ciSAcRITfx9s/edit?usp=sharing>  
+3.  Community presentation: ISRIC and GLOSOLAN presentation by Fenny van
+    Egmond
+
+## Notes:
+
+Zoom recording:
+<https://ufl.zoom.us/rec/share/RLNk7Fga-H2JtBN1NNBnrH-a2LvvE4dIxGd_mQcGkl_eX2EuEMr-11B2pKLyrpVH.9uY8id2FAIKytLOL>  
+Slide Deck:
+<https://drive.google.com/file/d/1lSOF6YZOz2Gx0RIFVnMIMv4dW9xK8vEm/view?usp=sharing>
+
+Fenny van Egmond, ISRIC Presentation
+
+- Background: ISRIC founded in 1966, focusing more and more on soil
+  information  
+- Need a common standard across countries
+  - Outlet analogy  
+- Use case: OGC Interoperability Experiment
+  - Shows that it is possible.  
+  - Ontologies for existing and pending data standards need to be
+    published  
+  - Data providers need to publish URI’s for their features or it will
+    not work  
+- Godan: International data
+  - Working group, promoting open soil data  
+  - They wanted to agree on the global data structure  
+  - All volunteering, no funding. That is where it went wrong
+    - still have about 80 people worldwide that are interested, so
+      possible to revive if needed  
+- Global Soil Partnership
+  - All associated with FAO are automatically a member of Global Soil
+    Partnership, country-driven  
+  - Trying to bring soil to the forefront
+    - Goal - enhance sustainable soil management  
+  - Mainly governmental, lacking private sector  
+- GSP- Pillar 4 - Soil Information
+  - Soil profile (point) -\> Global Products  
+  - Many maps being published and coming in the future (erosion, soil
+    salinity, biodiversity)  
+  - Guidelines and implementation  
+- GloSIS Guiding Principles
+  - Everyone will keep their data and decide on what to share and how to
+    share according to the data policy (meant to be a decentralized
+    system)  
+  - Proof-of-concept GloSIS data exchange service  
+  - Meant to be lightweight, open source  
+  - based on OGC open API for now and (JSON)Linked Data  
+  - Presently, working on a status doc
+    - Publishing general specifications standards of what they pushed
+      last year  
+  - Data portal
+    - Data present, maps, others data but not necessarily harmonized
+      yet  
+    - Pillar 5 provides the mechanisms for developing and exchanging
+      globally consistent and comparable harmonized soil information
+      - Includes: Soil profile observation and description data,
+        laboratory and field analytical data, and derived products  
+    - Inspire SO and ISO 28258 = GLoSIS  
+- SIEUSOIL
+  - Glosis requirements, identify issues in ISO now, adapted ISO model
+    in spring to be more practical and more appropriate  
+  - How can we use in Europe, if we already have INSPIRE
+    - INSPIRE: harmonizing data in Europe
+      - INSPIRE is a legal framework, you have to do it
+        - Mandatory starting next month  
+        - Countries will have to comply (not many countries currently
+          manage this so need to find a way to make it work together)  
+      - Better information to support policies  
+      - Improvement of information flows  
+    - The conceptual model is well developed but how to implement it?
+      - What is the right balance? Simple vs. Complex  
+    - European Joint Project on Soil
+      - Connect researchers, countries, facilities, etc. on soil stuff  
+      - Mailing list  
+- WP6 harmonized soil information and reporting
+  - Producing a template for soil data and metadata storage  
+  - Codelists first necessity for harmonization/mapping of data
+    - Check of current lists, templates, create codelists for
+      international standards  
+  - Template system for soil scientists to CSV (for national
+    standards)  
+- Pillar 5 - Harmonization
+  - Helping other countries and making it easier for them to make their
+    soil data structures.  
+  - Working groups on wet and dry chemistry
+    - Skills to help you more efficiently record soil properties  
+- Questionnaire to evaluate needs of the community
+  - Want something organizational for data structure that they can use  
+  - Overwhelmingly willing to share data but do not necessarily know how
+    to  
+- Questions to talk:
+  - Q: what do you mean by “domain model”— is it terms, hierarchies and
+    relationships among soil topics/entities/properties, or (what I
+    thought appeared in your 29 slide)— a normalized relational model?  
+  - Q: Is the “P5 WG: GLOSIS domain model” available for review, as well
+    as the “semantic version” being developed by SIEUSOIL?
+    (e.g. GitHub?)
+    - A: Modeled in UML and spreadsheet, and last night they want
+      straight to OWL  
+  - Do not want to start efforts that will duplicate/run into others
+    that already exist  
+- Future Plans
+  - \*\*Presentation with Kathi\*\*  
+  - \*\*Mark presentation maybe although his project is just
+    starting\*\*  
+  - \*\*Or to get Pier to present\*\*  
+  - \*\*soil semantics panel\*\*  
+- Websites shared today:
+  - <https://data.isric.org/geonetwork/srv/eng/catalog.search#/search?resultType=details&sortBy=relevance&from=1&to=20>  
+  - <http://www.fao.org/global-soil-partnership/about/why-the-partnership/en/>  
+  - <http://www.fao.org/soils-portal/en/>
+
+# \[Archive\] August 26, 2020 - 14:00 UTC
+
+Please add your name and institution below \[~14 people on call\]
+
+## Recap
+
+    We brushed up the purpose statement, brain stormed some community presentations we would like to see happen and started to talk about collaboration session topics.   
+
+Instead of recapping this directly here I would like to encourage you to
+head over to this google form: <https://forms.gle/etCvs633dEyBZHWTA> to
+vote on some priorities for the group. There are 5 sections here: a
+group name, ratification of the group purpose statement, topics for the
+community presentations, topics for collaborative sessions, and finally
+some brief questions about who you are and the level of engagement you
+are looking for with the group. The collaboration sessions are
+relatively ambiguous at this stage, think of this as a broad gauge at
+this stage and we’ll resurvey after the first two community
+presentations.
+
+## Agenda
+
+1.  New? Add your introduction to the end of this document!  
+2.  Vision and purpose document [SoilOnt-Purpose \| Google
+    Doc](https://docs.google.com/document/d/1Fx4B1oLamhacp-bujAL2UrKaTBcSe_gGocaOUYJ_zpA/edit?usp=sharing)
+    **\[Breakout group discussions - 5 minutes\]**
+    1.  GOAL: Is there anything that absolutely *MUST* change?
+        1.  Minor suggestions or revisions for this document can go to
+            Kathe or dropped into the comments.  
+    2.  BY FRIDAY: We’ll vote to ‘ratify’ the vision/purpose document
+        after this meeting via google survey. All future group
+        activities must align with this vision/purpose document.
+        Vision/purpose will be revisited next summer.  
+    3.  GOAL: Generate name ideas! Vote at the end of the meeting on
+        August 26th
+        1.  SILT \[Soil Information Linkage Team \*or similar HT Jessica
+            B\]  
+        2.  SOIL \[Soil Ontology and Information Lineup\]  
+        3.  SOW \[Soil Ontology Working group\]  
+        4.  Soil Ontology working group \[acronyms are over used\]  
+        5.  SoilInfo \[too cool for acronyms but cool enough to drop
+            syllables\]  
+3.  Planning for community presentations **\[Breakout group
+    discussions - 10 minutes\]**
+    1.  Goal: 3 months of topics/orgs list (with presenters)  
+    2.  Goal: List of questions we are interested in community speaking
+        to  
+4.  Planning for working group **\[Breakout group discussions - 10
+    minutes\]**
+    1.  Goal: Identify top 3 measurements we want to translate to
+        ontologies,
+        1.  Include nominations for a lab person to give a brief (5-10)
+            measurement background and an ontology specialist who will
+            commit to showing up at that meeting.
+
+## Notes
+
+### Community presentations brainstorm
+
+#### Who we want speaking
+
+- Groups and specific individuals therein who have developed and/or are
+  developing soil vocabularies or ontologies in the past
+  - E.g. US NRCS National soil information system, soil characterization
+    data, Ecological site descriptions  
+  - Australian soil taxonomy vocabulary services  
+  - [European INSPIRE soil
+    theme](https://inspire.ec.europa.eu/theme/so)  
+- Soil data generators who use soil vocabularies/ontologies  
+- Machine learning developers who use ontologies (?soil)  
+- Informatics people who can explain workflow, tools (Pier!), (Wade
+  Bishop)  
+- Need to include soil researchers, data repository managers, knowledge
+  modellers, and database modellers  
+- Experts in methodological harmonization (how to translate across
+  different techniques for measuring, e.g. pH, bulk density, etc.)  
+- Researchers currently working on some soil synthesis/integration
+  project to tell us of their challenges (finding data?
+  interpreting/re-using data? re-shaping/converting data?)  
+- Need to consider dealing with legacy data vs “looking ahead”  
+- People translating conceptual models into implementations of data
+  models  
+- Spatial data (map) vs point data (pedon)– how scale these  
+- Users of soil synthesis productions (Modelers, policy, farmers, etc)
+
+#### Question to presenters:
+
+- How do you manage or connect soil/scientific information?  
+- What is difficult about what you do?  
+- What works really well?  
+- How can we train future professionals in these areas?  
+- Can you walk us through an example or short case study that highlights
+  the work you do (tools, workflow, inputs, outputs?)
+
+#### Possible organizations
+
+- [Global Soil
+  Partnership](http://www.fao.org/global-soil-partnership/en/), [Global
+  Soil Information System](https://glosis.isric.org/)  
+- USDA, NRCS - Dylan Beaudette??, Dough?  
+- USDA, NRCS - Doug Wysocki - retired leader of National Soil Survey and
+  Kellogg Lab  
+- ENVO - Pier Luigi Buttigieg  
+- CSIRO Australia  
+- International Soil Carbon Network - Kathe Todd-Brown and SoDaH - Will
+  Wieder/Stevan Earl \[keyed template approach to harmonization\]  
+- Manaaki Whenua Landcare Research (New Zealand)? Vocabularies: Brandon
+  Whitehead?  
+- Kathi Schleidt - how to implement conceptual models (eg INSPIRE) using
+  the latest geostandards (OpenAPI, Sensorthings etc) and then what
+  challenges do you face  
+- Nic Jelinski - University of Minnesota - linking public & private soil
+  datasets (example of soil organic carbon / permafrost affected soils
+  in Alaska, USA).
+
+### Working group actions
+
+#### Brainstorm
+
+- Construct ontologies for common soil measurements taken from survey of
+  research data products and extant vocabularies
+  - Start by building concept maps, use those maps to help us identify
+    good starting points for building the ontological terms  
+- UI to construct data template from common vocabularies
+  - Make synonyms list?
+    - What tools already exist  
+    - Is this properties? Or methods? Or taxonomy?  
+- Publicize resource list for soil informatics  
+- Review ENVO soil terminology  
+- Applications of ontology design patterns for soil description  
+- Tools and guidelines for how to map your data to ontologies (Hale
+  Studio?)  
+- Mechanisms to automate annotation/alignment of legacy data to “modern”
+  vocabularies  
+- Governance?
+
+# \[Archive\] August 12, 2020 11PM UTC
+
+*Please add your name and institution below*
+
+| Name                 | Institution                               | On call? |
+|:---------------------|:------------------------------------------|:---------|
+| Kathe Todd-Brown     | University of Florida / ISCN              | Yes      |
+| Pier Luigi Buttigieg | Helmholtz Metadata Collaboration / GEOMAR | Yes      |
+| Stevan Earl          | CAP LTER / Arizona State University       | yes      |
+| Brian Wee            | Massive Connections, LLC                  |          |
+| Simon Cox (SJDC)     | CSIRO Australia                           | Here!    |
+| Tanja Williamson     | USGS                                      | yep      |
+| Hava Blair           | University of Minnesota                   | yes      |
+| Avni Malhotra        | Stanford University / ISCN                | yes      |
+| Stephen Richard      | USGIN Foundation                          | yes      |
+| Jen Harden           | Stanford, USGS, ISCN                      | yes      |
+| Melissa Cragin       | SDSC                                      |          |
+| Jessica Burnett      | USGS                                      | no       |
+| Lillian Heran        | University of Florida                     | yes      |
+| Nic Jelinski         | University of Minnesota                   |          |
+| Bill Teng            | NASA GES DISC (ADNET)                     | Yes      |
+| Gary Berg-Cross      | Ontolog                                   | Yes      |
+| Mark Schildhauer     | NCEAS/UC Santa Barbara                    | yes      |
+| Brandon Whitehead    | Manaaki Whenua – Landcare Research        | yep      |
+| Gaurav Sinha         | Ohio University                           | yes      |
+| Ashley Orehek        | University of Tennessee                   | yes      |
+| Andrew Biggs         | Queensland Govt.                          | yes      |
+
+## Post meeting Recap
+
+August 12th’s meeting had 18+ participants. The focus of this meeting
+was to identify what we, as participants, wanted to get out of these
+meetings. There were three general themes to the responses: connect with
+other researchers, review existing resources, and develop targeted
+ontology/resources/tools to help the soil informatics community. A lot
+of discussion went into aggregating and reviewing existing resources,
+rightly so since there seems to be a lot out there!
+
+Here is a link to a working draft of the group purpose and vision:
+[SoilOnt-Purpose \| Google
+Doc](https://docs.google.com/document/d/1Fx4B1oLamhacp-bujAL2UrKaTBcSe_gGocaOUYJ_zpA/edit?usp=sharing)
+I’m proposing that we split our meeting times between presentations and
+working groups. Keep an eye out for further discussion!
+
+## Agenda
+
+- Recap of previous meeting  
+- Introductions and what do you want to get out of this group?
+  \[Breakout groups - 5 minutes =\> group check ins\]  
+- What is the “Mission statement” of this group? \[Breakout groups - 10
+  minutes =\> group check ins\]
+
+## Homework
+
+- What do YOU want to get out of this group?
+  - Information gathering:
+    - Contact groups working on soil ontologies/vocabularies and ask for
+      seminars/QA sessions  
+    - Learning from each other in general, different soil subfields  
+  - Ontology development:
+    - Submit/curate ontology submissions (ENVO?)  
+    - Connecting vocabularies/ontologies  
+  - Better connections/understanding of data needs and data management
+    challenges for different soil subfields  
+  - Lower barrier to entry for using updated base data for research;
+    updating measurement linkages; tracing data usage to decisions  
+  - Make data more FAIR  
+- What resources are you aware of around soil ontologies and
+  vocabularies?
+  - USDA Thesaurus and Glossary Home
+    - <https://agclass.nal.usda.gov/agt.shtml>  
+  - USDA NRCS soil taxonomy
+    <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051232.pdf>;
+    appendix has ‘Data Elements Used in Classifying Soils’ that defines
+    properties
+    - Please keep in mind that the referenced document may be from 1999,
+      but the working copy (Keys to Soil Taxonomy) is actively updated
+      every couple of years.
+      <https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/>  
+    - We have done a fair amount of work splitting the taxa up into
+      pieces, already in an R package just waiting for some clever
+      synthesis. <https://github.com/ncss-tech/SoilTaxonomy>  
+    - 
+  - \* [Australian Soil and Land Survey vocabularies linked data
+    service](http://registry.it.csiro.au/def/soil/au) (incomplete) -
+    (SKOSified representation of this hard copy resource - [Australian
+    Soil and Land Survey Field Handbook, 2009,
+    third](https://www.publish.csiro.au/book/5230/) edn.)  
+  - THE AUSTRALIAN SOIL CLASSIFICATION -
+    <https://www.publish.csiro.au/book/7428> hard-copy only :-(  
+  - ENVO soil issues:
+    <https://github.com/EnvironmentOntology/envo/labels/soil>  
+  - INSPIRE Data Specification on Soil - Technical Guidelines (published
+    2013; European Commission, Infrastructure for spatial information in
+    Europe) <https://inspire.ec.europa.eu/id/document/tg/so>  
+  - ISO 28258 Soil quality - digital exchange of soil-related data
+    “SoilML?”
+    <https://www.iso.org/obp/ui/#iso:std:iso:28258:ed-1:v1:en>  
+  - An Ontology of Soil Properties and Processes:
+    <http://archive.researchdata.leeds.ac.uk/42/> – Information
+    extracted/axiomatised from [Principles of Soil
+    Physics](https://www.taylorfrancis.com/books/9780429215339), by
+    Rattan Lal and Manoj K. Shukla, 2004  
+  - Open Geospatial Consortium 2016 “Soil Data Interoperability
+    Experiment” <https://www.ogc.org/projects/initiatives/soildataie>  
+  - \* Global Soil Partnership, Global Soil Information System “data
+    exchange model” (will be *GloSISML*, or similar) –
+    <http://www.fao.org/global-soil-partnership/pillars-action/4-information-data/glosis/en/>
+    This work has stalled, but is technically ongoing. @Brandon can ping
+    the group about sharing the work done thus far if there’s
+    interest.  
+  - SWEET Soil related: <http://sweetontology.net/realmSoil> (there will
+    be others; for example
+    [pedogenesis](http://sweetontology.net/phenGeol/Pedogenesis) is in
+    [phenGeo](http://sweetontology.net/phenGeol)l)  
+  - USGS Thesaurus - <https://www2.usgs.gov/science/about/>  
+  - Schoeneberger, P.J., Wysocki, D.A., and Benham, E.C., 2012, Field
+    book for describing and sampling soils (Version 3.0 ed.): Lincoln,
+    NE, Natural Resources Conservation Service, National Soil Survey
+    Center. - converts different characterizations (units and terms) of
+    properties described in field
+    <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052523.pdf>  
+  - SoTerML ?  
+  - World Reference Base for Soils 2014
+    <http://www.fao.org/3/i3794en/I3794en.pdf>  
+  - [http://www.fao.org/soils-portal/soil-survey/soil-classification/en/](https://urldefense.proofpoint.com/v2/url?u=http-3A__www.fao.org_soils-2Dportal_soil-2Dsurvey_soil-2Dclassification_en_&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yXEkrSZywQKkdywe4v8lDT8yEXjXx50D8l1jx0odZ6s&s=fLXvuOCHhLD2ICf9fzZhnQYlC3PDSbQN5ANWw3RxYE4&e=)  
+  - [https://www.isric.org/projects/soil-and-terrain-soter-database-programme](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.isric.org_projects_soil-2Dand-2Dterrain-2Dsoter-2Ddatabase-2Dprogramme&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yXEkrSZywQKkdywe4v8lDT8yEXjXx50D8l1jx0odZ6s&s=8TAAIz7D1-45T5AFjaY3Jj8nPahV47hPSgFIrVpiSYg&e=)  
+  - Here’s the Australian soil orders:
+    [https://github.com/EnvironmentOntology/envo/issues/825#issuecomment-546218341](https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_EnvironmentOntology_envo_issues_825-23issuecomment-2D546218341&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yGMNM5Sz43giD38Z37SqgDcTEX_3IpQtbY5TqAOF8AQ&s=gvbWU5Rg4xoqnQpT8vm3BqP-eutAoZIdyHNxp-5sMvw&e=)  
+    (from
+    [https://www.publish.csiro.au/book/7428](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.publish.csiro.au_book_7428&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yGMNM5Sz43giD38Z37SqgDcTEX_3IpQtbY5TqAOF8AQ&s=JK6fjuiwrA1CAhHkMncLP9Ay8jLuDvR4LP7346ejk5E&e=))
+
+Starting point for “soil” in a variety of generic vocabularies:
+
+- <http://id.loc.gov/authorities/subjects/sh85124396> - Library of
+  Congress Subject Headings (LCSH)  
+- <http://purl.bioontology.org/ontology/MESH/D012987> - Medical Subject
+  Headings (MeSH)  
+- [http://purl.org/au-research/vocabulary/anzsrc-for/2008/0503](https://vocabs.ands.org.au/repository/api/lda/anzsrc-for/resource?uri=http://purl.org/au-research/vocabulary/anzsrc-for/2008/0503) -
+  ANZ Standard Research Classn - Field of Research  
+- [http://purl.org/au-research/vocabulary/anzsrc-seo/2008/9614](https://vocabs.ands.org.au/repository/api/lda/anzsrc-seo/resource?uri=http://purl.org/au-research/vocabulary/anzsrc-seo/2008/9614) -
+  ANZ Standard Research Classn - Socio-Economic Objectives  
+- <https://gcmd.earthdata.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91> -
+  Science Keywords (GCMD/NASA)  
+- <https://www.eionet.europa.eu/gemet/en/concept/7843> - Eionet
+  (GEMET/EEA)  
+- [http://id.agrisemantics.org/gacs/C113](http://browser.agrisemantics.org/gacs/en/page/C113) -
+  Agrisemantics (GACS)  
+- <http://sweetontology.net/matrSediment/Soil> - SWEET (ESIP)  
+- [https://wikidata.org/entity/Q36133](https://www.wikidata.org/wiki/Q36133) -
+  Wikidata  
+- [http://dbpedia.org/resource/Soil](http://dbpedia.org/page/Soil) -
+  DBpedia  
+- <http://purl.obolibrary.org/obo/ENVO_00001998> - Environment Ontology
+  (ENVO)  
+- <http://vocab.nerc.ac.uk/collection/A02/current/Soil/> - OCA Coastal
+  Erosion (in NERC Vocabulary Service …)  
+- <http://www.opengis.net/def/waterml/2.0/medium/Soil> - Open Geospatial
+  Consortium  
+- <http://www.owl-ontologies.com/BiodiversityOntologyFull.owl#Soil> -
+  Biodiversity Ontology  
+- <http://purl.obolibrary.org/obo/OBT_000133> - BRENDA Tissue and Enzyme
+  Source Ontology (BTO)
+
+## Mission Statements from second breakouts:
+
+Participants: Jennifer, Brandon, Mark, Gary
+
+Breakout \#1: assess existing best-of-class “soil vocabulary/thesaurus”
+resources, and then identify (extend, reformat?) and/or develop a
+community-vetted Soil Ontology for use by agency, academic and policy
+researchers to make data, or any research artifact, more FAIR (findable,
+accessible, interoperable, reusable) if it has a soil aspect. Will
+require identifying useful knowledge modeling “structures”:
+web-accessible dereferenceable HTTP IRI identifiers for terms,
+associated labels and definitions, subsumption, properties, possible
+further axiomatization useful for classification and inferencing–
+granule size, carbon content, mineral composition, etc.) Start with
+identifying core set of 2-3 dozen useful terms (relatable to real data),
+spanning the most important aspects of soil, and highly relevant to
+current critical foci of soil research and data description. Consider
+how these can be integrated into existing ontology(ies) such as SWEET or
+EnvO? Focus on Data relevant! But bonus points for including terms that
+can also be used in statements about relationships: “some” soilType
+“facilitates” “some” “crop”– a statement that would be more a model
+outcome or result, but well-defined due to referencing terms from the
+Soil Ontology
+
+\#4: Recognizing the existence and diversity among soil terms and
+vocabularies, lots of value already on the shelf. View this as
+incremental process and training material is really valuable. What would
+incremental deliverables look like? Cryosymatic group focus on one-two
+terms per call. As we are creating this keep an eye on text mining and
+machine learning.  
+From Pier Luigi Buttigieg (Helmholtz Metadata Collaboration) to
+Everyone: (7:47 PM)
+
+Here’s an example of a cryohackothon session:  
+https://github.com/EnvironmentOntology/envo/pull/784
+
+\#3: lots of existing terminology and we are NOT interested in creating
+a new vocabulary but are interested in bridging vocabularies. Maybe not
+harmonizing but comparing definitions. Pick some small property domain
+(ideally related to a specific problem/use case) and compare terminology
+across several widely used vocabularies, mapping level might start with
+just linking to all definitions related to a particular term; better yet
+add annotation to indicate how similar/dissimilar the labeled concepts
+are in the different vocabularies.
+
+\#2: Work on some kind of case study or ‘competency questions’ ontology
+design patterns (??). Example case of ‘how we do ontology’. Linking in
+vocabulary with what ends up being quantitative differences
+
+Kathe TODO:  
+Call recap - out by Aug 14th  
+Draft a mission/purpose statement  
+Divide and conquer existing resources - US system, Aussie system;
+gsp/glosis  
+Listening sessions - Science and semantics/ontology/informatics best
+practices  
+Use case examples - 1) harmonize research data 2) harmonize national
+database 3) term harmonization/ontology connections
+
+## Post-meeting notes
+
+\[Notetaker: Lillian Heran\]
+
+**Recap of the last meeting:**
+
+- Introductions  
+- Breakout rooms: What do you understand an ontology to be?  
+- Pier walkthrough of soil ontology
+
+**Breakout Rooms:** Check-in, Why are we here? What do we want to get
+out of these calls?  
+Breakout 4: Hava, Lillian, Pier
+
+- Talking among different kinds of fields that use soil  
+- Meeting new people  
+- Learning from each other
+
+Breakout 3: Simon, Stevan
+
+- Systematic vocabulary, harmonization, and bridging  
+- Different fields working together soil and geology people
+
+Breakout 2: Tanaj and anvi
+
+- Data users perceptive  
+- How people use old datasets ever though there are newer versions
+  available  
+- Outreach and communication to researchers  
+- Researcher and ontologies together  
+- Using old data that can mess up models and parameterizations  
+- Making it easier to update data and data reentry  
+- Tracing data usage, methods, why it matters?
+
+Breakout 1: Brendan, Jenn, Gary, Mark
+
+- Glacier ontology  
+- Brandon: module ontologies of soil  
+- Jenn: Marks data is centered on carbon soil  
+- Use case on carbon data on the soil to move forward  
+- Finding, using, and reoperating data in the environment  
+- Want to involve the professionals to make reebok vocabulary  
+- Make data fairer
+
+Synopsis:
+
+- Information gathering, what’s ur science like, what is ur data like?  
+- More ontology develop
+  - Connecting lists and existing ontologies  
+  - Development
+
+Comments on Synopsis:
+
+- Andrew Biggs: there are tons of vocabulary books and lists on soil,
+  every country has their own, some things can be harmonized or unified
+  and some of them are never going to be able too.  
+- Imcermontable problems along the way
+  - Example: silt, every country does it different  
+- Gary: An ontology is like a model that is idealized, it can be useful
+  progress  
+- Jenn: Bring in engineering uses as well. Find pitfalls, use something
+  small to start with like carbon or contaminates
+  - Find the nastiest sticky problems and start there  
+  - Find logical solutions because this is an expert group
+
+**Second Breakout room**: Mission Statement  
+Breakout 4: Arif, Pier, Lillian, Hava, Andrew Biggs
+
+- Balancing between information gathering and connections and ontology
+  development  
+- Learning concepts maps and ontologies for machine learning  
+- Improving tools  
+- Pier: wants to show people how to make ontologies and learn from the
+  experts
+  - Make people self-sufficient  
+- Australia is very well developed already and we can put this against
+  US definitions possible  
+- Summary: Recognizing we have many definitions and international
+  definitions.
+  - We are not starting from zero, start to merge them  
+  - Starting from something easy and make semantic tools  
+  - Recording our meetings and setting up a way for people to learn from
+    what we are doing.  
+  - Many people liked the incremental deliverables
+    - Possibly a couple terms a meeting  
+    - Breakouts based on expertise
+
+Breakout 3: steve, steve, bill, Simon, Ashley
+
+- Not build new vocabulary, bridging the gaps between them  
+- Here’s an example of a cryohackothon session:
+  https://github.com/EnvironmentOntology/envo/pull/784\\
+
+Breakout 2: Gaurav, Tanja
+
+- Goals: Case study or questions to guide the development  
+- Target concepts to bring together to see how we can resolve
+  differences  
+- Something simple to start  
+- Same as ==different from
+  - Disjoint things that are very different
+
+Breakout 1: Breandan, Gary, Jenn and mark
+
+- Start with the most critical concepts and nail those  
+- Widdle down the existing vocabulary to the best with good structure
+  - Get rid of old and low class  
+  - Just pick a couple of the best work from those  
+- Terms to be interoperability and make them usable for data  
+- Relatable data  
+- Go through the glossaries and thesaurus and divide and concur
+
+# \[Archive\] July 29, 2020 (Wednesday) Mostly
+
+## Post-call recap
+
+This kick off call started with a round of introductions. Many of us
+recognized each other from ESIP or previous ontology collaborations but
+there were some welcome new faces. We then moved to breakout rooms to
+identify what exactly our understanding of an ontology was and recapped
+with a group discussion. Some common themes that came up was the idea of
+an ontology as a structured vocabulary where terms were formally
+interrelated to each other using an axiomatic structure. PLB then walked
+through a graphical example of this (see notes). Three key takeaways
+from this discussion include: 1) Due to the formal relationships between
+different vocabularies, it’s possible to infer properties not directly
+declared. 2) Ontologies tend to shy away from thresholds and talk more
+about relationships between vocabularies. 3) Meetings will be every
+other week with rotating times to accommodate Europe and Australia.  
+Next call will focus on identifying a mission/vision for the group so we
+can start mapping out action plans.
+
+(July 30) 1AM Australian Eastern - (July 29) 8AM US Pacific - 11AM US
+Eastern – 5PM Central Europe - 3pm UTC
+
+| Name | Institution | On call? |
+|:---|:---|:---|
+| Kathe Todd-Brown | University of Florida / ISCN | Yes |
+| Pier Luigi Buttigieg | Helmholtz Metadata Collaboration / GEOMAR | Yes |
+| Stevan Earl | CAP LTER / Arizona State University | yes |
+| Brian Wee | Massive Connections, LLC | Yes |
+| Simon Cox (SJDC) | CSIRO Australia | Sleepy |
+| Tanja Williamson | USGS | Yes |
+| Hava Blair | University of Minnesota | Yes |
+| Avni Malhotra | Stanford University / International Soil Carbon Network (ISCN) | Yes |
+| Stephen Richard | USGIN Foundation | Yes |
+| Jen Harden | Stanford, USGS, ISCN | Yes |
+| Melissa Cragin | SDSC | Yes |
+| Jessica Burnett | USGS | affirmative |
+| Marisa Younger | University of Florida | Yes |
+| Nic Jelinski | University of Minnesota | Yes |
+| Bill Teng | NASA GES DISC (ADNET) | Yes |
+| Gary Berg-Cross | Ontolog | Yes |
+
+*Please add your introduction below as well as your
+thoughts/comments/resources/questions on the proposed questions for the
+meeting.*
+
+1.  ## Introductions
+
+    - ***\[\[Add your intro to the bottom section please!\]\]***  
+    - Kathe Todd-Brown: I’m a computational biogeochemist who is
+      interested in large datasets to support soil carbon model
+      development. I’m a professor at the University of Florida and the
+      data coordinator for the International Soil Carbon Network. My
+      interest in this group is to develop formal registered language
+      that I can use to help harmonize data from different sources.
+      (KTB)  
+    - Pier Luigi Buttigieg: I’m an ontologist with a life science
+      background interested in helping expert groups encode their
+      knowledge in community reference ontologies to help global
+      harmonisation in the digital space. More
+      [here](https://orcid.org/0000-0002-4366-3088).  
+    - Stevan Earl: I am the information manager for the CAP LTER and
+      Global Institute of Sustainability - both at Arizona State
+      University. I have been working with an LTER Synthesis Group
+      focused on soil organic matter dynamics, and see ontological
+      approaches/resources as critical to such synthetic efforts.  
+    - Brain Wee: I am cross-trained in computer science, ecology, and
+      policy, and generally work at the intersection of all three areas.
+      Obsessed with terms and definitions, mostly because of policy
+      (legal) implications. Co-chair of the Earth Science Information
+      Partners (ESIP) Agriculture and Climate Cluster.  
+    - Simon Cox (SJDC): originally geology/geophysics. Information
+      models and standards for the last 20+ years - OGC, ISO, W3C.
+      Currently on CODATA ExComm. Loosely connected to leadership of
+      Global Soil Partnership.  
+    - Tanja Williamson: Hydrologist-Pedologist. I use soils in most
+      aspects of hydrologic modeling, research on land-use effects, and
+      potential effects of climate change.  
+    - Jessica Burnett: Research ecologist and postdoc at USGS. I am
+      generally interested in improving the utility and usefulness of
+      ecological data and have recently taken interest in how ontologies
+      (formally or more loosely) and gdbs \[formally, or more loosely
+      (as concept maps…?)\] can achieve this.  
+    - Hava Blair: PhD student at University of Minnesota, Land &
+      Atmospheric Sciences program. My research is in linking soil
+      properties and processes with agricultural management practices
+      (“soil health”). We are curating and harmonizing regional soil
+      health datasets as part of a soil health database project in
+      partnership with agroinformatics platform
+      [GEMS](https://agroinformatics.org/). Starting to learn about the
+      value of ontologies for linking data and eager to learn/help
+      develop more soil-specific ontology terms.  
+    - Nic Jelinski: Pedologist at University of Minnesota. I am a
+      pedologist interested in harnessing big data for soil survey. My
+      work is mostly centered in poorly characterized regions of Alaska
+      and sub-Saharan Africa.  
+    - Avni Malhotra: I am a postdoc at Stanford University and a
+      coordinator for the International Soil Carbon Network. My research
+      focuses on plant inputs to soil carbon and I am especially
+      interested in organic soils.  
+    - Stephen Richard: bedrock geologist, turned knowledge engineer,
+      work on GeoSciML, ontologies, ISO19115-3, EarthCube Architecture,
+      Data Discovery, Schema.org metadata….  
+    - Jen Harden: Pedologist, carbon cycle biogeochemistry. Chair of
+      Science Steering Group, International Soil Carbon Network  
+    - Melissa Cragin (SDSC \| UCSD): I work in the Research Data
+      Services division at SDSC, and am involved in several projects.
+      Perhaps most relevant for this group, I am part of the EarthCube
+      Coordination Office; I also work on data ecosystem and FAIRdata
+      activities for the regional West Big Data Innovation Hub.  
+    - Gary Berg-Cross, (Ontolog) Cognitive Psychologist, original
+      cognitive linguistics, long time data and knowledge engineer and
+      conceptual models, work on methodologies to help develop ontology
+      design patterns. Part of the original cryo vocabulary/glacier
+      domain work to harmonize term definitions and EnvO.  
+    - 
+
+2.  ## What is an ontology? \[5 minute breakout groups - time up at 32 minutes past the hour\]
+
+    - An ontology is a machine-readable, graph-based representation of
+      knowledge built around a terminology, which uses formal logic to
+      capture relationships between entities. structured control
+      vocabulary to support data annotation (PLB).  
+    - An ontology is a structured control vocabulary to support data
+      annotation. (KTB)  
+    - A vocabulary with definitions behind the terms, with a hierarchy
+      or structure to relate them to each other (TNW)  
+    - A formal (controlled vetted) representation of knowledge in some
+      domain that is intended for machine use (BT)  
+    - “An ontology is a formal, explicit specification of a shared
+      conceptualization.” (Studer et al, 1998; Guarino et al, 2009). OR
+      in other words… A precise presentation of a view of some selected
+      part of the world, representing the entities and the relationships
+      between them that are of interest for some particular purpose. In
+      informatics, ‘precise presentation’ has the connotation that the
+      representation is machine-readable and follows some formal
+      logic.  
+    - Knowledge organization that is axiomatized (i.e. axioms \[rules\]
+      associated with machine-readable / machine-parsable concepts.. And
+      algorithms can use those axioms to reason through the represented
+      knowledge) (SC)  
+    - Ontologies are the product of systematic study and ordering of the
+      *categories* for and relationship of things that exist or may
+      exist in some domain of interest ***D***. They are expressed in
+      some language **L** which may be formal for computational
+      processing of formal *axioms* and they also include a vocabulary
+      **V** to express definitions and relations. This form is readily
+      understandable and discussable by humans in a suitable language
+      **V1**. (GBC)  
+    - Pier’s real-time example of an ontology represented as a graph
+      (dashed edge vector is an example of something a machine can
+      “infer” logic is defined clearly)  
+    - :\![\]\[image1\]
+      - Pier: shows hierarchy and also a graph, network object in
+        mathematics, machines can figure out the validity of a statement
+        - Stephen: shows representation of an ontology, but an ontology
+          itself is the term, any kind of knowledge is a network in a
+          sense, so a graph is a way of representing networks of
+          connected nodes, axioms provide rules about relationships that
+          build the logic into the system (what they mean and how they
+          constrain what is possible),  
+        - Pier: AI can fill in the gaps based on your specifications  
+      - Tanja: Is there a way to use it to look at concentrations and
+        start to see the thresholds we would consider as a problem?
+        - Pier: there are ways to add thresholds into ontologies  
+        - Simon: previously used numerical thresholds in geological
+          classifications, but not soils  
+        - Stephen: the challenge is how to deal with thresholds in a
+          systematic way  
+        - Simon: all of the classifications are continuous and we choose
+          to assign names to a particular area to do with particular
+          proportions  
+        - Pier: do not get hung up too much on concentrations, think
+          about the compositions, properties, and qualities first, then
+          you can start to refine, terms/definitions you use are mainly
+          for you and machines focus on links more than anything  
+      - Tanja: Can you tie together the US and European systems?
+        - Pier: that would be the hope, opportunity to start
+          coordinating between different systems, not guaranteed that it
+          can tolerate the differences
+
+3.  ## What is missing from soil ontologies? \[\[NOT covered in call\]\]
+
+    - Soil taxonomies from multiple systems (KTB)  
+    - Consistently precise definitions that separate essential
+      characteristics from occasional or ambiguous features of soil
+      types (PLB)  
+    - Annotations that indicate uncertainty, ambiguity, or disagreement
+      over soil definitions across the community (PLB)  
+    - Consistently precise definitions that disambiguate measurements
+      derived from different methods (e.g., pH extracted in water versus
+      a salt solution) with implications for interpretation (SRE, HB)  
+    - A formal representation (OWL, UML…) (SMR)  
+    - Links between vocabularies developed in different communities
+      (esp. internationally) (SJDC)  
+    - An agreement on a starter conceptual model that covers the domain
+      or use case of interest and has obvious and useful connection
+      points to extant related ontologies.(GBC)  
+    - A good use case with connection to data and a scoped set of terms
+      to make this useful with a modest effort.(GBC)
+
+4.  ## Where do we want to start? \[\[NOT covered in call\]\]
+
+    - Look at the relevant data and its vocabulary and systematize
+      this.(GBC)
+      - Relate this to or use to construct a Use Case.  
+    - Describing various bulk density measurements and methods (KTB)  
+    - Describing various hydraulic conductivity measurements and
+      estimations  
+    - Identifying the soil classification systems used by the various
+      groups involved (PLB)
+      - Finding (example) overlaps and differences to begin harmonising
+        these (PLB)  
+    - Approach to describing observations (bulk density, hydraulic
+      conductivity, organic carbon….) (SMR)  
+    - Characterizing the concept spaces for existing classification
+      systems. (SMR)  
+    - Definition of properties in the ISCN template.xlsx (SMR)
+
+5.  ## “Mission Statement” of the group \[\[pick up for next call\]\]
+
+    - Split into groups to attack parts of the soil semantics universe
+      and start adding them to ontologies such as ENVO, make sure that
+      this bridges the quirks of pedologists, biogeochemists, soil
+      health experts and other soil expertise silos (HKB) Maybe start
+      with controlled vocabularies to help get a first order of control
+      and prioritise ontology work (JW)  
+    - Trying to connect efforts across soils subdisciplines; improve
+      transparency in methods and data (nic and tanja summarised by
+      jlb)  
+    - Re-use existing resources (e.g. ENVO/OBO)
+
+6.  ## Plan for next meeting
+
+    - Revisit group mission statement  
+    - Next meeting is two weeks from now
+
+7.  ## Chat log highlights
+
+    - 11:34:00 From Jessica Burnett (she, her) : This one is
+      interesting, @hava
+      <https://www.mdpi.com/electronics/electronics-07-00371/article_deploy/html/images/electronics-07-00371-g002.png>  
+    - 11:34:56 From Hava K Blair : Nice - lots to take in there,
+      multidimensional!  
+    - 11:39:43 From Brian Wee : +1 @jessica on that representation  
+    - 11:53:14 From Simon Cox : Australian soil orders listed with
+      definitions here
+      <https://github.com/EnvironmentOntology/envo/issues/825#issuecomment-546218341>
+
+# References of interest
+
+- [Australian Soil and Land Survey vocabularies linked data
+  service](http://registry.it.csiro.au/def/soil/au) (incomplete) - (Also
+  in hard copy, in particular– [Australian Soil and Land Survey Field
+  Handbook, 2009, third
+  edition](https://www.publish.csiro.au/book/5230/) and [The Australian
+  Soil Classification](https://www.publish.csiro.au/book/7428/)) and
+  [Soil Chemical Methods -
+  Australasia](https://www.publish.csiro.au/book/6418)  
+- Saturated hydraulic conductivity ‘measures’ are not the same:
+  - Williamson, T. N., B. D. Lee, P. J. Schoeneberger, W. M.
+    McCauley, S. J. Indorante and P. R. Owens, 2014. Simulating
+    Soil-Water Movement through Loess-Veneered Landscapes Using
+    Nonconsilient Saturated Hydraulic Conductivity Measurements. Soil
+    Sci. Soc. Am. J. 78:1320-1331.  
+- USDA Thesaurus and Glossary Home
+  - <https://agclass.nal.usda.gov/agt.shtml>  
+- Can we identify data sets that would guide vocabularies of interest?
+  - Kathe TB has a review of soil carbon databases going here:
+    <https://github.com/ESIPFed/soil_data_model_survey/tree/master/data>  
+- Soil description and classification (Engineering view)  
+  <https://environment.uwe.ac.uk/geocal/SoilMech/classification/default.htm>  
+- AGROVOC controlled vocabulary:
+  <http://aims.fao.org/vest-registry/vocabularies/agrovoc> maintained by
+  FAO used across various parts of the agricultural domain  
+- Research Data Alliance <https://rd-alliance.org/> and
+  IGAD<http://aims.fao.org/igad> agricultural data interoperability
+  group  
+- GODAN soil data WG (needs to be reinvigorated and updated when I
+  (Fenny) find time) <https://www.godan.info/working-groups/soil-data>  
+- Global Soil Partnership - Pillar 5 Harmonisation
+  <http://www.fao.org/global-soil-partnership/pillars-action/5-harmonization/en/>
+  developing an adapted soil data exchange model based on ISO 28258 and
+  borrows from Anzsoilml (Pacific) and INSPIRE (Europe). Working on
+  codelists for soil at the moment for INSPIRE and P5 within European
+  project EJP Soil.  
+- Ontologies for bioinformatics (review article)
+  <https://journals.sagepub.com/doi/pdf/10.4137/BBI.S451>  
+- FAO soils portal
+  <http://www.fao.org/soils-portal/soil-survey/soil-classification/en/>  
+- ISRIC Soter database
+  <https://www.isric.org/projects/soil-and-terrain-soter-database-programme>  
+- World Reference Base <http://www.fao.org/3/a-i3794en.pdf>  
+- 
+
+32. 
