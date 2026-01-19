@@ -11,6 +11,7 @@ We have open meeting formats, you are welcome to just show up!
 You can find our exact meeting times on the ESIP [community calendar](https://www.esipfed.org/community-calendar/).
 Generally, meetings will be every 4th Wednesday of the month at 1200 US-Eastern 
 You need to register via the [community calendar](https://www.esipfed.org/community-calendar/) to get the zoom information.
+The meeting agendas and notes can be found on the [Discussions page](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions).
 
 Asynchronous participation is encouraged.
 We have a Slack channel #soil-info on the [ESIP Slack](https://esip-slack-invite.herokuapp.com/).
