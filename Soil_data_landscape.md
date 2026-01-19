@@ -1,0 +1,510 @@
+# Soil data landscape
+Kathe Todd-Brown, Christine Le Bas, Brandon Whitehead, Luís de
+Sousa, Johan Leenaars
+
+- [Current soil data landscape](#current-soil-data-landscape)
+- [Soil informatics literature](#soil-informatics-literature)
+- [Soil related agencies and
+  organizations](#soil-related-agencies-and-organizations)
+- [Agencies and organizations with soil data
+  holdings](#agencies-and-organizations-with-soil-data-holdings)
+  - [World-wide](#world-wide)
+  - [Europe](#europe)
+  - [Australia](#australia)
+  - [North America](#north-america)
+  - [South America](#south-america)
+  - [Asia](#asia)
+  - [Africa](#africa)
+  - [Non-profit private companies](#non-profit-private-companies)
+  - [For-profit private companies](#for-profit-private-companies)
+- [Research data harmonization and integration
+  efforts](#research-data-harmonization-and-integration-efforts)
+  - [Active and ongoing](#active-and-ongoing)
+  - [Finished or inactive](#finished-or-inactive)
+- [Soil semantic resources](#soil-semantic-resources)
+  - [Data model/formats/templates](#data-modelformatstemplates)
+  - [Ontologies](#ontologies)
+  - [Vocabulary lists](#vocabulary-lists)
+  - [Manuals, references, and methods](#manuals-references-and-methods)
+
+# Current soil data landscape
+
+This whitepaper is the result of several working groups and workshops
+including: Earth Soil Information Partnership - Soil Ontology and
+Informatics Cluster
+<https://wiki.esipfed.org/Soil_Ontologies_and_Informatics>, ESIP Labs
+project: <https://github.com/ESIPFed/soil_data_model_survey> , as well
+as National Academies of Science Engineering and Medicine - Dynamic Soil
+Informatics System Workshop
+<https://www.nationalacademies.org/our-work/exploring-a-dynamic-soil-information-system-a-workshop>.
+
+**How To:** Please edit this document in ‘suggestion’ mode. If you come
+across an edit that you like from someone else, please accept that
+suggestion. Rejections of suggestions will be done by the primary editor
+(K Todd-Brown).
+
+*This is a community compiled resource and should not be considered an
+endorsement of any of the listed activities by any agency or participant
+listed.*
+
+# Soil informatics literature
+
+- Onerhime E. Data Standards for Soil: Why aren’t they taking root?
+  \[version 1; not peer reviewed\]. *Gates Open Res* 2021, **5**:74
+  (document) (<https://doi.org/10.21955/gatesopenres.1116780.1>)
+  <https://gatesopenresearch.org/documents/5-74>
+  - Review of some of the current actors in soil informatics and data
+    standards much of this is already captured here but this was an
+    excellent recap of the data standards  
+- National Academies of Sciences, Engineering, and Medicine 2021.
+  Exploring a Dynamic Soil Information System: Proceedings of a
+  Workshop. Washington, DC: The National Academies Press.
+  <https://doi.org/10.17226/26170>  
+- L’Abate, G., Caracciolo, C., Pesce, V., Geser, G., Protonotarios, V.,
+  Costantini, E.A.C., 2015. Exposing vocabularies for soil as Linked
+  Open Data. Inf. Process. Agric. 2, 208–216.
+  https://doi.org/10.1016/j.inpa.2015.10.002  
+- Cox SJD, Gonzalez-Beltran AN, Magagna B, Marinescu M-C (2021) Ten
+  simple rules for making a vocabulary FAIR. PLoS Comput Biol 17(6):
+  e1009041. <https://doi.org/10.1371/journal.pcbi.1009041>
+
+# Soil related agencies and organizations
+
+*These organizations do not have data holdings or semantic resources but
+are major contributors to organizational efforts.*
+
+- United Nations - Food and Agriculture Organization
+  - FAO Soils Portal: <http://www.fao.org/soils-portal/en/>  
+  - Global Soil Partnership:
+    <http://www.fao.org/global-soil-partnership/about/why-the-partnership/en/>  
+- European Union : Inspire Directive where soil is one of the themes. It
+  is a regulation thus mandatory for European Union’s Organizations
+
+# Agencies and organizations with soil data holdings
+
+*The organizations below have soil data holdings gathered for policy or
+monitoring purposes. One could reasonably expect to go to these
+organizations and acquire/access soil data, possibly with use
+restrictions. Data sets for principally scientific research are listed
+below.*
+
+## World-wide
+
+- ISRIC - World Soil Information
+  - Data Hub:
+    <https://data.isric.org/geonetwork/srv/eng/catalog.search#/home>  
+  - SoTer:
+    <https://www.isric.org/projects/soil-and-terrain-soter-database-programme>  
+  - Various organisations from various countries with soil data holdings
+    (inventory), listed at :
+    <https://www.isric.org/explore/soil-geographic-databases>  
+- Various organisations from various countries with soil data holdings
+  (contributing to WoSIS), listed at : [WoSIS - Contributing
+  institutions and
+  experts](https://www.isric.org/explore/wosis/wosis-contributing-institutions-and-experts).  
+- United Nations - Food and Agriculture Organisation (FAO)
+  - <http://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/en/>
+
+## Europe
+
+- United Kingdom
+  - [Rothamsted Research](https://www.rothamsted.ac.uk/)  
+  - [Long term
+    experiments](https://www.rothamsted.ac.uk/long-term-experiments)  
+  - [Cranfield
+    University](https://www.cranfield.ac.uk/academic-disciplines/soil)  
+- Netherlands - <https://www.wur.nl/nl/show/Bodemkaart-1-50-000.htm>  
+- France
+  - IRD [www.ird.fr](http://www.ird.fr)  
+  - Gis Sol, organization gathering funding institutions or agencies
+    (ministries of agriculture and environment, Ademe, OFB) and
+    institutions collecting and managing soil data (INRAE, IRD, IGN,
+    BRGM). <https://www.gissol.fr>. This organization is in charge of
+    the soil survey and soil monitoring programmes in France (at a
+    national level). The soil data collection is based on a network of
+    several regional organizations like Chambers of agriculture,
+    Agronomic Universities or Schools, Consultancies. For soil research,
+    several organizations collect data on soil : INRAE, IRD, CNRS,
+    agronomic schools like Institut Agro, Bordeaux Science Agro, etc.  
+- 
+- European Commission - Joint Research Centre (JRC) - European Soil Data
+  Centre (ESDAC) <https://esdac.jrc.ec.europa.eu/resource-type/datasets>
+
+## Australia
+
+- Australian Soil Resource Information System (ASRIS 2020).
+  <https://www.asris.csiro.au/>  
+- CSIRO (2020): CSIRO National Soil Site Database. v4. CSIRO. Data
+  Collection. <https://doi.org/10.25919/5eeb2a56eac12>  
+- Soil and Landscape Grid of Australia
+  <https://www.clw.csiro.au/aclep/soilandlandscapegrid/index.html>  
+- CSIRO National Soil Archive
+  <https://www.clw.csiro.au/aclep/archive/>  
+- States and Territories  
+- 
+
+New Zealand
+
+- ## National Soils Database (NSD)
+
+## North America
+
+- Canada - Prairies Soil Carbon Project & Canadian Upland Forest Soils  
+- United States
+  - USDA
+    - NRCS <https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm>  
+    - ARS - LTAR  
+  - Forest service
+    - FIA
+      - FIA DataMart
+        [https://apps.fs.usda.gov/fia/datamart/datamart.html](https://urldefense.proofpoint.com/v2/url?u=https-3A__apps.fs.usda.gov_fia_datamart_datamart.html&d=DwMFAg&c=sJ6xIWYx-zLMB3EPkvcnVg&r=cG4e22DhE_24WgV67TY07bX35Pu84XKMIq_1hkQnll4&m=kYirufVSOHF2W6oTSUUQU1otpRJvnOZS0zfYEOZtvwaS2HrE8O5kl7uOjuAQPTfy&s=vWjaTQoX96E79aWCgKnSYFQbkbHGA1dsR6wRekTwxBE&e=)  
+      - Database documentation:
+        [https://www.fia.fs.fed.us/library/database-documentation/index.php](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.fia.fs.fed.us_library_database-2Ddocumentation_index.php&d=DwMFAg&c=sJ6xIWYx-zLMB3EPkvcnVg&r=cG4e22DhE_24WgV67TY07bX35Pu84XKMIq_1hkQnll4&m=kYirufVSOHF2W6oTSUUQU1otpRJvnOZS0zfYEOZtvwaS2HrE8O5kl7uOjuAQPTfy&s=cPn9T3BF5ts-5fcWsAgYKcUF4IyQspHvr7ebThisweQ&e=)  
+  - LTER  
+  - Department of Energy
+    - Soil measurements as part of field campaigns, including SPRUCE,
+      NGEE-Arctic, and NGEE-Tropics. Finalized data should all be
+      available through ESS-DIVE:  
+      <https://ess-dive.lbl.gov/>  
+  - NOAA
+    - Soil moisture  
+  - NASA
+    - ORNL DAAC Soil holdings:
+      <https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=19>  
+    - ORNL DAAC Soil Moisture Visualizer (integrates some soil moisture
+      data from satellite, airborne, and ground-based. North America
+      only :-(  
+      <https://daac.ornl.gov/AIRMOSS/guides/AirMOSS_Soil_Moist_Visualizer.html>  
+    - Earthdata Search shows 850 collections matching a search for
+      “soil”  
+      <https://search.earthdata.nasa.gov/search?q=soil> (includes the
+      ORNL DAAC collections listed in the above link)  
+  - NEON
+    - Structure, geochemistry, biology  
+  - Soil Health Partnership
+    - Experimental treatment, geochemistry  
+  - University of Minnesota (?)  
+  - USGS
+    - Geochemical and Mineralogical Maps, with Interpretation, for Soils
+      of the Conterminous United States. Smith and others. Scientific
+      Investigations Report 2017-5118.
+      https://doi.org/10.3133/sir20175118
+
+## South America
+
+- Argentina: <http://sisinta.inta.gob.ar/>
+
+## Asia
+
+- China - Chinese Academy of Science
+
+## Africa
+
+- Ethiopia - Soil Resources and Information Directorate, MoA  
+- Ghana - Soil Research Institute, MoA <https://sri.csir.org.gh/>  
+- Burkina Faso - Bunasols <https://www.bunasols.bf/>  
+- Nigeria - Nigeria Institute of Soil Science <https://niss.gov.ng/#>
+
+## Non-profit private companies
+
+- AgGateway (Non-profit) - <https://www.aggateway.org/>  
+- LandPKS - <https://landpotential.org/>
+
+## For-profit private companies
+
+- Canada - Viresco - <https://www.virescosolutions.com/>  
+- US - IndigoAg - <https://www.indigoag.com/>  
+- Indonesia - Forest Carbon - <https://forestcarbon.com/>  
+- Morocco - OCP Africa  
+- AfSIS - <http://africasoils.net/> (now iSDA)
+
+# [Research data harmonization and integration efforts](#research-data-harmonization-and-integration-efforts)
+
+*The projects below are designed to address specific questions OR have a
+set funding cycle and work with experimental research data not designed
+for monitoring purposes OR made available through the primary scientific
+literature.*
+
+## Active and ongoing
+
+- International Soil Radiocarbon Database - ISRAD -
+  <https://soilradiocarbon.org/>  
+- International Soil Carbon Network - ISCN -
+  <https://iscn.fluxdata.org/>  
+- Soil Incubation Database - SIDb
+  <https://github.com/SoilBGC-Datashare/sidb>
+  <https://essd.copernicus.org/articles/12/1511/2020/>  
+- Coastal Carbon Research Coordination Network - CC-RCN
+  <https://serc.si.edu/coastalcarbon/data>  
+- SoilTemp <https://soiltemp.weebly.com/>  
+- World Soil Information Service - ISRIC (So important it’s listed
+  twice!) - [WoSIS Soil Profile Database \|
+  ISRIC](https://www.isric.org/explore/wosis)  
+- OpenGeoHub - collection of soils databases -
+  <https://opengeohub.github.io/SoilSamples/>
+
+## Finished or inactive
+
+- GlobalSoilMap. Arrouays et al., 2017
+  <https://doi.org/10.1016/j.grj.2017.06.001>  
+- Open Geospatial Consortium 2016 “Soil Data Interoperability
+  Experiment” <https://www.ogc.org/projects/initiatives/soildataie>  
+- Soil Data Harmonization Database
+  - <https://portal.edirepository.org/nis/mapbrowse?packageid=edi.521.1>  
+  - <https://lter.github.io/som-website/database.html>  
+  - <https://essd.copernicus.org/articles/13/1843/2021/>  
+- Canadian Upland Forest Soils
+  - <https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.2159>  
+- Soil Health DB:
+  - <https://www.nature.com/articles/s41597-020-0356-3>
+
+# Soil semantic resources
+
+*Semantic resources covers a wide range of products. Included below are
+specifications for data model/formats/templates, ontologies with
+inter-related terms, vocabulary lists that may or may not have
+definitions associated with terms, and manuals or other laboratory
+reference materials.*
+
+## Data model/formats/templates
+
+*The data templates specified below are specific enough to reasonably
+expect a data provider to work with directly or specifications for an
+information exchange API.*
+
+- European Commission - INSPIRE: Infrastructure for spatial information
+  in Europe
+  - <https://inspire.ec.europa.eu/id/document/tg/so>  
+- ISO 28258 Soil quality - digital exchange of soil-related data
+  - <https://www.iso.org/obp/ui/#iso:std:iso:28258:ed-1:v1:en>  
+- UN - FAO - Global Soil Partnership, Global Soil Information System
+  ontology
+  - [https://owl.glosis.org](https://glosis.org)  
+  - <https://github.com/rapw3k/glosis>  
+  - <http://www.fao.org/global-soil-partnership/pillars-action/4-information-data/glosis/en/>  
+- OGC Soil Data Interoperability Experiment
+  - <https://github.com/opengeospatial/SoilDataIE>  
+  - <https://www.ogc.org/projects/initiatives/soildataie>  
+- Add relevant info from:
+  <https://docs.google.com/spreadsheets/d/1USpVkAcxATc4Nm8Dz_eiX_jxAmCxPuwJQEug-JZpnJI/edit>  
+- WoSIS procedures -
+  <https://www.isric.org/documents/document-type/wosis-procedures-manual-version-2020>  
+- Africa Soil Profiles database -
+  <https://www.isric.org/documents/document-type/isric-report-201401-africa-soil-profiles-database-version-12>
+
+## Ontologies
+
+*Ontologies defined here are a list of terms connected to one another
+using a formalized vocabulary.*
+
+### Environmental Ontology (Envo)
+
+    *ENVO is a domain ontology concerned with "environments" of all kinds and aims to promote standardisation and interoperability of diverse data sets through the concise, controlled description of environment types across several levels of granularity. It is primarily concerned with environments as encountered in ecological applications, but is able to accommodate alternative needs.*
+
+*ENVO currently deals with ‘environmental systems’ (i.e. environments)
+particularly ‘biomes’ and environments determined by a material entity
+that assumes the role of an ‘environmental feature’ (e.g. a digestive
+tract environment). It also handles ‘environmental materials’ like soil,
+water, and so on. - <https://github.com/EnvironmentOntology/envo>*
+
+“Soil” as defined by Envo: Soil is an environmental material which is
+primarily composed of minerals, varying proportions of sand, silt, and
+clay, organic material such as humus, gases, liquids, and a broad range
+of resident micro- and macroorganisms. \[database_cross_reference:
+<https://en.wikipedia.org/wiki/Soil>\] -
+<http://purl.obolibrary.org/obo/ENVO_00001998>
+
+- Australian soil orders:
+  [https://github.com/EnvironmentOntology/envo/issues/825#issuecomment-546218341](https://urldefense.proofpoint.com/v2/url?u=https-3A__github.com_EnvironmentOntology_envo_issues_825-23issuecomment-2D546218341&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yGMNM5Sz43giD38Z37SqgDcTEX_3IpQtbY5TqAOF8AQ&s=gvbWU5Rg4xoqnQpT8vm3BqP-eutAoZIdyHNxp-5sMvw&e=)
+
+  (from
+  [https://www.publish.csiro.au/book/7428](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.publish.csiro.au_book_7428&d=DwMGaQ&c=sJ6xIWYx-zLMB3EPkvcnVg&r=QKaE2S198DGmbzSyg5kg-sKCqJS35GQGszGbdgNPtag&m=yGMNM5Sz43giD38Z37SqgDcTEX_3IpQtbY5TqAOF8AQ&s=JK6fjuiwrA1CAhHkMncLP9Ay8jLuDvR4LP7346ejk5E&e=))
+
+### GloSiS
+
+<https://owl.glosis.org/docs/> - Should be noted that this currently
+lacks formal definitions and instead focuses on data model labels.
+
+### QUDT: Units of measure
+
+1.  [http://www.qudt.org/](http://www.qudt.org/doc/DOC_VOCAB-QUANTITY-KINDS.html)
+    2.  [https://github.com/qudt/qudt-public-repo](https://github.com/qudt/qudt-public-repo/tree/master/schema)
+
+### SWEET
+
+- Soil related: <http://sweetontology.net/realmSoil> (there will be
+  others; for example
+  [pedogenesis](http://sweetontology.net/phenGeol/Pedogenesis) is in
+  [phenGeo](http://sweetontology.net/phenGeol)l)
+
+### An Ontology of Soil Properties and Processes (Heshan Du et al 2016)
+
+- An Ontology of Soil Properties and Processes
+  <https://link.springer.com/chapter/10.1007%2F978-3-319-46547-0_4>  
+- <http://archive.researchdata.leeds.ac.uk/42/> – Information
+  extracted/axiomatised from [Principles of Soil
+  Physics](https://www.taylorfrancis.com/books/9780429215339), by Rattan
+  Lal and Manoj K. Shukla, 2004
+
+### Soil in other ontologies
+
+- <http://id.loc.gov/authorities/subjects/sh85124396> - Library of
+  Congress Subject Headings (LCSH)  
+- <http://purl.bioontology.org/ontology/MESH/D012987> - Medical Subject
+  Headings (MeSH)  
+- [http://purl.org/au-research/vocabulary/anzsrc-for/2008/0503](https://vocabs.ands.org.au/repository/api/lda/anzsrc-for/resource?uri=http://purl.org/au-research/vocabulary/anzsrc-for/2008/0503) -
+  ANZ Standard Research Classn - Field of Research  
+- [http://purl.org/au-research/vocabulary/anzsrc-seo/2008/9614](https://vocabs.ands.org.au/repository/api/lda/anzsrc-seo/resource?uri=http://purl.org/au-research/vocabulary/anzsrc-seo/2008/9614) -
+  ANZ Standard Research Classn - Socio-Economic Objectives  
+- <https://gcmd.earthdata.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91> -
+  Science Keywords (GCMD/NASA)  
+- <https://www.eionet.europa.eu/gemet/en/concept/7843> - Eionet
+  (GEMET/EEA)  
+- [http://id.agrisemantics.org/gacs/C113](http://browser.agrisemantics.org/gacs/en/page/C113) -
+  Agrisemantics (GACS)  
+- <http://sweetontology.net/matrSediment/Soil> - SWEET (ESIP)  
+- [https://wikidata.org/entity/Q36133](https://www.wikidata.org/wiki/Q36133) -
+  Wikidata  
+- [http://dbpedia.org/resource/Soil](http://dbpedia.org/page/Soil) -
+  DBpedia  
+- <http://purl.obolibrary.org/obo/ENVO_00001998> - Environment Ontology
+  (ENVO)  
+- <http://vocab.nerc.ac.uk/collection/A02/current/Soil/> - OCA Coastal
+  Erosion (in NERC Vocabulary Service …)  
+- <http://www.opengis.net/def/waterml/2.0/medium/Soil> - Open Geospatial
+  Consortium  
+- <http://www.owl-ontologies.com/BiodiversityOntologyFull.owl#Soil> -
+  Biodiversity Ontology  
+- <http://purl.obolibrary.org/obo/OBT_000133> - BRENDA Tissue and Enzyme
+  Source Ontology (BTO)  
+- [European INSPIRE soil theme](https://inspire.ec.europa.eu/theme/so)  
+- AnaEE ontology : based on the OBOE ontology. Not yet published.
+  <https://www.anaee-france.fr/service/modeles-et-donnees/referentiels-semantiques>
+
+### OIMS
+
+- Metadata descriptions (JSON)  
+- https://github.com/ForesightInitiative/OIMS/tree/main
+
+## Vocabulary lists
+
+*These vocabulary lists may or may not include formal definitions.*
+
+### USA
+
+- USDA Thesaurus and Glossary Home :
+  <https://agclass.nal.usda.gov/agt.shtml> ,  
+- USGS Thesaurus - <https://www2.usgs.gov/science/about/>  
+- USDA NRCS soil taxonomy
+  <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051232.pdf>;
+  appendix has ‘Data Elements Used in Classifying Soils’ that defines
+  properties
+  - Please keep in mind that the referenced document may be from 1999,
+    but the working copy (Keys to Soil Taxonomy) is actively updated
+    every couple of years.
+    <https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/class/taxonomy/>  
+  - We have done a fair amount of work splitting the taxa up into
+    pieces, already in an R package just waiting for some clever
+    synthesis. <https://github.com/ncss-tech/SoilTaxonomy>  
+  - Schoeneberger, P.J., Wysocki, D.A., and Benham, E.C., 2012, Field
+    book for describing and sampling soils (Version 3.0 ed.): Lincoln,
+    NE, Natural Resources Conservation Service, National Soil Survey
+    Center. - converts different characterizations (units and terms) of
+    properties described in field
+    <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_052523.pdf>  
+- Earth System Science Vocabulary
+  <https://serc.carleton.edu/ess_vocab/index.html>
+
+### Australia
+
+- [Australian Soil and Land Survey vocabularies linked data
+  service](http://registry.it.csiro.au/def/soil/au) (incomplete) -
+  (SKOSified representation of this hard copy resource - [Australian
+  Soil and Land Survey Field Handbook, 2009,
+  third](https://www.publish.csiro.au/book/5230/) edn.)
+  - THE AUSTRALIAN SOIL CLASSIFICATION -
+    <https://www.publish.csiro.au/book/7428> hard-copy only
+
+### New Zealand
+
+- Add New Zealand soil classification citations from:
+  https://soils.landcareresearch.co.nz/describing-soils/
+
+### France
+
+- Donesol dictionary : based on French standard for soil profile
+  description. Dictionary of the Soil information system for France.
+  <https://www.gissol.fr/publications/dictionnaire-de-donnees-donesol-3408>  
+- Référentiel pédologique 2008 3rd version :
+  <https://www.afes.fr/referentiel-pedologique/>  
+- Petit Lexique de Pédologie, Baize (2020) :
+  <https://doi.org/10.15454/5FIPVE>.  
+- AnaaEE thesaurus : not only soil
+  <http://agroportal.lirmm.fr/ontologies/ANAEETHES?p=classes&conceptid=http%3A%2F%2Fopendata.inra.fr%2FanaeeThes%2Fc2_2527>
+
+### Worldwide
+
+- Genome Standards Consortium (GSC) Minimum information checklist
+  (includes soils as environment) <https://gensc.org/mixs/>  
+- GLOSIS
+  - Codelists for descriptive properties:
+    <http://owl.glosis.org/glosis_cl.ttl>  
+  - Codelists for chemical analysis procedures:
+    http://owl.glosis.org/[glosis_procedure.ttl](https://github.com/rapw3k/glosis/blob/master/glosis_procedure.ttl)  
+- FAO AGROVOC (includes a few soil properties) https://agrovoc.fao.org/
+
+## Manuals, references, and methods
+
+### USA
+
+- Soil Survey Laboratory Methods (by method code)
+  - <https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcseprd1026807.pdf>  
+  - NRCS/NCSS laboratory data analytes and code for processing LIMS
+    (internal laboratory database) snapshot-
+    <https://github.com/ncss-tech/lab-data-delivery/blob/master/metadata/all-methods.txt>  
+- USDA-NRCS-NASIS Metadata
+  <https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/tools/?cid=nrcs142p2_053547>
+
+### Australia
+
+- CSIRO Linked data registry:
+  - <http://registry.it.csiro.au/def/soil/au>  
+  - <http://registry.it.csiro.au/def/soil/au/scma>  
+- Soil Chemical Methods - Australia, “The Green Book”
+  <https://www.publish.csiro.au/book/6418>
+  - <https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/browse/scma/SCMA.ttl>  
+  - <https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/browse>
+
+### UN - FAO
+
+- World Reference Base for Soils 2014
+  <http://www.fao.org/3/i3794en/I3794en.pdf>  
+- Soil classification systems
+  <http://www.fao.org/soils-portal/soil-survey/soil-classification/en/>  
+- Guidelines for Soil Description
+  http://www.fao.org/soils-2015/resources/fao-publications/news-detail/en/c/262368/
+
+### France :
+
+- Manual for the soil monitoring programme for France (RMQS) : 1st
+  campaign :
+  <https://www.gissol.fr/wp-content/uploads/2018/03/RMQS_manuel_31032006.pdf>  
+- Manual for the soil monitoring programme for France (RMQS) : 2nd
+  campaign
+  <https://www.gissol.fr/publications/manuel-du-reseau-de-mesures-de-la-qualite-des-sols-rmqs2-edition-2018-4352>  
+- 
+- Soil survey manual for 1:50 000 :
+  <http://www.gissol.fr/wp-content/uploads/2019/03/CCTG_CPF_50000.pdf>  
+- Soil survey manual for 1:250 000
+  <http://www.gissol.fr/wp-content/uploads/2019/03/CCTG_RRP.pdf>
+
+### Europe :
+
+- Soil manual for 1:250 000 survey :
+  <https://esdac.jrc.ec.europa.eu/ESDB_Archive/eusoils_docs/esb_rr/n05_ManualVer11EN4.zip>  
+- 
+
+### Worldwide :
+
+- Global soil map manual :
+  https://www.isric.org/projects/globalsoilmapnet
