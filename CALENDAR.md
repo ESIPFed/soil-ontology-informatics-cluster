@@ -14,7 +14,7 @@
 | -------|------ | -------------------------- |------------------- |
 | 01 - 28 | 5    | Planning and Mixer         | [Discussion #3](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/3) |
 | 02 - 11 | 7    | Info/Feedback: Data rescue and digitization | [Discussion #4](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/4) |
-| 02 - 25 | 9    | Info: Governance of resource with shared ownership |                    |
+| 02 - 25 | 9    | Info: Governance of resource with shared ownership |  [Discussion #7](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/7) |
 | 03 - 11 | 11   | Feedback/Planning - [Current soil data landscape](Soil_data_landscape.md) |
 | 03 - 25 | 13   | TBD |                     |
 | 04 - 08 | 15   | Info/Feedback: Data harmonization of digital resources             |                    |
