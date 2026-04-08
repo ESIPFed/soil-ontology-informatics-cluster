@@ -17,8 +17,8 @@
 | 02 - 25 | 9    | Info: Governance of resource with shared ownership |  [Discussion #7](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/7) |
 | 03 - 11 | 11   | Feedback/Planning - [Current soil data landscape](Soil_data_landscape.md) | [Discussion #8](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/8)
 | 03 - 25 | 13   | CANCELLED |                     |
-| 04 - 08 | 15   | Planning: Soil Data Landscape | [Discussion #10](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/10)                               |
-| 04 - 22 | 15   | Planning: Soil Data Landscape               |                    |
+| 04 - 08 | 15   | Scoping: Soil Data Landscape | [Discussion #10](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/10)                               |
+| 04 - 22 | 15   | Schema: Soil Data Landscape               |[Discussion #11](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/11)|
 | 05 - 06 | 17   | Planning and Mixer         |                    |
 | 05 - 20 | 19    |                       |             |
 | 06 - 03 | 23    | ESIP July session Planning  |             |
