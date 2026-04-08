@@ -16,9 +16,9 @@
 | 02 - 11 | 7    | Info/Feedback: Data rescue and digitization | [Discussion #4](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/4) |
 | 02 - 25 | 9    | Info: Governance of resource with shared ownership |  [Discussion #7](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/7) |
 | 03 - 11 | 11   | Feedback/Planning - [Current soil data landscape](Soil_data_landscape.md) | [Discussion #8](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/8)
-| 03 - 25 | 13   | TBD |                     |
-| 04 - 08 | 15   | Info/Feedback: Data harmonization of digital resources             |                    |
-| 04 - 22 | 15   | TBD               |                    |
+| 03 - 25 | 13   | CANCELLED |                     |
+| 04 - 08 | 15   | Planning: Soil Data Landscape | [Discussion #10](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/10)                               |
+| 04 - 22 | 15   | Planning: Soil Data Landscape               |                    |
 | 05 - 06 | 17   | Planning and Mixer         |                    |
 | 05 - 20 | 19    |                       |             |
 | 06 - 03 | 23    | ESIP July session Planning  |             |
