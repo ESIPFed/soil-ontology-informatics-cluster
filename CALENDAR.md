@@ -19,7 +19,7 @@
 | 03 - 25 | 13   | CANCELLED |                     |
 | 04 - 08 | 15   | Scoping: Soil Data Landscape | [Discussion #10](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/10)                               |
 | 04 - 22 | 15   | Schema: Soil Data Landscape               |[Discussion #11](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/11)|
-| 05 - 06 | 17   |    ESIP July session Planning; Feedback: Soil Data Cards      |                    |
+| 05 - 06 | 17   | Feedback: Soil Data Cards      |[Discussion #15](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/15)                    |
 | 05 - 20 | 19    |                       |             |
 | 06 - 03 | 23    | Planning and Mixer  |             |
 | 06 - 17 | 25    |                       |             |
