@@ -20,8 +20,8 @@
 | 04 - 08 | 15   | Scoping: Soil Data Landscape | [Discussion #10](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/10)                               |
 | 04 - 22 | 15   | Schema: Soil Data Landscape               |[Discussion #11](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/11)|
 | 05 - 06 | 17   | Feedback: Soil Data Cards      |[Discussion #15](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/15)                    |
-| 05 - 20 | 19    |                       |             |
-| 06 - 03 | 23    | Planning and Mixer  |             |
+| 05 - 20 | 19    | Info: FAIR Implementation Profiles |[Discussion #18](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/18)|
+| 06 - 03 | 23    | Feedback: FIPs and ESIP July session  |   [Discussion #19](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/19) |
 | 06 - 17 | 25    |                       |             |
 | 07 - 01 | 27    |                       |             |
 | 07 - 15 | 29    |                       |             |
