@@ -23,7 +23,7 @@
 | 05 - 20 | 19    | Info: FAIR Implementation Profiles |[Discussion #18](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/18)|
 | 06 - 03 | 23    | Feedback: FIPs and ESIP July session  |   [Discussion #19](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/19) |
 | 06 - 17 | 25    | Feedback: Google OKG formats  | [Discussion #20](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/20) |
-| 07 - 01 | 27    |  Feedback: revisions for resource cards |             |
+| 07 - 01 | 27    |  Feedback: revisions for resource cards | [Discussion #21](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/21) |
 | 07 - 15 | 29    |  Decision: Finalize session prep |             |
 | 07 - 29 | 31    |  ESIP JULY          |     NO MEETING    |
 | 08 - 12 | 33    |  Decision: Incorperate session feedback  |             |
