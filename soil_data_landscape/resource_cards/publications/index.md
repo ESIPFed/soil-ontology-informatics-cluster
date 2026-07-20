@@ -12,10 +12,12 @@ Each publication gets one card. Cards live in this folder as `<slug>.md`.
 ---
 type: publication
 title: Soil Survey Manual
-description: The authoritative description of USDA soil survey practice; the source of the
+description:
+  The authoritative description of USDA soil survey practice; the source of the
   field terminology most US soil datasets encode.
 resource: https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual
-citation: Soil Science Division Staff. (2017). *Soil survey manual* (C. Ditzler, K. Scheffe,
+citation:
+  Soil Science Division Staff. (2017). *Soil survey manual* (C. Ditzler, K. Scheffe,
   & H. C. Monger, Eds.; USDA Handbook 18). Government Printing Office.
 tags: [manual, usda, soil-survey]
 timestamp: 2026-07-20T00:00:00Z
@@ -44,15 +46,15 @@ A card for a journal article would use `resource: https://doi.org/10.xxxx/yyyy`.
 
 ## Fields
 
-| Field | Required | Notes |
-|---|---|---|
-| `type` | yes | Always `publication`. |
-| `title` | yes | Title of the publication as published. |
-| `description` | yes | **Why this publication is in the landscape.** Say what it contributes or which other cards lean on it. Do not summarize the abstract. |
-| `resource` | yes | A URL-formatted DOI (`https://doi.org/10.xxxx/yyyy`) when the publication has one. If it has no DOI, use any stable URL for the publication — a publisher landing page, agency page, or repository record. Bare DOIs (`10.xxxx/yyyy`) are not used. |
-| `citation` | yes | Human-readable citation in **APA 7th edition**. Use this format for every card so the set stays consistent. |
-| `tags` | no | YAML list of short keywords, per OKF §4.1. |
-| `timestamp` | no | ISO 8601 datetime of the last meaningful change to the card, per OKF §4.1 — e.g. `2026-07-20T00:00:00Z`. This is the card's modification time, not the publication date. |
+| Field         | Required | Notes                                                                                                                                                                                                                                               |
+| ------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `type`        | yes      | Always `publication`.                                                                                                                                                                                                                               |
+| `title`       | yes      | Title of the publication as published.                                                                                                                                                                                                              |
+| `description` | yes      | **Why this publication is in the landscape.** Say what it contributes or which other cards lean on it. Do not summarize the abstract.                                                                                                               |
+| `resource`    | yes      | A URL-formatted DOI (`https://doi.org/10.xxxx/yyyy`) when the publication has one. If it has no DOI, use any stable URL for the publication — a publisher landing page, agency page, or repository record. Bare DOIs (`10.xxxx/yyyy`) are not used. |
+| `citation`    | yes      | Human-readable citation in APA 7th edition (suggested). Use this format for every card so the set stays consistent.                                                                                                                                 |
+| `tags`        | no       | YAML list of short keywords, per OKF §4.1.                                                                                                                                                                                                          |
+| `timestamp`   | no       | ISO 8601 datetime of the last meaningful change to the card, per OKF §4.1 — e.g. `2026-07-20T00:00:00Z`. This is the card's modification time, not the publication date.                                                                            |
 
 ## The Citation section
 
@@ -71,7 +73,7 @@ Filenames are `<first-author>-<year>-<short-title>.md`, kebab-case.
 
 ## Cards
 
-* [Data Standards for Soil: Why aren't they taking root?](onerhime-2021-data-standards-for-soil.md) — Onerhime 2021. Surveys many of the actors and soil data resources listed here, then asks why so few of the published soil data standards get used.
-* [Exploring a Dynamic Soil Information System: Proceedings of a Workshop](nasem-2021-dynamic-soil-information-system.md) — NASEM 2021. Records what US soil scientists and agencies say a soil information system should do, including the gaps they found in existing holdings.
-* [Exposing vocabularies for soil as Linked Open Data](labate-2015-soil-vocabularies-linked-open-data.md) — L'Abate et al. 2015. Documents an early attempt to republish existing soil vocabularies as Linked Open Data.
-* [Ten simple rules for making a vocabulary FAIR](cox-2021-ten-simple-rules-vocabulary-fair.md) — Cox et al. 2021. Gives ten concrete criteria for whether a vocabulary is FAIR.
+- [Data Standards for Soil: Why aren't they taking root?](onerhime-2021.md) — Onerhime 2021. Surveys many of the actors and soil data resources listed here, then asks why so few of the published soil data standards get used.
+- [Exploring a Dynamic Soil Information System: Proceedings of a Workshop](nasem-2021.md) — NASEM 2021. Records what US soil scientists and agencies say a soil information system should do, including the gaps they found in existing holdings.
+- [Exposing vocabularies for soil as Linked Open Data](labate-2015.md) — L'Abate et al. 2015. Documents an early attempt to republish existing soil vocabularies as Linked Open Data.
+- [Ten simple rules for making a vocabulary FAIR](cox-2021.md) — Cox et al. 2021. Gives ten concrete criteria for whether a vocabulary is FAIR.
