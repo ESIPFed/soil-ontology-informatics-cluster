@@ -69,11 +69,26 @@ bibliography into Zotero or a LaTeX paper.
 Brace every BibTeX field value (`title = {Soil survey manual}`), including numbers, so
 the entries parse cleanly.
 
-Filenames are `<first-author>-<year>-<short-title>.md`, kebab-case.
+Filenames are `<first-author>-<year>.md`, kebab-case.
 
 ## Cards
+
+### Journal articles, technical reports, publications
 
 - [Data Standards for Soil: Why aren't they taking root?](onerhime-2021.md) — Onerhime 2021. Surveys many of the actors and soil data resources listed here, then asks why so few of the published soil data standards get used.
 - [Exploring a Dynamic Soil Information System: Proceedings of a Workshop](nasem-2021.md) — NASEM 2021. Records what US soil scientists and agencies say a soil information system should do, including the gaps they found in existing holdings.
 - [Exposing vocabularies for soil as Linked Open Data](labate-2015.md) — L'Abate et al. 2015. Documents an early attempt to republish existing soil vocabularies as Linked Open Data.
 - [Ten simple rules for making a vocabulary FAIR](cox-2021.md) — Cox et al. 2021. Gives ten concrete criteria for whether a vocabulary is FAIR.
+
+### Manuals, references, and methods
+
+- [Kellogg Soil Survey Laboratory Methods Manual](usda-2022.md) — Soil Survey Staff 2022. Defines the methods for USDA-NRCS soil laboratory data and operational procedures.
+- [Soil Chemical Methods: Australasia](rayment-2011.md) — Rayment & Lyons 2011. The method reference behind the CSIRO Australian soil vocabularies.
+- [World Reference Base for Soil Resources 2014, Update 2015](iuss-2015.md) — IUSS Working Group WRB 2015. The international soil classification system that national datasets are correlated against.
+- [Guidelines for Soil Description](fao-2006.md) — FAO 2006. Supplies the controlled field-description terminology that WRB classification uses.
+- [Manuel du Réseau de Mesures de la Qualité des Sols (RMQS)](jolivet-2006.md) — Jolivet et al. 2006. Sampling and measurement protocol for the first French national monitoring campaign.
+- [Manuel du Réseau de mesures de la qualité des sols, RMQS2](jolivet-2018.md) — Jolivet et al. 2018. Protocol for the second French campaign, 2016 to 2027.
+- [Cahier des charges pour la cartographie des sols au 1/50 000](inra-2019.md) — INRA InfoSol 2019. How French 1:50 000 soil maps must be produced under IGCS.
+- [Référentiel Régional Pédologique: Cahier des Clauses Techniques Générales](inra-2014.md) — INRA InfoSol 2014. How French 1:250 000 regional soil databases are built and certified.
+- [Georeferenced Soil Database for Europe: Manual of Procedures](esb-2001.md) — European Soil Bureau 2001. Procedures and attribute coding behind the European Soil Database.
+- [Specifications: Tiered GlobalSoilMap Products, Release 2.4](globalsoilmap-2015.md) — GlobalSoilMap Science Committee 2015. Depth intervals, properties, and uncertainty reporting for GlobalSoilMap products.

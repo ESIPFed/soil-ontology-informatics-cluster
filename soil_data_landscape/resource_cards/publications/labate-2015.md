@@ -15,7 +15,7 @@ timestamp: 2026-07-20T00:00:00Z
 ---
 
 L'Abate and colleagues describe converting soil vocabularies into Linked Open Data and the
-problems they hit doing it.
+problems they encountered during that process.
 
 # Citation
 
