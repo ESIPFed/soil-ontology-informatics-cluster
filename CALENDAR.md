@@ -26,6 +26,6 @@
 | 07 - 01 | 27    |  Feedback: revisions for resource cards | [Discussion #21](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/21) |
 | 07 - 15 | 29    |  Decision: Finalize session prep |  [Discussion #26](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/26)  |
 | 07 - 29 | 31    |  ESIP JULY          |     NO MEETING    |
-| 08 - 12 | 33    |  Decision: Incorperate session feedback  |             |
+| 08 - 12 | 33    |  Decision: Finalizing semantic resource card format  | [Discussion #28](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/28)            |
 | 08 - 26 | 35    |                       |             |
 | 09 - 09 | 37    | Planning and Mixer         |                    |
