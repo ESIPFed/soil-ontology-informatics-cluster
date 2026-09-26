@@ -11,7 +11,12 @@ timestamp: 2026-07-20T00:00:00Z # card last change, not the publication date
 General description of why this publication is worth including. Link to other cards
 with relative markdown links, e.g. [ISRIC](../organizations/isric.md).
 
-# Citation
+# Organizational relationships
+
+Organizational authors, and the projects or programmes this publication belongs to.
+Cross-link to organization cards where one exists.
+
+# Bibtex citation
 
 ```{bibtex}
 @article{key,
