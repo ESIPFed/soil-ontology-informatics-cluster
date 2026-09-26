@@ -17,12 +17,12 @@ timestamp: 2026-07-20T00:00:00Z
 Second campaign, version 3 of 23 January 2018, 137 pages. Written in French. Direct PDF:
 <https://www.gissol.fr/wp-content/uploads/2018/03/Manuel_V_Num2.pdf>.
 
-The ISBN below is read off the title page. A HAL-derived record gives 2-7380-1415-1
-instead; the title page value is the one used here.
+The ISBN below comes from the title page. A HAL-derived record gives 2-7380-1415-1
+instead.
 
 Supersedes the first-campaign manual, [RMQS 2006](jolivet-2006.md).
 
-# Citation
+# Bibtex citation
 
 ```{bibtex}
 @manual{jolivet2018,

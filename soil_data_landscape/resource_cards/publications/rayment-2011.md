@@ -19,7 +19,7 @@ The publisher page gives the year as 2010, while the
 series listing and most citing literature give 2011; this card follows the 2011 form. The print ISBN (9780643067684) is out of
 print, so the ePDF ISBN is the one to use.
 
-# Citation
+# Bibtex citation
 
 ```{bibtex}
 @manual{rayment2011,

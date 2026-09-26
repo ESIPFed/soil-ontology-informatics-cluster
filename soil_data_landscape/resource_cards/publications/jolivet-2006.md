@@ -19,7 +19,7 @@ Guillaume Bodineau, Sébastien Lehmann, Didier Laloua, and Eugénie Tientcheu co
 
 Pairs with the second-campaign manual, [RMQS2](jolivet-2018.md).
 
-# Citation
+# Bibtex citation
 
 ```{bibtex}
 @manual{jolivet2006,
