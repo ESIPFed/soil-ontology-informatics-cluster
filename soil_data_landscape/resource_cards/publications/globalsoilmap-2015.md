@@ -10,17 +10,16 @@ tags: [specification, digital-soil-mapping, globalsoilmap, global]
 timestamp: 2026-07-20T00:00:00Z
 ---
 
-Endorsed 7 December 2015, with a stated validity of two years from endorsement. No
-individual authors are named.
+Endorsed 7 December 2015, with a stated validity of two years from endorsement. The document names no
+individual authors.
 
-A related artifact, <https://www.isric.org/projects/globalsoilmapnet>, is a short project page rather than
-a manual. It marks globalsoilmap.net as deleted. The specifications document
-above is the actual manual.
+A related page, <https://www.isric.org/projects/globalsoilmapnet>, is a short project summary
+that marks globalsoilmap.net as deleted. The specifications document above is the manual.
 
 Since the stated validity has lapsed, check whether a later release exists before treating
 2.4 as current.
 
-# Citation
+# Bibtex citation
 
 ```{bibtex}
 @techreport{gsm2015specs,

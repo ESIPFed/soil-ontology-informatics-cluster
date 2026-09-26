@@ -17,7 +17,7 @@ Proceedings of a 2021 workshop on moving from static survey snapshots to a soil 
 system that updates over time. Participants set out requirements and named gaps in current
 US holdings.
 
-# Citation
+# Bibtex citation
 
 ```{bibtex}
 @book{nasem2021,
