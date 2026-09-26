@@ -13,10 +13,11 @@ timestamp: 2026-07-20T00:00:00Z # card last change
 
 General description of why this organization is relevant for soil data.
 
-# Used resources
-
-Resources this organization consumes. Cross-link to other cards where one exists.
-
 # Stewarded resources
 
 Resources this organization governs or stewards. Cross-link to other cards where one exists.
+
+# Organizational relationships
+
+Parent organizations, child departments, and funding relationships. Cross-link to
+organization cards where one exists.

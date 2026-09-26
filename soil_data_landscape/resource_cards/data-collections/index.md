@@ -1,12 +1,12 @@
-# Data Resources
+# Data Collections
 
-> **Placeholder:** The card structure for data resources is not settled yet. This folder is a placeholder for when that structure is finalized.
+Catalogs, repositories, portals, and archives that hold soil data.
 
-Repositories, data portals, vocabularies, ontologies, data models, and reference
-manuals — the data resources and semantic assets catalogued in the
-[Soil Data Landscape](../../Soil_data_landscape.md). Data holdings and semantic
-resources are kept together here because the same organization often publishes both.
+Each collection gets one card. Copy [template.md](template.md) and save it as
+`<slug>.md`, where the slug is the collection's name.
 
-Each resource gets one card. Cards live in this folder as `<slug>.md`.
+Cross-link `# Hosting Organizations` to [organization cards](../organizations/),
+`# Semantic Resources Used` to [semantic cards](../semantics/), and `# References` to
+[publication cards](../publications/) where one exists.
 
 ## Cards

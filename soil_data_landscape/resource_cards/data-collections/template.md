@@ -5,19 +5,24 @@ description: # what is stored and how it fits the wider soil information landsca
 resource: https://www.re3data.org/repository/rxxxxxxxxx # stable URL
 established_date: # when the catalog started
 end_date: # required but empty if active
-tags: [] # YAML list of short keywords
+tags: [] # YAML list of short keywords; include region, e.g. global, europe, usa
 timestamp: 2026-07-20T00:00:00Z # card last change
-data_scope:
-  subjects: [] # domains of interest
-  region: # area of data collection, e.g. global, europe, USA, Florida
-  variables: [] # types of data variables tracked
 ---
 
 General description of why this repository is worth including.
 
+# Domains of interest
+
+Broad descriptions of the subjects this collection covers.
+
+# Semantic Resources Used
+
+Semantic resources this collection uses, and how it uses each one. Relative
+links to semantic cards, or external URLs.
+
 # Access
 
-URLs for reaching the catalog directly.
+URLs for reaching the catalog, how to get the data, and any access restrictions.
 
 # Hosting Organizations
 

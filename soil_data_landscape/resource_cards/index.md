@@ -1,18 +1,16 @@
-# Soil Data Landscape — Resource Cards
+# Soil Data Landscape: Resource Cards
 
 This is an OKF v0.1 bundle cataloguing soil informatics resources identified by the
 [ESIP Soil Ontology and Informatics Cluster](https://wiki.esipfed.org/Soil_Ontology_and_Informatics_Cluster).
 It translates the [Soil Data Landscape](../Soil_data_landscape.md) from free-text to
 machine-readable, cross-linked concept cards.
 
-## Actors
+Each folder holds a `template.md` with the fields for that type
+annotated inline, an `index.md` listing its cards, and one file per card as `<slug>.md`.
 
-* [Actors](actors/) — Organizations stewarding soil data and semantic resources
-
-## Data Resources
-
-* [Data Resources](data-resources/) — Repositories, data portals, vocabularies, ontologies, data models, and reference manuals
-
-## Publications
-
-* [Publications](publications/) — Key literature on soil data informatics
+| Type              | Folder                                 | Template                                                 |
+| ----------------- | -------------------------------------- | -------------------------------------------------------- |
+| `publication`     | [publications/](publications/)         | [template.md](publications/template.md)                  |
+| `organization`    | [organizations/](organizations/)       | [template.md](organizations/template.md)                 |
+| `data-collection` | [data-collections/](data-collections/) | [template.md](data-collections/template.md)              |
+| `semantic`        | [semantics/](semantics/)               | [template.md](semantics/template.md)                     |

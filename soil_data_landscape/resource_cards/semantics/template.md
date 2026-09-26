@@ -13,11 +13,28 @@ language: EN # language of the resource
 
 General description of why this resource is worth including, with cross references.
 
+# Domains of interest
+
+Broad descriptions of the topics this resource covers.
+
 # Terms of interest
 
-Specific terms that matter for soils, especially when the resource covers more
-than soils.
+Soil-relevant terms, recommended when the resource covers more than soils.
 
-# Use case
+# Access
 
-Current or potential uses. Cross-link to the organizations and collections involved.
+URLs for how to access the resource, and any access restrictions.
+
+# Current uses
+
+Current users of this resource and how they use it. Cross-link to organization and
+data-collection cards where one exists.
+
+# Potential uses
+
+Uses this resource could support in the future.
+
+# Governance
+
+Organizations that create and maintain this resource, and whether a stewardship
+plan exists. Cross-link to organization cards where one exists.
