@@ -1,9 +1,15 @@
+---
+okf_version: "0.1"
+---
+
 # Soil Data Landscape: Resource Cards
 
 This is an OKF v0.1 bundle cataloguing soil informatics resources identified by the
 [ESIP Soil Ontology and Informatics Cluster](https://wiki.esipfed.org/Soil_Ontology_and_Informatics_Cluster).
 It translates the [Soil Data Landscape](../Soil_data_landscape.md) from free-text to
 machine-readable, cross-linked concept cards.
+
+For more information on the Open Knowledge Format (OKF) spec, see [here](https://github.com/GoogleCloudPlatform/open-knowledge-format).
 
 Each folder holds a `template.md` with the fields for that type
 annotated inline, an `index.md` listing its cards, and one file per card as `<slug>.md`.
