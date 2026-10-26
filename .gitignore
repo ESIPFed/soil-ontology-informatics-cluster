@@ -1,0 +1,16 @@
+
+# Mac OS
+.DS_Store
+
+# obsidian
+.obsidian/*
+
+# R files
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+#general temp folder
+temp/
