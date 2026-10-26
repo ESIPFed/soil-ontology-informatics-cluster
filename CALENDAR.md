@@ -27,5 +27,10 @@
 | 07 - 15 | 29    |  Decision: Finalize session prep |  [Discussion #26](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/26)  |
 | 07 - 29 | 31    |  ESIP JULY          |     NO MEETING    |
 | 08 - 12 | 33    |  Decision: Finalizing semantic resource card format  | [Discussion #28](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/28)            |
-| 08 - 26 | 35    |                       |             |
-| 09 - 09 | 37    | Planning and Mixer         |                    |
+| 09 - 14 | 38    | Feedback: Ongoing semantic card discussion  | [Discussion #31](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/31) |
+| 09 - 28 | 40    | Transfer: Refine card format and scope contributor criteria | [Discussion #43](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/43) |
+| 10 - 26 | 44    | Transfer: Splitting up transfer work and contributor discussion | [Discussion #40](https://github.com/ESIPFed/soil-ontology-informatics-cluster/discussions/40) |
+| 11 - 9 | 46    | Transfer: Updates and contributor draft review |  |
+| 11 - 23 | 48    | Transfer: Updates | |
+| 12 - 7 | 50   | Transfer: Finalize and review Research Showcase |  |
+| 12 - 21 | 52    | TBD | |
