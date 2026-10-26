@@ -10,16 +10,20 @@ citation:
   [Version 1; not peer reviewed]. *Gates Open Research, 5*, 74.
   https://doi.org/10.21955/gatesopenres.1116780.1"
 tags: [data-standards, review, adoption, soil-informatics]
-timestamp: 2026-07-20T00:00:00Z
+timestamp: 2026-10-26T00:00:00Z
 ---
 
-Edafe Onerhime wrote this Gates Foundation-funded report for CAB International. It reviews
-the actors and standards in soil informatics. The
+Edafe Onerhime reviews the actors and standards in soil informatics. The
 [Soil Data Landscape](../../Soil_data_landscape.md) covers much of the same territory, and
 this paper adds an argument about what blocks adoption.
 
 Published on Gates Open Research as version 1, not peer reviewed. Open-access HTML at
 <https://gatesopenresearch.org/documents/5-74>.
+
+# Organizational relationships
+
+CAB International commissioned the report, with funding from the Bill & Melinda Gates
+Foundation.
 
 # Bibtex citation
 

@@ -11,10 +11,14 @@ citation:
   *Information Processing in Agriculture, 2*(3-4), 208-216.
   https://doi.org/10.1016/j.inpa.2015.10.002"
 tags: [linked-open-data, vocabularies, semantic-web, agroportal]
-timestamp: 2026-07-20T00:00:00Z
+timestamp: 2026-10-26T00:00:00Z
 ---
 
 L'Abate and colleagues describe converting soil vocabularies into Linked Open Data and the problems they hit.
+
+# Organizational relationships
+
+No organizational author.
 
 # Bibtex citation
 

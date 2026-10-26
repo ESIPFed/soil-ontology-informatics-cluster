@@ -9,7 +9,7 @@ citation:
   "Jolivet, C., Boulonne, L., & Ratié, C. (2006). *Manuel du Réseau de Mesures de la
   Qualité des Sols (RMQS)* (Édition 2006). Unité InfoSol, INRA."
 tags: [monitoring, protocol, sampling, inrae, france]
-timestamp: 2026-07-20T00:00:00Z
+timestamp: 2026-10-26T00:00:00Z
 ---
 
 First campaign, version of 1 March 2006. Written in French.
@@ -18,6 +18,11 @@ Dominique Arrouays directed the publication; Philippe Berché,
 Guillaume Bodineau, Sébastien Lehmann, Didier Laloua, and Eugénie Tientcheu contributed.
 
 Pairs with the second-campaign manual, [RMQS2](jolivet-2018.md).
+
+# Organizational relationships
+
+Published by INRA, Unité InfoSol (now part of INRAE), for the RMQS network that GIS Sol
+coordinates.
 
 # Bibtex citation
 

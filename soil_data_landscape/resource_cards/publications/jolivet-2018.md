@@ -11,7 +11,7 @@ citation:
   *Manuel du Réseau de mesures de la qualité des sols, RMQS2: Deuxième campagne
   métropolitaine 2016-2027* (Version 3). INRA, US 1106 InfoSol."
 tags: [monitoring, protocol, sampling, inrae, france]
-timestamp: 2026-07-20T00:00:00Z
+timestamp: 2026-10-26T00:00:00Z
 ---
 
 Second campaign, version 3 of 23 January 2018, 137 pages. Written in French. Direct PDF:
@@ -21,6 +21,11 @@ The ISBN below comes from the title page. A HAL-derived record gives 2-7380-1415
 instead.
 
 Supersedes the first-campaign manual, [RMQS 2006](jolivet-2006.md).
+
+# Organizational relationships
+
+Published by INRA, US 1106 InfoSol, Centre de Recherche Val-de-Loire (now part of INRAE),
+for the RMQS network that GIS Sol coordinates.
 
 # Bibtex citation
 
