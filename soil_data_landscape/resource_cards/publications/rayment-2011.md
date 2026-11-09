@@ -9,7 +9,7 @@ citation:
   "Rayment, G. E., & Lyons, D. J. (2011). *Soil chemical methods: Australasia*
   (Australian Soil and Land Survey Handbooks Series, Vol. 3). CSIRO Publishing."
 tags: [methods, laboratory, csiro, australia]
-timestamp: 2026-10-26T00:00:00Z
+timestamp: 2026-11-09T00:00:00Z
 ---
 
 Covers more than 200 tests across 20 chapters, and supersedes
@@ -21,7 +21,7 @@ print, so the ePDF ISBN is the one to use.
 
 # Organizational relationships
 
-CSIRO Publishing published it as Volume 3 of the Australian Soil and Land Survey Handbooks
+[CSIRO](../organizations/csiro.md) Publishing published it as Volume 3 of the Australian Soil and Land Survey Handbooks
 Series.
 
 # Bibtex citation

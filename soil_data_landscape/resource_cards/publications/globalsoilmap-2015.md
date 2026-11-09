@@ -7,7 +7,7 @@ citation:
   "GlobalSoilMap Science Committee. (2015). *Specifications: Tiered GlobalSoilMap
   products, Release 2.4*. GlobalSoilMap."
 tags: [specification, digital-soil-mapping, globalsoilmap, global]
-timestamp: 2026-10-26T00:00:00Z
+timestamp: 2026-11-09T00:00:00Z
 ---
 
 Endorsed 7 December 2015, with a stated validity of two years from endorsement. The document names no
@@ -18,7 +18,8 @@ Since the stated validity has lapsed, check whether a later release exists befor
 
 # Organizational relationships
 
-Corporate author: the GlobalSoilMap Science Committee. ISRIC hosts the PDF. ISRIC's project page,
+Corporate author: the [GlobalSoilMap](../organizations/globalsoilmap.md) Science Committee.
+[ISRIC](../organizations/isric.md) hosts the PDF. ISRIC's project page,
 <https://www.isric.org/projects/globalsoilmapnet>, gives a short summary and marks
 globalsoilmap.net as deleted.
 
